@@ -242,12 +242,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
 
     // 列表页元数据
-    const t = await getTranslations(`pages.${contentType}`)
+    const t = await getTranslations({ locale, namespace: `pages.${contentType}` })
 
     try {
       const path = `/${contentType}`
-      const title = `${contentTypeLabel} - Illusion Connect: Re Wiki`
-      const description = `Browse Illusion Connect: Re ${contentType} guides, references, and curated wiki content.`
+      const title = t('metaTitle')
+      const description = t('metaDescription')
 
       return {
         title,

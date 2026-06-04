@@ -1,0 +1,52 @@
+{
+  "api_key": "",
+  "api_key_env": "OPENAI_API_KEY",
+  "api_base_url_env": "TRANSLATION_API_BASE_URL",
+  "model_env": "TRANSLATION_MODEL",
+  "api_base_url": "https://api.openai.com/v1",
+  "model": "gpt-4o-mini",
+  "group": "default",
+  "temperature": 0.1,
+  "max_tokens": 32768,
+  "timeout": 120,
+  "retry_attempts": 3,
+  "retry_delay": 5,
+  "languages": ["th", "ja", "ko"],
+  "default_language": "en",
+  "output_dir": "src/locales/",
+  "use_value_extraction": true,
+  "excluded_value_paths": [
+    "tools\\.cards\\[\\d+\\]\\.icon",
+    "modules\\.[^.]+\\.layout\\.type",
+    "modules\\.[^.]+\\.cta\\.href",
+    "modules\\.[^.]+\\.source_urls\\[\\d+\\]",
+    "modules\\.[^.]+\\.id"
+  ],
+  "protected_terms": {
+    "game_names": ["Illusion Connect: Re", "Illusion Connect Re"],
+    "character_names": ["Yuffie", "Anna", "Miyuki", "Kiraya"],
+    "technical_terms": [
+      "Radiants",
+      "Nightmares",
+      "Dream Home",
+      "Google Play",
+      "App Store",
+      "Live2D",
+      "AoE",
+      "DPS",
+      "SSR",
+      "SUGARGAME NETWORK LIMITED"
+    ]
+  },
+  "game_names": {
+    "en": "Illusion Connect: Re",
+    "th": "Illusion Connect: Re",
+    "ja": "Illusion Connect: Re",
+    "ko": "Illusion Connect: Re"
+  },
+  "lang_names": {
+    "th": "Thai",
+    "ja": "Japanese",
+    "ko": "Korean"
+  }
+}

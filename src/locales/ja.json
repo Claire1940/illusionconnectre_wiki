@@ -1,11 +1,725 @@
 {
+  "seo": {
+    "home": {
+      "title": "Illusion Connect: Re Wiki - コード、ティアリスト、リセマラ",
+      "description": "Illusion Connect: ReのWiki。コード、ティアリスト、リセマラのコツ、キャラクター、チーム編成、戦闘ガイド、リリースイベント、最新情報、進行ガイドを掲載。",
+      "keywords": "Illusion Connect: Re, コード, ティアリスト, リセマラ, キャラクター, チーム, 初心者ガイド",
+      "ogTitle": "Illusion Connect: Re Wiki - コード、ティアリスト、リセマラ",
+      "ogDescription": "Illusion Connect: ReのWiki。コード、ティアリスト、リセマラのコツ、キャラクター、チーム編成、戦闘ガイド、リリースイベント、最新情報、進行ガイドを掲載。",
+      "twitterTitle": "Illusion Connect: Re Wiki - コード、ティアリスト、リセマラ",
+      "twitterDescription": "Illusion Connect: ReのWiki。コード、ティアリスト、リセマラのコツ、キャラクター、チーム編成、リリースイベント、序盤の進行ガイドを掲載。"
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "tier": "Tier",
-    "guide": "Guide",
-    "release": "Release",
-    "download": "Download",
-    "server": "Server",
-    "characters": "Characters"
+    "codes": "コード",
+    "tier": "ティアリスト",
+    "guide": "ガイド",
+    "release": "リリース",
+    "download": "ダウンロード",
+    "server": "サーバー",
+    "characters": "キャラクター"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Google Playでプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "アニメ調戦略RPG",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Illusion Connect: Reのコード、リセマラ対象、リリース報酬、Radiantsの編成、戦闘システムを網羅。AndroidおよびiOSプレイヤーのための総合ガイド。",
+    "getFreeCodesCTA": "Illusion Connect Re Discordに参加",
+    "playOnSteamCTA": "Illusion Connect ReをGoogle Playでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "5万以上",
+        "label": "Google Playダウンロード数"
+      },
+      "stat2": {
+        "value": "130以上",
+        "label": "Radiants"
+      },
+      "stat3": {
+        "value": "2026年6月4日",
+        "label": "リリース日"
+      },
+      "stat4": {
+        "value": "5.0 / 194",
+        "label": "Google Play 評価"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Illusion Connect Re ゲームプレイ",
+    "description": "リセマラ、コード、チーム編成を始める前に、Illusion Connect Reの戦闘映像、進行ペース、編成の入れ替えを確認しましょう。"
+  },
+  "tools": {
+    "title": "Illusion Connect Re",
+    "titleHighlight": "モジュールナビゲーション",
+    "subtitle": "コード、リリース詳細、チーム編成、イベント報酬を網羅した8つのホームページモジュールへ直接アクセスできます。",
+    "cards": [
+      {
+        "title": "Illusion Connect Re コード",
+        "description": "有効なギフトコード、期限切れコード、および引き換え手順"
+      },
+      {
+        "title": "Illusion Connect Re リリースダウンロード",
+        "description": "リリース時間、ストアリンク、対応プラットフォーム、およびデバイス"
+      },
+      {
+        "title": "Illusion Connect Re Tier List",
+        "description": "リセマラとストーリー進行のための初期Radiantsランキング"
+      },
+      {
+        "title": "Illusion Connect Re リセマラガイド",
+        "description": "高速リセマラ手順、終了基準、およびおすすめの初期ターゲット"
+      },
+      {
+        "title": "Illusion Connect Re 初心者ガイド",
+        "description": "初日の優先事項、育成ペース、およびリソースのヒント"
+      },
+      {
+        "title": "Illusion Connect Re Radiantsと最強チーム",
+        "description": "Radiantsの役割、初期メンバーの編成計画、およびチーム構成"
+      },
+      {
+        "title": "Illusion Connect Re ゲームプレイと戦闘システム",
+        "description": "リアルタイム戦闘、3x3戦略、コスト管理、および必殺技のタイミング"
+      },
+      {
+        "title": "Illusion Connect Re リリース報酬とイベント",
+        "description": "事前登録報酬、リリース記念マイルストーン、およびSNSイベント"
+      }
+    ]
+  },
+  "modules": {
+    "illusionConnectReCodes": {
+      "title": "Illusion Connect Re コード",
+      "intro": "Illusion Connect Reコードを使用して、リリース報酬、SNSイベントギフト、およびリソースブーストを獲得しましょう。各コードはゲーム内の引き換えメニューから正確に入力してください。",
+      "activeTitle": "有効なIllusion Connect Re コード",
+      "expiredTitle": "期限切れのIllusion Connect Re コード",
+      "stepsTitle": "Illusion Connect Re コードの引き換え方法",
+      "codes": [
+        {
+          "code": "FREE10000",
+          "reward": "リリース報酬バンドル"
+        },
+        {
+          "code": "SUMMON10K",
+          "reward": "召喚サポート報酬"
+        },
+        {
+          "code": "GACHA10000",
+          "reward": "ガチャリリース報酬"
+        },
+        {
+          "code": "ICRFREE10K",
+          "reward": "イベント報酬バンドル"
+        },
+        {
+          "code": "CR10000",
+          "reward": "スターターアカウント報酬"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "RETURN2026"
+        },
+        {
+          "code": "WAIFU2026"
+        },
+        {
+          "code": "GACHA999"
+        }
+      ],
+      "steps": [
+        "Illusion Connect: Reを起動し、メインロビーが解放されるまでオープニングチュートリアルを完了します。",
+        "左上のアバターをタップしてアカウントメニューを開きます。",
+        "「設定」に入り、「コード入力（Redeem）」オプションを選択します。",
+        "表示されている通りにコードを入力（貼り付け）し、送信を確定します。",
+        "メールボックスまたは報酬ポップアップを開き、すぐにアイテムを受け取ります。"
+      ]
+    },
+    "illusionConnectReReleaseDownload": {
+      "title": "Illusion Connect Re リリースダウンロード",
+      "intro": "公式のリリース時期、プラットフォーム対応、ダウンロード詳細をまとめて確認し、新規プレイヤーが複数のストアページを探し回ることなくIllusion Connect: Reをインストールできるようにします。",
+      "items": [
+        {
+          "label": "グローバルリリース日時",
+          "value": "2026年6月4日 11:00 (UTC+8)"
+        },
+        {
+          "label": "ジャンル",
+          "value": "リアルタイムバトル搭載のアニメ戦略RPG"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "SUGARGAME NETWORK LIMITED"
+        },
+        {
+          "label": "Androidダウンロード",
+          "value": "Google Play",
+          "href": "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+        },
+        {
+          "label": "iOSダウンロード",
+          "value": "App Store",
+          "href": "https://apps.apple.com/us/app/illusion-connect-re/id6758970424"
+        },
+        {
+          "label": "Android対応状況",
+          "value": "スマートフォン、タブレット、およびWindows版Google Playに対応"
+        },
+        {
+          "label": "iOS要件",
+          "value": "iOS 15.0以降およびiPadOS 15.0以降"
+        },
+        {
+          "label": "iOSサイズ",
+          "value": "3.3 GB"
+        },
+        {
+          "label": "App Store年齢制限",
+          "value": "16+"
+        },
+        {
+          "label": "Google Playコンテンツレーティング",
+          "value": "ティーン"
+        },
+        {
+          "label": "対応言語",
+          "value": "英語、タイ語、日本語、韓国語、フランス語、ドイツ語、ポルトガル語、スペイン語、簡体字中国語、繁体字中国語"
+        },
+        {
+          "label": "主な特徴",
+          "value": "リアルタイムバトル、3x3の配置、130体以上のRadiants、Live2D演出、絆の進行、Dream Homeの装飾"
+        }
+      ]
+    },
+    "illusionConnectReTierList": {
+      "title": "Illusion Connect Re ティアリスト",
+      "intro": "このIllusion Connect Re ティアリストは、長期的なニッチモードではなく、リセマラの価値、序盤のストーリー進行、安定したチーム編成に焦点を当てています。",
+      "tiers": [
+        {
+          "name": "S ティア",
+          "focus": "最高のリセマラ価値",
+          "description": "これらのRadiantsは、ストーリー攻略や敵の多いステージをクリアする際に、アカウントの戦力を即座に最大化します。",
+          "characters": [
+            {
+              "name": "Yuffie",
+              "role": "AoE バースト DPS",
+              "bestFor": "ウェーブクリアとキャンペーンの高速進行",
+              "summary": "Yuffieは、そのバーストダメージで複数の敵を素早く一掃し、リセマラの効率を大幅に高めるため、序盤の最強アタッカーです。"
+            },
+            {
+              "name": "Anna",
+              "role": "ヒーラー",
+              "bestFor": "ボス戦と長期ステージでの生存",
+              "summary": "Annaは、長期戦で初心者チームを生存させ、リリース時の安定した編成において即戦力となります。"
+            }
+          ]
+        },
+        {
+          "name": "A ティア",
+          "focus": "信頼できるリリース時のコアメンバー",
+          "description": "完璧なアカウントを求めてリセマラを繰り返すことなく、バランスの取れたスタートを切りたい場合に強力な選択肢です。",
+          "characters": [
+            {
+              "name": "Miyuki",
+              "role": "持続型 DPS",
+              "bestFor": "毎日のストーリー周回と柔軟なチーム編成",
+              "summary": "Miyukiは安定したダメージ出力を提供し、リセマラアカウントとログイン報酬による進行プランの両方に適しています。"
+            },
+            {
+              "name": "Kiraya",
+              "role": "ガーディアン",
+              "bestFor": "前線の安定化と後衛の保護",
+              "summary": "Kirayaは、アタッカーの時間を稼ぎ、リーダーを守るため、リリース時に最も安全なタンクの一人です。"
+            }
+          ]
+        },
+        {
+          "name": "サポートコア",
+          "focus": "ラインナップの補完",
+          "description": "強力なスタートには役割のカバーが必要です。一人のアタッカーを追い求めるのではなく、ダメージ、生存、前線のコントロールを組み合わせて編成しましょう。",
+          "characters": [
+            {
+              "name": "AoE ダメージ枠",
+              "role": "ウェーブクリア",
+              "bestFor": "ストーリーステージとイベント周回",
+              "summary": "信頼できるAoEユニットを編成し、効率的かつ迅速にステージをクリアしましょう。"
+            },
+            {
+              "name": "ヒーラーまたはシールド枠",
+              "role": "チームの生存",
+              "bestFor": "長期戦とエリート遭遇戦",
+              "summary": "1つの維持（サステイン）枠は、もう一人の脆弱なダメージディーラーを重ねるよりも、はるかに攻略を安定させます。"
+            }
+          ]
+        }
+      ]
+    },
+    "illusionConnectReRerollGuide": {
+      "title": "Illusion Connect Re リセマラガイド",
+      "intro": "効率的な Illusion Connect Re のリセマラ手順は、メニューの待ち時間を最小限に抑え、最速で召喚を行い、初期編成がキャンペーンの進行をサポートできるようになった時点で終了すべきです。",
+      "stepsTitle": "Illusion Connect Re リセマラ手順",
+      "targetsTitle": "Illusion Connect Re おすすめ当たりキャラ",
+      "stopTitle": "Illusion Connect Re リセマラの終了ライン",
+      "steps": [
+        {
+          "title": "チュートリアルを素早く終わらせる",
+          "description": "任意の会話シーンをすべてスキップし、オープニングの戦闘シークエンスをクリアして、ガチャを確認する前に最初のロビー報酬をアンロックしましょう。"
+        },
+        {
+          "title": "すべてのリリース記念メールを受け取る",
+          "description": "最初のガチャを引く前に、事前登録特典、スターターギフト、およびリリース記念のメールボックス報酬を受け取ってください。"
+        },
+        {
+          "title": "最も価値の高い初期ガチャを引く",
+          "description": "複数の初期ガチャにリソースを分散させるのではなく、トップクラスのダメージディーラーやヒーラーを最も早く入手できるガチャを利用しましょう。"
+        },
+        {
+          "title": "目当てのキャラが出なければすぐにリセットする",
+          "description": "最初のガチャサイクルで、少なくとも1人の強力なキャリーまたは維持（サステイン）役が出なかった場合は、弱い初期状態を立て直そうとするよりも、すぐにやり直してください。"
+        }
+      ],
+      "targets": [
+        {
+          "name": "Yuffie",
+          "role": "AoE キャリー",
+          "reason": "最速のストーリー攻略を可能にし、そのアカウントを維持する強力な理由になります。"
+        },
+        {
+          "name": "Anna",
+          "role": "メインヒーラー",
+          "reason": "編成に即座に安定感をもたらし、イベントでの生存率を向上させます。"
+        },
+        {
+          "name": "Miyuki",
+          "role": "汎用性の高いコア DPS",
+          "reason": "リセマラ時間をかけすぎずにバランスの取れたアカウントを求める場合の、信頼できる妥協案です。"
+        }
+      ],
+      "stopRules": [
+        "強力なダメージディーラー1人と、信頼できる維持（サステイン）役1人で開始できた時に終了します。",
+        "アカウントに Yuffie または Anna がおり、さらに進行を続けるのに十分な初期通貨がある場合に終了します。",
+        "最初のストーリーチャプターにおいて、前衛、AoE ダメージ、および回復をカバーできる編成になったら終了します。"
+      ]
+    },
+    "illusionConnectReBeginnerGuide": {
+      "title": "Illusion Connect Re 初心者ガイド",
+      "intro": "Illusion Connect Re は、Radiants を率いて Nightmares と戦うリアルタイム・アニメ戦略RPGです。新規プレイヤーは、編成のタイミングを学び、バランスの取れた初期チームを構築し、価値のある召喚やアップグレードのためにプレミアム通貨を貯めることに集中すべきです。",
+      "steps": [
+        {
+          "title": "まずはチュートリアルを終わらせる",
+          "description": "チームを大幅に変更する前に、チュートリアルを利用してリアルタイムバトル、英雄の配置、編成の切り替え、そして必殺技のタイミングを学びましょう。",
+          "priority": "基本的な戦闘システムをアンロックし、Radiants がどのように Nightmares と戦うかを理解しましょう。",
+          "avoid": "配置コストや編成のタイミングを学ぶ前に、単純な戦力だけでチームを判断しないでください。"
+        },
+        {
+          "title": "リリース記念および事前登録報酬を受け取る",
+          "description": "ダイヤモンドを消費する前に、リリース報酬、事前登録報酬、イベント報酬、および公式SNSのギフトコードイベントを確認してください。",
+          "priority": "無料の召喚チケット、ダイヤモンド、ゴールド、クリスタル、そして入手可能な場合は報酬の Radiants から始めましょう。",
+          "avoid": "すべての無料リリース報酬を確認する前に、有償またはプレミアム通貨を消費しないでください。"
+        },
+        {
+          "title": "バランスの取れたスターターチームを1つ構築する",
+          "description": "シンプルなチーム構成を使用しましょう：前衛の守護、1〜2人のダメージディーラー、少なくとも1人のヒーラーまたは回復役、そしてタイミングやコントロールを助けるサポートユニットを編成します。",
+          "priority": "高レアリティのユニットを適当に集めるよりも、安定したチームの方が序盤のステージを攻略しやすいです。",
+          "avoid": "新しく手に入れたRadiantsをすぐにすべて強化するのは避けましょう。"
+        },
+        {
+          "title": "Diamondsよりも先に召喚チケットを使用する",
+          "description": "まずはリリース記念報酬やマイルストーンで手に入れた無料の召喚チケットを使用し、その後にそのバナーにDiamondsを使う価値があるか判断しましょう。",
+          "priority": "Diamondsは、バナーやスタミナ、あるいはアカウントの価値を明確に高める進行上の必要性のために取っておきましょう。",
+          "avoid": "アカウントを作成したばかりだからといって、序盤のガチャでDiamondsを使い切らないようにしましょう。"
+        },
+        {
+          "title": "まずは主力チームを強化する",
+          "description": "強化素材は実際に戦闘で使用するRadiantsに集中させましょう。メインのダメージユニット、重要な前衛ユニット、そしてメインのヒーラーやサポートを優先してください。",
+          "priority": "序盤の素材は、少人数のチームに集中させた方が効果的です。",
+          "avoid": "Gold、Crystals、強化アイテムを、使用していないキャラクターに分散させないようにしましょう。"
+        },
+        {
+          "title": "絆とDream Homeの進行を活用する",
+          "description": "仲間と過ごし、絆を深め、Dream Homeの機能を利用しましょう。絆が深まることで新しい能力が解放されることがあります。",
+          "priority": "戦闘外での成長は、長期的なアカウントの強さを支えます。",
+          "avoid": "Dream Homeや絆システムを単なる飾りとして扱わないようにしましょう。"
+        }
+      ]
+    },
+    "illusionConnectReRadiantsAndBestTeam": {
+      "title": "Illusion Connect Re Radiantsと最強チーム",
+      "intro": "Illusion Connect Reには、Live2Dアニメーション、独自の能力、個性、戦闘役割を持つ130体以上のキャラクターが登場します。単なるTierリストをコピーするのではなく、クラスの相性、配置コスト、スキルの特性、そして編成のニーズに基づいて構築しましょう。",
+      "items": [
+        {
+          "title": "Radiants",
+          "role": "収集可能な戦闘パートナー",
+          "description": "Radiantsは、Nightmaresと戦い、Dream Worldから来る脅威から現実世界を守るパートナーです。",
+          "bestUse": "リアルタイム戦闘中に編成やタイミングを調整できるよう、さまざまな戦闘役割を持つメンバーで名簿を構築しましょう。"
+        },
+        {
+          "title": "前衛",
+          "role": "防御とフィールドコントロール",
+          "description": "前衛は、プレッシャーを吸収し、ダメージディーラーやサポートユニットが行動するための時間を作り出す役割を担います。",
+          "bestUse": "敵のプレッシャーが最も強い場所に耐久力の高いRadiantsを配置し、戦場が変化した際には編成を調整しましょう。"
+        },
+        {
+          "title": "ダメージディーラー",
+          "role": "ステージ攻略の主力",
+          "description": "ダメージに特化したRadiantsは、Nightmaresをより早く倒せるため、序盤の進行において核となります。",
+          "bestUse": "1〜2人のメインダメージユニットを選び、多くのキャラクターに素材を分散させる前に、まずはそのユニットを強化しましょう。"
+        },
+        {
+          "title": "ヒーラーと回復役",
+          "role": "チームの生存",
+          "description": "ヒーラーや回復に特化したRadiantsは、長期戦や難易度の高いステージでチームを生存させるのに役立ちます。",
+          "bestUse": "バーストダメージだけではクリアできないステージに備えて、少なくとも1人のヒーラーまたは回復役を準備しておきましょう。"
+        },
+        {
+          "title": "サポートとスキルタイミング",
+          "role": "ユーティリティ、バフ、戦闘コントロール",
+          "description": "サポートの Radiants は、スキルのタイミング、クラスの相性、または配置コストが戦況を好転させる際に役立ちます。",
+          "bestUse": "単にダメージを増やすのではなく、サポートユニットを使用してコアチームを強化しましょう。"
+        },
+        {
+          "title": "スターター報酬スロット",
+          "role": "序盤のメンバー強化",
+          "description": "リリースおよび事前登録報酬には、SSR パートナーのフェネベス、SR パートナーのベアトリス、召喚チケット、ダイヤ、ゴールド、クリスタル、強化アイテムなどの役立つスターターリソースが含まれています。",
+          "bestUse": "多額の課金をする前に、報酬の Radiants や無料の召喚リソースを使用して最初のチームを編成しましょう。"
+        }
+      ]
+    },
+    "illusionConnectReGameplayAndBattleSystem": {
+      "title": "Illusion Connect Re のゲームプレイとバトルシステム",
+      "intro": "Illusion Connect Re は、アニメ風のガチャ収集、リアルタイムのタクティカルバトル、3x3グリッド戦略、陣形変更、そして必殺技のタイミングを融合させています。",
+      "items": [
+        {
+          "title": "リアルタイムバトル",
+          "summary": "戦闘はリアルタイムで進行するため、タイミングと陣形変更が重要になります。",
+          "details": "プレイヤーは英雄を指揮し、戦闘中に陣形を入れ替え、Radiants の強みを組み合わせて強力な Nightmares を打ち破ります。"
+        },
+        {
+          "title": "3x3グリッド戦略",
+          "summary": "戦場にはタクティカルな3x3グリッドシステムが採用されています。",
+          "details": "プレイヤーは、クラスの相性、配置コスト、スキルの特性を考慮しながら、変化する戦場にラインナップを配置します。"
+        },
+        {
+          "title": "配置コスト",
+          "summary": "すべての配置の決定にはタイミングの価値があります。",
+          "details": "強いチームはレアリティだけではありません。適切な配置コスト管理により、プレイヤーは適切な瞬間に適切な Radiants を配置できます。"
+        },
+        {
+          "title": "必殺技",
+          "summary": "必殺技は戦いの結果を変えることができます。",
+          "details": "プレイヤーは、危険なウェーブ、ボスの猛攻、または一撃で戦況を逆転できる瞬間のために、影響力の大きいスキルを温存しておくべきです。"
+        },
+        {
+          "title": "Nightmares",
+          "summary": "Nightmares は主な敵の脅威です。",
+          "details": "ストーリーでは、Nightmares は夢の世界から現れて現実世界を脅かし、戦闘の主な対立軸となります。"
+        },
+        {
+          "title": "オートバトルと放置（AFK）要素",
+          "summary": "オートバトルや放置（AFK）要素は存在しますが、戦略は依然として重要です。",
+          "details": "このゲームはアニメRPGのガチャ収集とオートバトルをサポートしていますが、コアとなる戦闘では依然として手動のタイミング、陣形制御、チーム編成が報われます。"
+        },
+        {
+          "title": "絆とドリームベース",
+          "summary": "進行は戦闘以外でも発生します。",
+          "details": "プレイヤーは仲間と時間を過ごし、絆を深め、能力を解放し、家具や壁紙で自分だけのドリームベースを飾ることができます。"
+        }
+      ]
+    },
+    "illusionConnectReLaunchRewardsAndEvents": {
+      "title": "Illusion Connect Re リリース報酬とイベント",
+      "intro": "Illusion Connect Re は、事前登録報酬やプレイヤー登録目標に応じたマイルストーン報酬とともにリリースされました。公式SNSチャンネルでもコメントやグループイベントが開催され、プレイヤーはギフトコードやゲーム内報酬を獲得できます。",
+      "items": [
+        {
+          "title": "事前登録パック",
+          "type": "リリース報酬",
+          "requirement": "いずれかのプラットフォームで事前登録を完了する",
+          "rewards": [
+            "SSR パートナー フェネベス",
+            "ダイヤ x2,026",
+            "召喚の証 x10"
+          ]
+        },
+        {
+          "title": "事前登録者数50,000人達成",
+          "type": "達成報酬",
+          "requirement": "グローバル事前登録者数が50,000人に到達",
+          "rewards": [
+            "SRパートナー ベアトリス",
+            "ゴールド x20,000",
+            "基本ギフトボックス x5"
+          ]
+        },
+        {
+          "title": "事前登録者数100,000人達成",
+          "type": "達成報酬",
+          "requirement": "グローバル事前登録者数が100,000人に到達",
+          "rewards": [
+            "Stellar: Reconnec アバターフレーム",
+            "チーズクロワッサン x2",
+            "クリスタル x20,000"
+          ]
+        },
+        {
+          "title": "事前登録者数200,000人達成",
+          "type": "達成報酬",
+          "requirement": "グローバル事前登録者数が200,000人に到達",
+          "rewards": [
+            "召喚の証 x10",
+            "失われた鏡 x100",
+            "中級ギフトボックス x5"
+          ]
+        },
+        {
+          "title": "事前登録者数300,000人達成",
+          "type": "達成報酬",
+          "requirement": "グローバル事前登録者数が300,000人に到達",
+          "rewards": [
+            "スキン：フィーネ - 幸福の鳥",
+            "セレクト召喚の証 x10",
+            "SR装備"
+          ]
+        },
+        {
+          "title": "公式Facebookギフトコードイベント",
+          "type": "ソーシャルイベント",
+          "requirement": "公式Facebookページをフォローし、イベント投稿に「いいね」をして、指示通りにコメントしてください",
+          "rewards": [
+            "ギフトコード",
+            "ゲーム内報酬"
+          ]
+        },
+        {
+          "title": "公式グループイベント",
+          "type": "コミュニティイベント",
+          "requirement": "公式Facebookグループに参加し、イベントの指示に従ってください",
+          "rewards": [
+            "ギフトコード獲得のチャンス",
+            "コミュニティイベント報酬"
+          ]
+        },
+        {
+          "title": "リリース日アップデート",
+          "type": "リリース記念イベント",
+          "requirement": "リリース後にログインし、公式イベントのお知らせを確認してください",
+          "rewards": [
+            "リリース記念ボーナス",
+            "ログイン報酬",
+            "期間限定イベントアイテム"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Illusion Connect Re",
+    "titleHighlight": "よくある質問",
+    "subtitle": "Illusion Connect Reのリリースに関するよくある質問への回答です。",
+    "questions": [
+      {
+        "question": "Illusion Connect Reとは何ですか？",
+        "answer": "Illusion Connect Reは、リアルタイム戦闘、Radiantsのチーム編成、絆の進行、Dream Homeアカウントシステムを軸としたアニメ戦略RPGです。"
+      },
+      {
+        "question": "Illusion Connect Reのコードはどのように使用しますか？",
+        "answer": "Illusion Connect Reのコードは、チュートリアルを完了してメインロビーのアカウントオプションが解放された後、ゲーム内の「引き換え」メニューから入力できます。"
+      },
+      {
+        "question": "Illusion Connect Reでリセマラをする価値はありますか？",
+        "answer": "Illusion Connect Reのリセマラは、強力なAoEアタッカーやトップクラスのヒーラーを狙うなど、スタートダッシュを有利に進めたい場合には価値があります。"
+      },
+      {
+        "question": "強力なIllusion Connect Reのチームとは？",
+        "answer": "強力なIllusion Connect Reのチームは、前衛のアンカー1体、信頼できる回復役1体、そしてウェーブやエリートターゲットを処理するのに十分なダメージソースを組み合わせたものです。"
+      },
+      {
+        "question": "Illusion Connect Reはどこでダウンロードできますか？",
+        "answer": "Illusion Connect Reは、AndroidおよびiOS向けにGoogle PlayおよびApp Storeの公式ページからダウンロード可能です。"
+      },
+      {
+        "question": "Illusion Connect Reのリリース時に重要なイベントは何ですか？",
+        "answer": "Illusion Connect Reのリリース時に最も重要なイベントは、事前登録報酬、ログインボーナス、SNSキャンペーン報酬、ストーリー連動イベントミッションです。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Illusion Connect Reのリリースに向けたチーム編成の準備はできましたか？",
+    "description": "ホームページのモジュールを使用して、コード、リセマラ計画、戦闘準備、イベント報酬を確認し、公式コミュニティやダウンロードページへアクセスしてください。",
+    "joinCommunity": "Illusion Connect ReのDiscordに参加",
+    "joinGame": "Google PlayでIllusion Connect Reをプレイ"
+  },
+  "footer": {
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Illusion Connect Reのコード、リリース報酬、リセマラ手順、Radiantsのチーム編成、戦闘戦略に関する情報ハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "公式Discord",
+    "twitter": "Facebookページ",
+    "steamCommunity": "Facebookグループ",
+    "steamStore": "Google Playダウンロード",
+    "about": "運営について",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Illusion Connect: Re Wiki. 非公式ファンサイト。",
+    "disclaimer": "Illusion Connect: Re の非公式ファンリソースサイトです。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Illusion Connect Re コード",
+      "description": "Illusion Connect Re の有効なコード、引き換え手順、期限切れ報酬、およびリリース記念の無料特典を素早く受け取るための情報を追跡します。",
+      "metaTitle": "Illusion Connect Re コード - 有効な引き換えコードと報酬",
+      "metaDescription": "Illusion Connect Re の有効なコード、報酬の詳細、期限切れコードの履歴、およびリリース記念の無料特典を最速で受け取る方法を見つけましょう。",
+      "categoryLabel": "コード",
+      "whatIs": "Illusion Connect Re コードとは？",
+      "whatIsDescription": "このカテゴリでは、引き換えコード、ギフトコードの解説、報酬の受け取り手順をまとめています。期限が切れる前に、リリース記念の通貨、召喚アイテム、イベントボーナスを獲得しましょう。",
+      "why": "Illusion Connect Re コードを追跡する理由は？",
+      "whySteps": {
+        "step1Title": "リリース記念の無料リソースを獲得",
+        "step1Description": "最新のコード配布を利用して、ジェム、召喚チケット、その他の序盤の進行報酬を集めましょう。",
+        "step2Title": "ミスなく引き換え",
+        "step2Description": "ゲーム内の正確な手順と入力形式に従うことで、回避可能な引き換えエラーで時間を無駄にしないようにします。",
+        "step3Title": "期限切れコードと代替コードの追跡",
+        "step3Description": "どのコードが終了し、どの新しい報酬キャンペーンに置き換わったかを確認できます。"
+      },
+      "featured": "注目・必須情報",
+      "all": "すべてのコード"
+    },
+    "tier": {
+      "title": "Illusion Connect Re ティアリスト",
+      "description": "Illusion Connect Re のティアリストを閲覧し、リセマラ、リリース時の戦力、最強キャラクター、チーム編成の比較を確認しましょう。",
+      "metaTitle": "Illusion Connect Re ティアリスト - 最強キャラクターとチームランキング",
+      "metaDescription": "Illusion Connect Re のティアリストを確認し、リセマラ、最強キャラクター、SSRの優先順位、リリース時のチームランキングを把握しましょう。",
+      "categoryLabel": "ティア",
+      "whatIs": "Illusion Connect Re ティアカテゴリとは？",
+      "whatIsDescription": "このセクションでは、キャラクターランキング、リセマラの価値、リリース週のパワー比較をまとめています。どの Radiants やチームの核が最も進行に役立つかを判断できます。",
+      "why": "Illusion Connect Re ティアリストを読む理由は？",
+      "whySteps": {
+        "step1Title": "強力な引きを優先",
+        "step1Description": "貴重な素材を投資する前に、ダメージ、耐久力、役割への影響力に基づいてリリース時の Radiants を比較しましょう。",
+        "step2Title": "リセマラの判断を改善",
+        "step2Description": "リリース時のランキングを使用して、アカウントを保持すべきか、リセマラを続ける価値があるかを判断しましょう。",
+        "step3Title": "実際の役割の価値に基づいて構築",
+        "step3Description": "前衛、サポート、範囲攻撃の問題を解決できるため、どのキャラクターが長く活躍できるかを確認しましょう。"
+      },
+      "featured": "注目・必須情報",
+      "all": "すべてのティア記事"
+    },
+    "guide": {
+      "title": "Illusion Connect Re ガイド",
+      "description": "Illusion Connect Reのガイドを読んで、リセマラ、初心者の進め方、ガチャ計画、チーム編成、初日のアカウント管理について学びましょう。",
+      "metaTitle": "Illusion Connect Re ガイド - リセマラ、初心者向け、チーム編成のヒント",
+      "metaDescription": "Illusion Connect Reのガイドハブを活用して、リセマラの手順、初心者の進行、ガチャの選択、序盤のチーム編成を計画しましょう。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Illusion Connect Reのガイドカテゴリーとは？",
+      "whatIsDescription": "ガイド記事では、ゲーム開始直後の進め方、リセマラのペース配分、ガチャの判断、キャラクター育成について解説しており、新規アカウントが効率よくコンテンツを進められるようにサポートします。",
+      "why": "なぜIllusion Connect Reのガイドを使うべきですか？",
+      "whySteps": {
+        "step1Title": "より明確なアカウント計画から始める",
+        "step1Description": "スタミナ、ガチャ、強化アイテムを適切な順序で消費するために、序盤に重要なタスクを学びます。",
+        "step2Title": "リセマラの時間を短縮する",
+        "step2Description": "リセマラをいつ終了すべきか、何が強力な引き出しとなるかを示すルート別の攻略法を活用しましょう。",
+        "step3Title": "序盤の進行における罠を避ける",
+        "step3Description": "リソースを無駄にせず、ガチャ、強化、チーム編成に関する検証済みの初心者向けステップに従いましょう。"
+      },
+      "featured": "注目・必須ガイド",
+      "all": "すべてのガイド"
+    },
+    "release": {
+      "title": "Illusion Connect Re リリース",
+      "description": "Illusion Connect Reのリリース日、配信タイミング、再リリースに関する情報、早期アクセス、開始時の計画について確認しましょう。",
+      "metaTitle": "Illusion Connect Re リリース - 配信日、再リリース、タイミング",
+      "metaDescription": "Illusion Connect Reのリリーススケジュール、配信日、再リリースの詳細、グローバルプレイヤー向けの開始時の計画を追跡します。",
+      "categoryLabel": "リリース",
+      "whatIs": "Illusion Connect Reのリリースカテゴリーとは？",
+      "whatIsDescription": "リリース記事では、配信タイミング、地域別の展開詳細、再リリースに関する疑問、サーバーオープン前にプレイヤーが必要とする実用的な情報に焦点を当てています。",
+      "why": "なぜIllusion Connect Reのリリース詳細を確認すべきですか？",
+      "whySteps": {
+        "step1Title": "開始時期を把握する",
+        "step1Description": "配信タイミング、サーバーオープン時間、早期アクセスの違いを一箇所で確認できます。",
+        "step2Title": "リセマラとイベントに備える",
+        "step2Description": "リリース報酬、事前登録アイテム、ガチャの開催状況に合わせて、最初のログインを計画しましょう。",
+        "step3Title": "再リリースの背景を理解する",
+        "step3Description": "現在のIllusion Connect Reの展開詳細と、過去のIllusion Connectの歴史やレガシーな情報を区別して理解します。"
+      },
+      "featured": "注目・必須記事",
+      "all": "すべてのリリース記事"
+    },
+    "download": {
+      "title": "Illusion Connect Re ダウンロード",
+      "description": "Android、iOS、Google Play、APKに関する質問、PCオプション、ストアごとのインストール方法など、Illusion Connect Reのダウンロードに関するヘルプをご覧ください。",
+      "metaTitle": "Illusion Connect Re ダウンロード - Android、iOS、APK、PCオプション",
+      "metaDescription": "Illusion Connect Reのダウンロードハブを利用して、Android、iOS、Google Play、APK、App Store、PCへのインストール方法を確認しましょう。",
+      "categoryLabel": "ダウンロード",
+      "whatIs": "Illusion Connect Reのダウンロードカテゴリとは何ですか？",
+      "whatIsDescription": "ダウンロードに関する記事では、Illusion Connect Reのインストール場所、使用すべきストアページ、Android、iOS、PC環境ごとの設定の違いについて解説しています。",
+      "why": "なぜIllusion Connect Reのダウンロードガイドが必要なのですか？",
+      "whySteps": {
+        "step1Title": "正しいストアページにアクセスする",
+        "step1Description": "Google Play、App Store、APK関連の質問、および地域別のインストール手順について、プラットフォームごとの直接的なガイダンスを提供します。",
+        "step2Title": "デバイス環境に合わせる",
+        "step2Description": "モバイルデバイス、エミュレーター、またはPCでのプレイオプションにおいて、どのプラットフォームの注意点を確認すべきか把握できます。",
+        "step3Title": "インストール時のトラブルを軽減する",
+        "step3Description": "ダウンロード、アップデート、起動時のトラブルシューティングをまとめて確認できるため、複数のソースを探し回る必要がありません。"
+      },
+      "featured": "注目・必須記事",
+      "all": "すべてのダウンロード記事"
+    },
+    "server": {
+      "title": "Illusion Connect Re サーバー",
+      "description": "Illusion Connect Reのサーバー状況、グローバル版、地域別バージョン、ストアの違い、プレイヤーベースの接続先について解説します。",
+      "metaTitle": "Illusion Connect Re サーバー - グローバル、US、JP、KR、および地域別バージョン",
+      "metaDescription": "Illusion Connect Reのサーバーオプション、地域別バージョン、ストアアクセス、主要市場におけるグローバル展開を比較します。",
+      "categoryLabel": "サーバー",
+      "whatIs": "Illusion Connect Reのサーバーカテゴリとは何ですか？",
+      "whatIsDescription": "サーバーに関する記事では、Illusion Connect Reの地域別バージョン（グローバル、US、JP、KR、タイなど）や、市場ごとのストアやアクセスの違いについて説明しています。",
+      "why": "なぜIllusion Connect Reのサーバー情報を追う必要があるのですか？",
+      "whySteps": {
+        "step1Title": "適切な地域を選択する",
+        "step1Description": "アカウントに時間や費用を費やす前に、グローバル版と市場限定版の違いを確認できます。",
+        "step2Title": "ストアの利用可否を理解する",
+        "step2Description": "特定のストア掲載、言語パッケージ、または地域限定のリリースに関連しているかどうかを確認できます。",
+        "step3Title": "コミュニティの場所に合わせて計画する",
+        "step3Description": "友人やギルド候補、地域イベントのスケジュールが自分のプレイ時間と最も一致する場所を把握できます。"
+      },
+      "featured": "注目・必須記事",
+      "all": "すべてのサーバー記事"
+    },
+    "characters": {
+      "title": "Illusion Connect Re キャラクター",
+      "description": "Illusion Connect Reのキャラクター情報、Radiantsの役割、注目ユニット、リリース時の編成計画について解説します。",
+      "metaTitle": "Illusion Connect Re キャラクター - Radiants、役割、リリース時の編成ガイド",
+      "metaDescription": "Illusion Connect Reのキャラクター、役割の概要、主要なRadiants、リセマラやチーム編成のためのリリース時 roster 計画を探索します。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "Illusion Connect Reのキャラクターカテゴリとは何ですか？",
+      "whatIsDescription": "キャラクターに関する記事では、個々のRadiants、戦場での役割、Yuffieなどの特定のユニットがどのようにリリース時の編成に適合するかを解説します。",
+      "why": "なぜIllusion Connect Reのキャラクターガイドを読む必要があるのですか？",
+      "whySteps": {
+        "step1Title": "各Radiantsの役割を理解する",
+        "step1Description": "リソースを投入する前に、そのキャラクターが範囲攻撃、持続回復、タンク、ユーティリティのどのニーズを満たすかを確認できます。",
+        "step2Title": "リリース時の編成オプションを比較する",
+        "step2Description": "キャラクターごとの詳細分析を使用して、リセマラや初期の育成でどのユニットを優先すべきかを決定できます。",
+        "step3Title": "より強力なチームの核を構築する",
+        "step3Description": "個々のRadiantsの強みを、ストーリーやイベントコンテンツで有効なチーム構成に結びつけます。"
+      },
+      "featured": "注目・必須記事",
+      "all": "すべてのキャラクター記事"
+    }
   }
 }

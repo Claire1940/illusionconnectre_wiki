@@ -166,13 +166,15 @@ function checkImages() {
   const publicDir = path.join(projectRoot, 'public')
 
   // 检查 OG Image
-  const ogImagePath = path.join(publicDir, 'og-image.jpg')
-  if (fs.existsSync(ogImagePath)) {
-    const stats = fs.statSync(ogImagePath)
+  const imageCandidates = ['og-image.jpg', 'images/hero.webp']
+  const resolvedImage = imageCandidates.find(file => fs.existsSync(path.join(publicDir, file)))
+
+  if (resolvedImage) {
+    const stats = fs.statSync(path.join(publicDir, resolvedImage))
     const sizeKB = (stats.size / 1024).toFixed(2)
-    addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+    addResult('passed', 'Images', `✓ OG/hero 图片存在 (${resolvedImage}, ${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ 缺少 OG/hero 图片资源')
   }
 
   // 检查 Favicon
@@ -217,16 +219,19 @@ function checkStructuredData() {
   log('\n📊 检查结构化数据...', 'cyan')
 
   // 检查是否有 JSON-LD 配置
-  const layoutPath = path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx')
-  if (fs.existsSync(layoutPath)) {
-    const content = fs.readFileSync(layoutPath, 'utf-8')
+  const filesToCheck = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'HomePageClient.tsx'),
+  ]
+  const content = filesToCheck
+    .filter(file => fs.existsSync(file))
+    .map(file => fs.readFileSync(file, 'utf-8'))
+    .join('\n')
 
-    // 检查是否有 Organization schema
-    if (content.includes('Organization') || content.includes('WebSite')) {
-      addResult('passed', 'Structured', '✓ 包含结构化数据配置')
-    } else {
-      addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
-    }
+  if (content.includes('Organization') || content.includes('WebSite') || content.includes('VideoGame')) {
+    addResult('passed', 'Structured', '✓ 包含结构化数据配置')
+  } else {
+    addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
   }
 }
 
@@ -251,15 +256,17 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  const faqItems = translations.faq?.questions || translations.faq?.items
+  if (faqItems && faqItems.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${faqItems.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  const toolItems = translations.tools?.cards || translations.tools?.items
+  if (toolItems && toolItems.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${toolItems.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }

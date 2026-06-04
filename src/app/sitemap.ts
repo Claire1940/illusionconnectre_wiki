@@ -4,28 +4,24 @@ import { routing, type Locale } from '@/i18n/routing'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.illusionconnectre.wiki'
 
-// 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'codes': 0.95,
+	'tier': 0.92,
+	'guide': 0.9,
+	'release': 0.88,
+	'download': 0.88,
+	'server': 0.84,
+	'characters': 0.9,
 }
 
-// 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'codes': 'daily',
+	'tier': 'weekly',
+	'guide': 'weekly',
+	'release': 'weekly',
+	'download': 'weekly',
+	'server': 'weekly',
+	'characters': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -39,6 +35,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			changeFrequency: 'daily',
 			priority: 1.0,
 		})
+	}
+
+	const staticPages = ['about', 'privacy-policy', 'terms-of-service', 'copyright']
+	for (const locale of routing.locales) {
+		for (const page of staticPages) {
+			sitemap.push({
+				url: locale === 'en' ? `${BASE_URL}/${page}` : `${BASE_URL}/${locale}/${page}`,
+				lastModified: new Date(),
+				changeFrequency: 'monthly',
+				priority: 0.3,
+			})
+		}
 	}
 
 	// 2. 内容分类页和所有 MDX 文章（所有语言版本和内容类型）

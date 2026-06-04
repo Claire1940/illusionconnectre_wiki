@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
+import { getTranslations } from 'next-intl/server'
+import { buildLanguageAlternates } from '@/lib/i18n-utils'
+import { type Locale } from '@/i18n/routing'
 import HomePageClient from './HomePageClient'
 
 interface PageProps {
@@ -9,25 +12,22 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'seo.home' })
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || 'https://www.illusionconnectre.wiki'
   const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
   const heroImage = `${siteUrl}/images/hero.webp`
 
   return {
-    title: 'Illusion Connect: Re Wiki - Codes, Tier List & Reroll',
-    description:
-      'Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.',
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    title: t('title'),
+    description: t('description'),
+    alternates: buildLanguageAlternates('/', locale as Locale, siteUrl),
     openGraph: {
       type: 'website',
       url: canonicalUrl,
       siteName: 'Illusion Connect: Re Wiki',
-      title: 'Illusion Connect: Re Wiki - Codes, Tier List & Reroll',
-      description:
-        'Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.',
+      title: t('ogTitle'),
+      description: t('ogDescription'),
       images: [
         {
           url: heroImage,
@@ -39,9 +39,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Illusion Connect: Re Wiki - Codes, Tier List & Reroll',
-      description:
-        'Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help.',
+      title: t('twitterTitle'),
+      description: t('twitterDescription'),
       images: [heroImage],
     },
   }

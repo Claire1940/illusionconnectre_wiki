@@ -1,11 +1,725 @@
 {
+  "seo": {
+    "home": {
+      "title": "Illusion Connect: Re 위키 - 코드, 티어표 & 리세마라",
+      "description": "Illusion Connect: Re 위키: 코드, 티어표, 리세마라 팁, 캐릭터, 팀 조합, 전투 가이드, 출시 이벤트, 일일 업데이트 및 성장 계획.",
+      "keywords": "Illusion Connect: Re, 코드, 티어표, 리세마라, 캐릭터, 팀, 초보자 가이드",
+      "ogTitle": "Illusion Connect: Re 위키 - 코드, 티어표 & 리세마라",
+      "ogDescription": "Illusion Connect: Re 위키: 코드, 티어표, 리세마라 팁, 캐릭터, 팀 조합, 전투 가이드, 출시 이벤트, 일일 업데이트 및 성장 계획.",
+      "twitterTitle": "Illusion Connect: Re 위키 - 코드, 티어표 & 리세마라",
+      "twitterDescription": "Illusion Connect: Re 위키: 코드, 티어표, 리세마라 팁, 캐릭터, 팀 조합, 출시 이벤트 및 초기 성장 가이드."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "tier": "Tier",
-    "guide": "Guide",
-    "release": "Release",
-    "download": "Download",
-    "server": "Server",
-    "characters": "Characters"
+    "codes": "코드",
+    "tier": "티어",
+    "guide": "가이드",
+    "release": "출시",
+    "download": "다운로드",
+    "server": "서버",
+    "characters": "캐릭터"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "Google Play에서 플레이",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "더 읽기",
+    "articlesComingSoon": "기사 준비 중"
+  },
+  "hero": {
+    "badge": "애니메이션 가챠 전략 RPG",
+    "title": "Illusion Connect: Re 위키",
+    "description": "Android 및 iOS 플레이어를 위한 Illusion Connect: Re 코드, 리세마라 타겟, 출시 보상, Radiant 조합 및 전투 시스템을 한곳에서 확인하세요.",
+    "getFreeCodesCTA": "Illusion Connect Re 디스코드 참여하기",
+    "playOnSteamCTA": "Google Play에서 Illusion Connect Re 플레이하기",
+    "stats": {
+      "stat1": {
+        "value": "50K+",
+        "label": "Google Play 다운로드"
+      },
+      "stat2": {
+        "value": "130+",
+        "label": "Radiants"
+      },
+      "stat3": {
+        "value": "2026년 6월 4일",
+        "label": "출시일"
+      },
+      "stat4": {
+        "value": "5.0 / 194",
+        "label": "Google Play 평점"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Illusion Connect Re 게임플레이",
+    "description": "리세마라, 코드, 팀 계획을 세우기 전에 Illusion Connect Re의 전투 영상, 출시 속도, 진형 교체를 확인해 보세요."
+  },
+  "tools": {
+    "title": "Illusion Connect Re",
+    "titleHighlight": "모듈 네비게이션",
+    "subtitle": "코드, 출시 상세 정보, 팀 계획, 이벤트 보상을 다루는 8개의 홈페이지 모듈로 바로 이동하세요.",
+    "cards": [
+      {
+        "title": "Illusion Connect Re 코드",
+        "description": "활성화된 선물 코드, 만료된 코드 및 사용 단계"
+      },
+      {
+        "title": "Illusion Connect Re 출시 다운로드",
+        "description": "출시 시간, 스토어 링크, 지원 플랫폼 및 기기"
+      },
+      {
+        "title": "Illusion Connect Re 티어 리스트",
+        "description": "리세마라 및 스토리 진행을 위한 초기 Radiants 랭킹"
+      },
+      {
+        "title": "Illusion Connect Re 리세마라 가이드",
+        "description": "빠른 리세마라 경로, 중단 규칙 및 최고의 스타터 목표"
+      },
+      {
+        "title": "Illusion Connect Re 초보자 가이드",
+        "description": "첫날 우선순위, 업그레이드 속도 및 리소스 팁"
+      },
+      {
+        "title": "Illusion Connect Re Radiants 및 최고의 팀",
+        "description": "Radiant 역할, 스타터 로스터 계획 및 팀 구성"
+      },
+      {
+        "title": "Illusion Connect Re 게임플레이 및 전투 시스템",
+        "description": "실시간 전투, 3x3 전략, 코스트 흐름 및 궁극기 타이밍"
+      },
+      {
+        "title": "Illusion Connect Re 출시 보상 및 이벤트",
+        "description": "사전 예약 보상, 출시 마일스톤 및 소셜 이벤트"
+      }
+    ]
+  },
+  "modules": {
+    "illusionConnectReCodes": {
+      "title": "Illusion Connect Re 코드",
+      "intro": "Illusion Connect Re 코드를 사용하여 출시 보상, 소셜 이벤트 선물 및 빠른 리소스 부스트를 받으세요. 게임 내 교환 메뉴에서 각 코드를 표시된 대로 정확하게 입력하세요.",
+      "activeTitle": "활성화된 Illusion Connect Re 코드",
+      "expiredTitle": "만료된 Illusion Connect Re 코드",
+      "stepsTitle": "Illusion Connect Re 코드 사용 방법",
+      "codes": [
+        {
+          "code": "FREE10000",
+          "reward": "출시 보상 번들"
+        },
+        {
+          "code": "SUMMON10K",
+          "reward": "소환 지원 보상"
+        },
+        {
+          "code": "GACHA10000",
+          "reward": "가차 출시 보상"
+        },
+        {
+          "code": "ICRFREE10K",
+          "reward": "이벤트 보상 번들"
+        },
+        {
+          "code": "CR10000",
+          "reward": "초보자 계정 보상"
+        }
+      ],
+      "expiredCodes": [
+        {
+          "code": "RETURN2026"
+        },
+        {
+          "code": "WAIFU2026"
+        },
+        {
+          "code": "GACHA999"
+        }
+      ],
+      "steps": [
+        "Illusion Connect: Re를 실행하고 메인 로비가 잠금 해제될 때까지 오프닝 튜토리얼을 완료하세요.",
+        "왼쪽 상단 모서리에 있는 아바타를 탭하여 계정 메뉴를 여세요.",
+        "설정으로 들어가서 교환(Redeem) 옵션을 선택하세요.",
+        "표시된 대로 코드를 정확히 입력한 후 제출을 확인하세요.",
+        "우편함이나 보상 팝업을 열어 즉시 아이템을 수령하세요."
+      ]
+    },
+    "illusionConnectReReleaseDownload": {
+      "title": "Illusion Connect Re 출시 다운로드",
+      "intro": "공식 출시 일정, 플랫폼 지원 및 다운로드 세부 정보를 확인하여 신규 플레이어가 여러 스토어 페이지를 찾을 필요 없이 Illusion Connect: Re를 설치할 수 있도록 하세요.",
+      "items": [
+        {
+          "label": "글로벌 출시 시간",
+          "value": "2026년 6월 4일 11:00 (UTC+8)"
+        },
+        {
+          "label": "장르",
+          "value": "실시간 전투가 포함된 애니메이션 전략 RPG"
+        },
+        {
+          "label": "배급사",
+          "value": "SUGARGAME NETWORK LIMITED"
+        },
+        {
+          "label": "Android 다운로드",
+          "value": "Google Play",
+          "href": "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+        },
+        {
+          "label": "iOS 다운로드",
+          "value": "App Store",
+          "href": "https://apps.apple.com/us/app/illusion-connect-re/id6758970424"
+        },
+        {
+          "label": "Android 이용 가능 기기",
+          "value": "휴대폰, 태블릿 및 Windows용 Google Play 이용 가능"
+        },
+        {
+          "label": "iOS 요구 사항",
+          "value": "iOS 15.0 이상 및 iPadOS 15.0 이상"
+        },
+        {
+          "label": "iOS 용량",
+          "value": "3.3 GB"
+        },
+        {
+          "label": "App Store 연령 등급",
+          "value": "16세 이상"
+        },
+        {
+          "label": "Google Play 콘텐츠 등급",
+          "value": "청소년"
+        },
+        {
+          "label": "언어 지원",
+          "value": "영어, 태국어, 일본어, 한국어, 프랑스어, 독일어, 포르투갈어, 스페인어, 중국어(간체), 중국어(번체)"
+        },
+        {
+          "label": "핵심 기능",
+          "value": "실시간 전투, 3x3 배치, 130명 이상의 Radiants, Live2D 장면, 인연 진행 및 Dream Home 꾸미기"
+        }
+      ]
+    },
+    "illusionConnectReTierList": {
+      "title": "Illusion Connect Re 티어 리스트",
+      "intro": "이 Illusion Connect Re 티어 리스트는 장기적인 특수 모드보다는 출시 첫 주 리세마라 가치, 초기 스토리 진행 및 안정적인 팀 구성에 초점을 맞추고 있습니다.",
+      "tiers": [
+        {
+          "name": "S 티어",
+          "focus": "최고의 리세마라 가치",
+          "description": "이 Radiants는 스토리를 밀고 웨이브가 많은 스테이지를 클리어할 때 가장 강력하고 즉각적인 계정 전력을 제공합니다.",
+          "characters": [
+            {
+              "name": "Yuffie",
+              "role": "AoE 폭발 DPS",
+              "bestFor": "웨이브 클리어 및 빠른 캠페인 진행",
+              "summary": "Yuffie는 폭발적인 데미지로 다수의 적을 빠르게 처치하고 리세마라 효율을 높여주기 때문에 초기 가장 강력한 딜러입니다."
+            },
+            {
+              "name": "Anna",
+              "role": "힐러",
+              "bestFor": "보스전 및 긴 스테이지 유지력",
+              "summary": "Anna는 초보자 팀이 긴 스테이지에서 생존할 수 있게 하며, 출시 시점의 어떤 안정적인 로스터에서도 즉각적인 가치를 제공합니다."
+            }
+          ]
+        },
+        {
+          "name": "A 티어",
+          "focus": "신뢰할 수 있는 출시 핵심 유닛",
+          "description": "완벽한 계정을 위해 끝없이 리세마라를 하지 않고 균형 잡힌 시작을 원한다면 이 캐릭터들이 좋은 선택이 될 것입니다.",
+          "characters": [
+            {
+              "name": "Miyuki",
+              "role": "지속 DPS",
+              "bestFor": "일일 스토리 파밍 및 유연한 팀 핵심",
+              "summary": "Miyuki는 신뢰할 수 있는 데미지 출력을 제공하며 리세마라 계정과 로그인 보상 진행 계획 모두에 잘 어울립니다."
+            },
+            {
+              "name": "Kiraya",
+              "role": "가디언",
+              "bestFor": "전방 안정성 및 후방 보호",
+              "summary": "Kiraya는 딜러를 위한 시간을 벌어주고 리더를 안전하게 보호하기 때문에 출시 시점 가장 안전한 탱커 중 하나입니다."
+            }
+          ]
+        },
+        {
+          "name": "서포트 핵심",
+          "focus": "라인업 완성",
+          "description": "강력한 시작을 위해서는 역할 분담이 필요하므로, 단 하나의 캐리만 쫓기보다는 데미지, 유지력, 전방 제어를 중심으로 팀을 구성하세요.",
+          "characters": [
+            {
+              "name": "AoE 데미지 슬롯",
+              "role": "웨이브 클리어",
+              "bestFor": "스토리 스테이지 및 이벤트 파밍",
+              "summary": "빠르고 에너지 효율적인 클리어를 위해 신뢰할 수 있는 AoE 유닛으로 시작하세요."
+            },
+            {
+              "name": "힐러 또는 쉴드 슬롯",
+              "role": "팀 유지력",
+              "bestFor": "장기전 및 엘리트 조우",
+              "summary": "하나의 유지력(sustain) 슬롯은 단순히 연약한 딜러를 하나 더 추가하는 것보다 훨씬 더 안정적인 운영을 가능하게 합니다."
+            }
+          ]
+        }
+      ]
+    },
+    "illusionConnectReRerollGuide": {
+      "title": "Illusion Connect Re 리세마라 가이드",
+      "intro": "효율적인 Illusion Connect Re 리세마라 루트는 메뉴 대기 시간을 최소화하고, 가장 빠른 소환을 활용하며, 초기 로스터가 캠페인 진행을 지원할 수 있게 되면 즉시 멈추는 것이 핵심입니다.",
+      "stepsTitle": "Illusion Connect Re 리세마라 루트",
+      "targetsTitle": "Illusion Connect Re 최고의 시작 캐릭터",
+      "stopTitle": "Illusion Connect Re 리세마라를 멈추는 시점",
+      "steps": [
+        {
+          "title": "튜토리얼을 빠르게 완료하세요",
+          "description": "모든 선택적 대화 장면을 건너뛰고, 초기 전투 시퀀스를 클리어한 뒤, 배너를 확인하기 전에 첫 번째 로비 보상을 잠금 해제하세요."
+        },
+        {
+          "title": "모든 출시 기념 우편을 수령하세요",
+          "description": "첫 번째 뽑기를 진행하기 전에 사전 예약 보상, 시작 선물, 그리고 출시 기념 우편함 보상을 모두 수령하세요."
+        },
+        {
+          "title": "가장 가치 있는 초기 배너에서 뽑기를 진행하세요",
+          "description": "여러 초기 배너에 자원을 분산하지 말고, 최고의 AoE 딜러나 힐러를 가장 빠르게 얻을 수 있는 배너를 사용하세요."
+        },
+        {
+          "title": "결과가 좋지 않으면 빠르게 초기화하세요",
+          "description": "첫 번째 뽑기 주기에서 최소 하나의 프리미엄 캐리나 유지력 캐릭터를 얻지 못했다면, 약한 시작을 복구하려 하지 말고 즉시 다시 시작하세요."
+        }
+      ],
+      "targets": [
+        {
+          "name": "Yuffie",
+          "role": "AoE 캐리",
+          "reason": "가장 빠른 스토리 클리어 효율을 보여주며, 계정을 유지해야 할 강력한 이유가 됩니다."
+        },
+        {
+          "name": "Anna",
+          "role": "메인 힐러",
+          "reason": "즉각적인 로스터 안정성을 더해주며 이벤트 생존력을 향상시킵니다."
+        },
+        {
+          "name": "Miyuki",
+          "role": "범용성 높은 핵심 DPS",
+          "reason": "리세마라 시간을 너무 많이 소비하지 않으면서 균형 잡힌 계정을 원할 때 믿을 수 있는 선택지입니다."
+        }
+      ],
+      "stopRules": [
+        "프리미엄 딜러 한 명과 신뢰할 수 있는 유지력 캐릭터 한 명을 확보하면 멈추세요.",
+        "Yuffie 또는 Anna를 보유하고, 게임 진행을 계속할 수 있는 충분한 초기 재화가 있다면 멈추세요.",
+        "로스터가 첫 스토리 챕터를 진행하기 위한 전열, AoE 딜링, 힐링을 모두 커버할 수 있게 되면 멈추세요."
+      ]
+    },
+    "illusionConnectReBeginnerGuide": {
+      "title": "Illusion Connect Re 초보자 가이드",
+      "intro": "Illusion Connect Re는 Radiants를 이끌고 Nightmares에 맞서는 실시간 애니메이션 전략 RPG입니다. 신규 플레이어는 진형 타이밍을 익히고, 균형 잡힌 초기 팀을 구성하며, 중요한 소환과 업그레이드를 위해 프리미엄 재화를 아껴두는 데 집중해야 합니다.",
+      "steps": [
+        {
+          "title": "먼저 튜토리얼을 완료하세요",
+          "description": "튜토리얼을 통해 실시간 전투, 영웅 배치, 진형 변경, 그리고 궁극기 타이밍을 충분히 익힌 뒤 팀을 수정하세요.",
+          "priority": "핵심 전투 시스템을 잠금 해제하고 Radiants가 Nightmares와 어떻게 싸우는지 이해하세요.",
+          "avoid": "배치 비용과 진형 타이밍을 배우기 전에 단순히 전투력 수치만으로 팀을 판단하지 마세요."
+        },
+        {
+          "title": "출시 및 사전 예약 보상을 수령하세요",
+          "description": "다이아를 사용하기 전에 출시 보상, 사전 예약 보상, 이벤트 보상, 그리고 공식 소셜 미디어의 선물 코드 이벤트를 확인하세요.",
+          "priority": "무료 소환권, 다이아, 골드, 크리스탈, 그리고 획득 가능한 Radiants 보상으로 시작하세요.",
+          "avoid": "모든 무료 출시 보상을 확인하기 전까지 유료 또는 프리미엄 재화를 사용하지 마세요."
+        },
+        {
+          "title": "균형 잡힌 초기 팀 구성하기",
+          "description": "전방 보호, 한두 명의 딜러, 최소 한 명의 힐러나 유지력 유닛, 그리고 타이밍이나 제어를 돕는 서포터 유닛으로 구성된 간단한 팀 틀을 사용하세요.",
+          "priority": "안정적인 팀이 무작위로 구성된 고등급 유닛들보다 초반 스테이지를 더 잘 클리어합니다.",
+          "avoid": "모든 새로운 Radiants를 즉시 업그레이드하지 마세요."
+        },
+        {
+          "title": "다이아몬드보다 소환 티켓 먼저 사용하기",
+          "description": "출시 보상과 마일스톤으로 얻은 무료 소환 티켓을 먼저 사용한 후, 해당 배너에 다이아몬드를 투자할 가치가 있는지 결정하세요.",
+          "priority": "다이아몬드는 배너, 스태미나 또는 계정 가치를 확실히 높여주는 진행 상황에 대비해 아껴두세요.",
+          "avoid": "계정이 새로 생성되었다는 이유만으로 초반 뽑기에 다이아몬드를 모두 탕진하지 마세요."
+        },
+        {
+          "title": "핵심 팀을 우선적으로 업그레이드하기",
+          "description": "전투에서 실제로 사용하는 Radiants에게 업그레이드 재료를 집중하세요. 주력 딜러, 핵심 전방 유닛, 그리고 메인 힐러나 서포터를 우선하세요.",
+          "priority": "초반 재료는 소수의 팀에 집중할 때 더 큰 효과를 발휘합니다.",
+          "avoid": "사용하지 않는 캐릭터에게 골드, 크리스탈, 업그레이드 아이템을 낭비하지 마세요."
+        },
+        {
+          "title": "인연과 Dream Home 진행도 활용하기",
+          "description": "동료들과 시간을 보내고 인연을 높이며 Dream Home 기능을 활용하세요. 인연이 깊어질수록 새로운 능력이 잠금 해제될 수 있습니다.",
+          "priority": "전투 외적인 성장은 장기적인 계정 강함을 뒷받침합니다.",
+          "avoid": "하우스와 인연 시스템을 단순히 장식용으로만 생각하지 마세요."
+        }
+      ]
+    },
+    "illusionConnectReRadiantsAndBestTeam": {
+      "title": "Illusion Connect Re Radiants 및 최강 팀",
+      "intro": "Illusion Connect Re에는 Live2D 애니메이션, 고유 능력, 개성, 전투 역할을 갖춘 130개 이상의 일러스트 캐릭터가 포함되어 있습니다. 단순히 티어 리스트를 복사하기보다는 클래스 상성, 배치 비용, 스킬 특성 및 진형 요구 사항을 중심으로 팀을 구성하세요.",
+      "items": [
+        {
+          "title": "Radiants",
+          "role": "수집 가능한 전투 파트너",
+          "description": "Radiants는 Nightmares와 싸우며 Dream World에서 오는 위협으로부터 현실 세계를 보호하는 파트너입니다.",
+          "bestUse": "실시간 전투 중 진형과 타이밍을 조정할 수 있도록 다양한 전투 역할을 가진 로스터를 구성하세요."
+        },
+        {
+          "title": "전방",
+          "role": "보호 및 필드 제어",
+          "description": "전방 유닛은 압박을 흡수하고 딜러와 서포터 유닛이 행동할 시간을 벌어주어야 합니다.",
+          "bestUse": "적의 압박이 가장 강한 곳에 튼튼한 Radiants를 배치하고 전장이 변할 때 진형을 조정하세요."
+        },
+        {
+          "title": "딜러",
+          "role": "주요 스테이지 클리어 화력",
+          "description": "공격 중심의 Radiants는 Nightmares를 더 빠르게 처치할 수 있게 해주므로 초반 진행의 핵심입니다.",
+          "bestUse": "한두 명의 주력 딜러를 선택하고, 너무 많은 캐릭터에게 재료를 분산하기 전에 그들을 먼저 업그레이드하세요."
+        },
+        {
+          "title": "힐러 및 유지력",
+          "role": "팀 생존",
+          "description": "힐러와 유지력 중심의 Radiants는 긴 전투나 어려운 스테이지에서 팀을 생존시키는 데 도움을 줍니다.",
+          "bestUse": "폭발적인 데미지만으로 클리어할 수 없는 스테이지를 대비해 최소 한 명의 힐러나 유지력 유닛을 준비하세요."
+        },
+        {
+          "title": "서포트 및 스킬 타이밍",
+          "role": "유틸리티, 버프 및 전투 제어",
+          "description": "서포터 Radiants는 스킬 타이밍, 클래스 상성 또는 배치 비용이 전투의 판도를 바꾸는 데 도움이 될 때 유용합니다.",
+          "bestUse": "단순히 더 많은 데미지를 추가하는 대신 서포터 유닛을 사용하여 핵심 팀을 강화하세요."
+        },
+        {
+          "title": "초반 보상 슬롯",
+          "role": "초기 로스터 강화",
+          "description": "출시 및 사전 예약 보상에는 SSR 파트너 Fenebeth, SR 파트너 Beatrice, 소환권, 다이아몬드, 골드, 크리스탈 및 업그레이드 아이템과 같은 유용한 초반 자원이 포함되어 있습니다.",
+          "bestUse": "본격적으로 투자하기 전에 보상으로 받은 Radiants와 무료 소환 자원을 사용하여 첫 번째 팀을 구성하세요."
+        }
+      ]
+    },
+    "illusionConnectReGameplayAndBattleSystem": {
+      "title": "Illusion Connect Re 게임플레이 및 전투 시스템",
+      "intro": "Illusion Connect Re는 애니메이션 가챠 수집, 실시간 전술 전투, 3x3 그리드 전략, 진형 변경 및 궁극기 타이밍을 결합한 게임입니다.",
+      "items": [
+        {
+          "title": "실시간 전투",
+          "summary": "전투는 실시간으로 진행되므로 타이밍과 진형 변경이 중요합니다.",
+          "details": "플레이어는 영웅을 지휘하고, 전투 중 진형을 변경하며, Radiant의 강점을 결합하여 강력한 Nightmares를 물리쳐야 합니다."
+        },
+        {
+          "title": "3x3 그리드 전략",
+          "summary": "전장은 전술적인 3x3 그리드 시스템을 사용합니다.",
+          "details": "플레이어는 클래스 상성, 배치 비용, 스킬 특성을 고려하면서 변화하는 전장에 라인업을 배치합니다."
+        },
+        {
+          "title": "배치 비용",
+          "summary": "모든 배치 결정에는 타이밍의 가치가 있습니다.",
+          "details": "강력한 팀은 단순히 희귀도만으로 결정되지 않습니다. 효율적인 배치 비용 관리는 플레이어가 적절한 순간에 올바른 Radiant를 배치하도록 돕습니다."
+        },
+        {
+          "title": "궁극기",
+          "summary": "궁극기는 전투의 결과를 바꿀 수 있습니다.",
+          "details": "플레이어는 위험한 웨이브, 보스의 압박, 또는 단 한 번의 일격으로 전투를 뒤집을 수 있는 순간을 위해 강력한 스킬을 아껴두어야 합니다."
+        },
+        {
+          "title": "Nightmares",
+          "summary": "Nightmares는 주요 적 위협 요소입니다.",
+          "details": "스토리에서 Nightmares는 꿈의 세계에서 나타나 현실 세계를 위협하며, 전투의 주요 갈등을 제공합니다."
+        },
+        {
+          "title": "자동 전투 및 방치형 AFK",
+          "summary": "자동 전투와 방치형 AFK 요소가 존재하지만, 전략은 여전히 중요합니다.",
+          "details": "이 게임은 애니메이션 RPG 가챠 수집과 자동 전투를 지원하지만, 핵심 전투는 여전히 수동 타이밍, 진형 제어 및 팀 계획에 보상을 제공합니다."
+        },
+        {
+          "title": "인연 및 Dream Home",
+          "summary": "진행은 전투 밖에서도 이루어집니다.",
+          "details": "플레이어는 동료들과 시간을 보내고, 인연을 깊게 하며, 능력을 잠금 해제하고, 가구와 벽지로 개인적인 Dream Home을 꾸밀 수 있습니다."
+        }
+      ]
+    },
+    "illusionConnectReLaunchRewardsAndEvents": {
+      "title": "Illusion Connect Re 출시 보상 및 이벤트",
+      "intro": "Illusion Connect Re는 사전 예약 보상과 플레이어 가입 목표에 따른 마일스톤 보상과 함께 출시되었습니다. 공식 소셜 채널에서도 댓글 및 그룹 이벤트를 진행하여 플레이어가 선물 코드나 게임 내 보상을 받을 수 있습니다.",
+      "items": [
+        {
+          "title": "사전 예약 팩",
+          "type": "출시 보상",
+          "requirement": "모든 플랫폼에서 사전 예약 완료",
+          "rewards": [
+            "SSR 파트너 Fenebeth",
+            "다이아몬드 x2,026",
+            "소환권 x10"
+          ]
+        },
+        {
+          "title": "사전 예약 50,000명 달성",
+          "type": "달성 보상",
+          "requirement": "글로벌 사전 예약 50,000명 달성",
+          "rewards": [
+            "SR 파트너 베아트리스",
+            "골드 x20,000",
+            "기본 선물 상자 x5"
+          ]
+        },
+        {
+          "title": "사전 예약 100,000명 달성",
+          "type": "달성 보상",
+          "requirement": "글로벌 사전 예약 100,000명 달성",
+          "rewards": [
+            "스텔라: 리커넥트 아바타 프레임",
+            "치즈 크루아상 x2",
+            "수정 x20,000"
+          ]
+        },
+        {
+          "title": "사전 예약 200,000명 달성",
+          "type": "달성 보상",
+          "requirement": "글로벌 사전 예약 200,000명 달성",
+          "rewards": [
+            "소환권 x10",
+            "잃어버린 거울 x100",
+            "중급 선물 상자 x5"
+          ]
+        },
+        {
+          "title": "사전 예약 300,000명 달성",
+          "type": "달성 보상",
+          "requirement": "글로벌 사전 예약 300,000명 달성",
+          "rewards": [
+            "스킨: 피비 - 행복의 새",
+            "선택 소환권 x10",
+            "SR 장비"
+          ]
+        },
+        {
+          "title": "공식 페이스북 선물 코드 이벤트",
+          "type": "소셜 이벤트",
+          "requirement": "공식 페이스북 페이지 팔로우, 이벤트 게시물 좋아요 및 안내에 따른 댓글 작성",
+          "rewards": [
+            "선물 코드",
+            "게임 내 보상"
+          ]
+        },
+        {
+          "title": "공식 그룹 이벤트",
+          "type": "커뮤니티 이벤트",
+          "requirement": "공식 페이스북 그룹 가입 및 이벤트 안내 사항 준수",
+          "rewards": [
+            "선물 코드 획득 기회",
+            "커뮤니티 이벤트 보상"
+          ]
+        },
+        {
+          "title": "출시 당일 업데이트",
+          "type": "런칭 이벤트",
+          "requirement": "런칭 후 로그인하여 공식 이벤트 공지 확인",
+          "rewards": [
+            "런칭 기념 보너스",
+            "로그인 보상",
+            "한정 이벤트 아이템"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Illusion Connect Re",
+    "titleHighlight": "FAQ",
+    "subtitle": "Illusion Connect Re 런칭에 관한 가장 일반적인 질문들에 대한 빠른 답변입니다.",
+    "questions": [
+      {
+        "question": "Illusion Connect Re란 무엇인가요?",
+        "answer": "Illusion Connect Re는 실시간 전투, Radiants 팀 구성, 유대감 진행 및 Dream Home 계정 시스템을 중심으로 구축된 애니메이션 전략 RPG입니다."
+      },
+      {
+        "question": "Illusion Connect Re 코드는 어떻게 사용하나요?",
+        "answer": "Illusion Connect Re 코드는 튜토리얼을 통해 메인 로비의 계정 옵션이 활성화된 후 게임 내 교환 메뉴를 통해 입력할 수 있습니다."
+      },
+      {
+        "question": "Illusion Connect Re 리세마라를 할 가치가 있나요?",
+        "answer": "더 강력하게 시작하고 싶다면 Illusion Connect Re 리세마라는 가치가 있으며, 특히 프리미엄 AoE 캐리나 최상급 힐러를 목표로 할 때 유용합니다."
+      },
+      {
+        "question": "강력한 Illusion Connect Re 팀의 조건은 무엇인가요?",
+        "answer": "강력한 Illusion Connect Re 팀은 전방의 앵커 한 명, 신뢰할 수 있는 유지력 옵션 한 명, 그리고 웨이브와 엘리트 타겟을 모두 처치할 수 있는 충분한 데미지를 조합해야 합니다."
+      },
+      {
+        "question": "어디에서 Illusion Connect Re를 다운로드할 수 있나요?",
+        "answer": "Illusion Connect Re는 안드로이드 및 iOS 플레이어를 위해 공식 Google Play 및 App Store 페이지에서 이용 가능합니다."
+      },
+      {
+        "question": "런칭 시 어떤 Illusion Connect Re 이벤트가 가장 중요한가요?",
+        "answer": "가장 중요한 Illusion Connect Re 런칭 이벤트는 사전 예약 보상, 로그인 트랙, 소셜 보상 드롭 및 스토리 연계 이벤트 미션입니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Illusion Connect Re 런칭 로스터를 구성할 준비가 되셨나요?",
+    "description": "홈페이지 모듈을 사용하여 코드, 리세마라 계획, 전투 준비 및 이벤트 보상을 확인한 다음 공식 커뮤니티와 다운로드 페이지로 이동하세요.",
+    "joinCommunity": "Illusion Connect Re 디스코드 참여하기",
+    "joinGame": "Google Play에서 Illusion Connect Re 플레이하기"
+  },
+  "footer": {
+    "title": "Illusion Connect: Re 위키",
+    "description": "Illusion Connect Re 코드, 런칭 보상, 리세마라 경로, Radiants 팀 계획 및 전투 전략을 위한 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "공식 디스코드",
+    "twitter": "페이스북 페이지",
+    "steamCommunity": "페이스북 그룹",
+    "steamStore": "Google Play 다운로드",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 Illusion Connect: Re Wiki. 비공식 팬 사이트입니다.",
+    "disclaimer": "Illusion Connect: Re를 위한 비공식 팬 리소스 사이트입니다."
+  },
+  "pages": {
+    "codes": {
+      "title": "Illusion Connect Re 코드",
+      "description": "활성화된 Illusion Connect Re 코드, 교환 방법, 만료된 보상 및 출시 기간 무료 보상 수령을 위한 빠른 가이드를 확인하세요.",
+      "metaTitle": "Illusion Connect Re 코드 - 활성 교환 코드 및 보상",
+      "metaDescription": "활성화된 Illusion Connect Re 코드, 보상 상세 정보, 만료된 코드 이력 및 출시 무료 보상을 가장 빠르게 교환하는 방법을 찾아보세요.",
+      "categoryLabel": "코드",
+      "whatIs": "Illusion Connect Re 코드란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 교환 코드, 기프트 코드 사용법, 보상 수령 안내를 모아두어 출시 기념 재화, 소환 아이템, 이벤트 보너스를 만료 전에 획득할 수 있도록 돕습니다.",
+      "why": "왜 Illusion Connect Re 코드를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "출시 무료 자원 수령",
+        "step1Description": "최신 코드 드롭을 사용하여 젬, 소환 티켓 및 기타 초기 진행 보상을 획득하세요.",
+        "step2Title": "실수 없는 코드 교환",
+        "step2Description": "정확한 게임 내 경로와 입력 형식을 따라 불필요한 교환 오류로 시간을 낭비하지 마세요.",
+        "step3Title": "만료 및 대체 코드 추적",
+        "step3Description": "어떤 코드가 만료되었고 어떤 새로운 보상 캠페인으로 대체되었는지 확인하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 코드"
+    },
+    "tier": {
+      "title": "Illusion Connect Re 티어 리스트",
+      "description": "리세마라, 출시 캐릭터 성능, 최고의 캐릭터 및 팀 가치 비교를 위한 Illusion Connect Re 티어 리스트를 살펴보세요.",
+      "metaTitle": "Illusion Connect Re 티어 리스트 - 최고의 캐릭터 및 팀 순위",
+      "metaDescription": "리세마라, 최고의 캐릭터, SSR 우선순위 및 출시 팀 순위를 위한 Illusion Connect Re 티어 리스트를 검토하세요.",
+      "categoryLabel": "티어",
+      "whatIs": "Illusion Connect Re 티어 카테고리란 무엇인가요?",
+      "whatIsDescription": "이 섹션은 캐릭터 순위, 리세마라 가치 목록, 출시 주간 성능 비교를 그룹화하여 어떤 Radiants와 팀 코어가 가장 효율적인 진행을 돕는지 판단할 수 있게 합니다.",
+      "why": "왜 Illusion Connect Re 티어 리스트를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "더 강력한 캐릭터 우선순위 지정",
+        "step1Description": "희귀 재료를 투자하기 전에 데미지, 유지력, 역할 영향력에 따라 출시 Radiants를 비교하세요.",
+        "step2Title": "리세마라 결정 개선",
+        "step2Description": "출시 순위를 사용하여 계정을 유지할지, 아니면 리세마라를 할 가치가 있는지 결정하세요.",
+        "step3Title": "실제 역할 가치를 중심으로 팀 구성",
+        "step3Description": "전열, 서포트 또는 웨이브 클리어 문제를 해결하여 계속해서 유용하게 쓰일 캐릭터를 확인하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 티어 아티클"
+    },
+    "guide": {
+      "title": "Illusion Connect Re 가이드",
+      "description": "리세마라, 초보자 진행, 배너 계획, 팀 구성 및 첫날 계정 관리를 위한 Illusion Connect Re 가이드를 읽어보세요.",
+      "metaTitle": "Illusion Connect Re 가이드 - 리세마라, 초보자 및 팀 도움말",
+      "metaDescription": "리세마라 경로, 초보자 진행, 배너 선택 및 초기 팀 계획을 위해 Illusion Connect Re 가이드 허브를 활용하세요.",
+      "categoryLabel": "가이드",
+      "whatIs": "Illusion Connect Re 가이드 카테고리는 무엇인가요?",
+      "whatIsDescription": "가이드 기사는 진행 초기 몇 시간, 리세마라 속도, 배너 결정 및 로스터 개발에 대해 설명하여 새 계정이 출시 콘텐츠를 효율적으로 진행할 수 있도록 돕습니다.",
+      "why": "왜 Illusion Connect Re 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "더 깔끔한 계정 계획으로 시작하세요",
+        "step1Description": "스태미나, 뽑기, 업그레이드 아이템이 올바른 순서로 소비될 수 있도록 어떤 초기 작업이 가장 중요한지 알아보세요.",
+        "step2Title": "리세마라 반복 단축",
+        "step2Description": "리세마라를 언제 멈춰야 하는지, 무엇이 강력한 오프닝 뽑기인지 보여주는 경로별 공략을 확인하세요.",
+        "step3Title": "초기 진행 함정 피하기",
+        "step3Description": "자원을 분산시키는 대신 배너, 업그레이드, 팀 구성에 대해 검증된 초보자 단계를 따르세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드"
+    },
+    "release": {
+      "title": "Illusion Connect Re 출시",
+      "description": "Illusion Connect Re 출시일 보도, 출시 타이밍, 재출시 배경, 얼리 액세스 참고 사항 및 시작 기간 계획을 확인하세요.",
+      "metaTitle": "Illusion Connect Re 출시 - 출시일, 재출시 및 타이밍",
+      "metaDescription": "글로벌 플레이어를 위한 Illusion Connect Re 출시 일정, 출시일, 재출시 세부 정보 및 시작 기간 계획을 추적하세요.",
+      "categoryLabel": "출시",
+      "whatIs": "Illusion Connect Re 출시 카테고리는 무엇인가요?",
+      "whatIsDescription": "출시 기사는 출시 타이밍, 지역별 출시 세부 정보, 재출시 관련 질문 및 서버가 열리기 전 플레이어에게 필요한 실질적인 정보에 집중합니다.",
+      "why": "왜 Illusion Connect Re 출시 세부 정보를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "시작 시기 파악",
+        "step1Description": "출시 타이밍, 서버 오픈 시간대, 얼리 액세스 차이점을 한곳에서 확인하세요.",
+        "step2Title": "리세마라 및 이벤트 준비",
+        "step2Description": "출시 보상, 사전 예약 아이템, 배너 가용성에 맞춰 첫 로그인을 계획하세요.",
+        "step3Title": "재출시 배경 이해",
+        "step3Description": "현재의 Illusion Connect Re 출시 세부 정보를 이전 Illusion Connect 기록 및 레거시 참조와 구분하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 출시 기사"
+    },
+    "download": {
+      "title": "Illusion Connect Re 다운로드",
+      "description": "Android, iOS, Google Play, APK 관련 질문, PC 옵션 및 스토어별 설정을 위한 Illusion Connect Re 다운로드 도움말을 찾아보세요.",
+      "metaTitle": "Illusion Connect Re 다운로드 - Android, iOS, APK 및 PC 옵션",
+      "metaDescription": "Android, iOS, Google Play, APK, Play Store 및 PC 설치 안내를 위해 Illusion Connect Re 다운로드 허브를 활용하세요.",
+      "categoryLabel": "다운로드",
+      "whatIs": "Illusion Connect Re 다운로드 카테고리는 무엇인가요?",
+      "whatIsDescription": "다운로드 문서는 Illusion Connect Re 설치 위치, 이용할 스토어 페이지, 그리고 Android, iOS 및 PC 관련 설정에 따른 플랫폼별 옵션 차이점을 안내합니다.",
+      "why": "왜 Illusion Connect Re 다운로드 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "올바른 스토어 페이지 접속",
+        "step1Description": "Google Play, App Store, APK 관련 문의 및 지역별 설치 경로에 대한 직접적인 플랫폼 안내를 확인하세요.",
+        "step2Title": "기기 설정에 맞추기",
+        "step2Description": "모바일 기기, 에뮬레이터 또는 PC 연동 플레이 옵션에서 중요한 플랫폼별 유의 사항을 확인하세요.",
+        "step3Title": "설치 과정의 번거로움 감소",
+        "step3Description": "여러 소스를 찾아 헤매는 대신 다운로드, 업데이트 및 실행 관련 문제 해결 방법을 한곳에서 확인하세요."
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 다운로드 문서"
+    },
+    "server": {
+      "title": "Illusion Connect Re 서버",
+      "description": "글로벌 접속, 지역별 버전, 스토어 차이점 및 각 플레이어 층이 접속하는 위치를 포함한 Illusion Connect Re 서버 범위를 검토하세요.",
+      "metaTitle": "Illusion Connect Re 서버 - 글로벌, 미국, 일본, 한국 및 지역별 버전",
+      "metaDescription": "주요 시장의 Illusion Connect Re 서버 옵션, 지역별 버전, 스토어 접근성 및 글로벌 가용성을 비교해 보세요.",
+      "categoryLabel": "SERVER",
+      "whatIs": "Illusion Connect Re 서버 카테고리는 무엇인가요?",
+      "whatIsDescription": "서버 문서는 글로벌, 미국, 일본, 한국, 태국 및 기타 시장별 스토어 또는 접속 차이점을 포함한 Illusion Connect Re의 지역별 버전을 설명합니다.",
+      "why": "왜 Illusion Connect Re 서버를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "올바른 지역 선택",
+        "step1Description": "계정에 시간이나 비용을 투자하기 전에 글로벌 버전과 시장별 버전의 차이점을 확인하세요.",
+        "step2Title": "스토어 가용성 이해",
+        "step2Description": "특정 버전이 특정 스토어 등록 정보, 언어 팩 또는 지역별 출시에 묶여 있는지 확인하세요.",
+        "step3Title": "커뮤니티 위치에 따른 계획",
+        "step3Description": "친구, 길드원 후보 및 지역 이벤트 일정이 본인의 플레이 시간과 가장 잘 맞는 곳이 어디인지 파악하세요."
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 서버 문서"
+    },
+    "characters": {
+      "title": "Illusion Connect Re 캐릭터",
+      "description": "Radiants, 역할 요약, 주요 유닛 및 출시 로스터 계획을 포함한 Illusion Connect Re 캐릭터 정보를 살펴보세요.",
+      "metaTitle": "Illusion Connect Re 캐릭터 - Radiants, 역할 및 출시 로스터 도움말",
+      "metaDescription": "리세마라 및 팀 구성을 위한 Illusion Connect Re 캐릭터, 역할 요약, 주요 Radiants 및 출시 로스터 계획을 확인해 보세요.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "Illusion Connect Re 캐릭터 카테고리는 무엇인가요?",
+      "whatIsDescription": "캐릭터 문서는 개별 Radiants, 전장 내 역할, 그리고 Yuffie, Kasumi, Hersey와 같은 특정 유닛이나 광범위한 캐릭터 구성이 출시 로스터에 어떻게 어울리는지에 초점을 맞춥니다.",
+      "why": "왜 Illusion Connect Re 캐릭터 가이드를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "각 Radiant 역할 이해",
+        "step1Description": "자원을 투자하기 전에 캐릭터가 웨이브 클리어, 유지력, 탱킹 또는 유틸리티 요구 사항을 해결할 수 있는지 확인하세요.",
+        "step2Title": "출시 로스터 옵션 비교",
+        "step2Description": "캐릭터별 상세 분석을 통해 리세마라 및 초기 업그레이드에서 어떤 유닛을 우선시할지 결정하세요.",
+        "step3Title": "더 강력한 팀 핵심 구축",
+        "step3Description": "개별 Radiant의 강점을 스토리 및 이벤트 콘텐츠에서 활용 가능한 팀 구조와 연결하세요."
+      },
+      "featured": "추천 및 필수 정보",
+      "all": "모든 캐릭터 문서"
+    }
   }
 }

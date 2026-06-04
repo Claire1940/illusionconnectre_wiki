@@ -100,6 +100,7 @@ export default function HomePageClient({
   const t = useMessages() as any;
   const modules = t.modules as any;
   const toolsCards = t.tools.cards as any[];
+  const seoHome = t.seo.home as any;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.illusionconnectre.wiki";
   const videoId = "_0GgrGHsHb8";
@@ -125,8 +126,7 @@ export default function HomePageClient({
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
         name: "Illusion Connect: Re Wiki",
-        description:
-          "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, Dream Home features, launch news, and beginner help.",
+        description: seoHome.description,
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
@@ -141,8 +141,7 @@ export default function HomePageClient({
         name: "Illusion Connect: Re Wiki",
         alternateName: "Illusion Connect: Re",
         url: siteUrl,
-        description:
-          "Illusion Connect: Re resource hub for codes, reroll planning, character builds, combat strategy, and launch updates.",
+        description: seoHome.ogDescription,
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
