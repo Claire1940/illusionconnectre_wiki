@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -16,12 +16,38 @@ export function VideoFeature({
   posterSrc,
 }: VideoFeatureProps) {
   const [isPlaying, setIsPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
-  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`;
+
+  useEffect(() => {
+    const node = containerRef.current;
+
+    if (!node || isPlaying) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsPlaying(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.45,
+      },
+    );
+
+    observer.observe(node);
+
+    return () => observer.disconnect();
+  }, [isPlaying]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative aspect-video w-full overflow-hidden rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-black/30 shadow-2xl"
       >
         {isPlaying ? (
@@ -58,7 +84,7 @@ export function VideoFeature({
                     {title}
                   </h3>
                   <p className="mt-2 max-w-2xl text-sm text-white/75 md:text-base">
-                    Watch verified launch gameplay footage and use the direct YouTube link if in-page playback is restricted.
+                    Watch launch gameplay footage here or open the direct YouTube page if in-page playback is restricted.
                   </p>
                 </div>
                 <span className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme-light))] text-slate-950 shadow-lg shadow-[hsl(var(--nav-theme-light))/0.35] md:h-20 md:w-20">
