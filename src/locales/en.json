@@ -10,14 +10,7 @@
       "twitterDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
