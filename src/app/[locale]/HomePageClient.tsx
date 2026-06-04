@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Suspense, lazy } from "react";
 import {
   ArrowRight,
-  BookOpen,
   CalendarDays,
   Check,
   Compass,
@@ -112,13 +111,11 @@ export default function HomePageClient({
     "https://apps.apple.com/us/app/illusion-connect-re/id6758970424";
   const discordUrl = "https://discord.gg/hXfJJcKGu2";
   const facebookPageUrl = "https://www.facebook.com/IllusionConnectRe";
-  const facebookGroupUrl =
-    "https://www.facebook.com/groups/1681862183164309";
-  const mobileBannerAd =
-    getPreferredMobileBannerSelection() || {
-      type: "banner-300x250" as const,
-      adKey: process.env.NEXT_PUBLIC_AD_BANNER_300X250,
-    };
+  const facebookGroupUrl = "https://www.facebook.com/groups/1681862183164309";
+  const mobileBannerAd = getPreferredMobileBannerSelection() || {
+    type: "banner-300x250" as const,
+    adKey: process.env.NEXT_PUBLIC_AD_BANNER_300X250,
+  };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -339,21 +336,21 @@ export default function HomePageClient({
               delay="200ms"
             />
             <NavCard
-              href="#teams"
+              href="#radiants-and-best-team"
               icon={<Users className="h-5 w-5 md:h-6 md:w-6" />}
               title={toolsCards[5].title}
               description={toolsCards[5].description}
               delay="250ms"
             />
             <NavCard
-              href="#combat-guide"
+              href="#gameplay-and-battle-system"
               icon={<Swords className="h-5 w-5 md:h-6 md:w-6" />}
               title={toolsCards[6].title}
               description={toolsCards[6].description}
               delay="300ms"
             />
             <NavCard
-              href="#events"
+              href="#launch-rewards-and-events"
               icon={<CalendarDays className="h-5 w-5 md:h-6 md:w-6" />}
               title={toolsCards[7].title}
               description={toolsCards[7].description}
@@ -425,14 +422,16 @@ export default function HomePageClient({
                   </h3>
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  {modules.illusionConnectReCodes.expiredCodes.map((code: any) => (
-                    <span
-                      key={code.code}
-                      className="rounded-full border border-border px-3 py-1.5 text-sm text-muted-foreground"
-                    >
-                      {code.code}
-                    </span>
-                  ))}
+                  {modules.illusionConnectReCodes.expiredCodes.map(
+                    (code: any) => (
+                      <span
+                        key={code.code}
+                        className="rounded-full border border-border px-3 py-1.5 text-sm text-muted-foreground"
+                      >
+                        {code.code}
+                      </span>
+                    ),
+                  )}
                 </div>
               </div>
             </div>
@@ -669,163 +668,139 @@ export default function HomePageClient({
                     <h3 className="mb-1.5 text-lg font-bold md:mb-2 md:text-xl">
                       {step.title}
                     </h3>
-                    <p className="text-sm text-muted-foreground md:text-base">
+                    <p className="mb-3 text-sm text-muted-foreground md:text-base">
                       {step.description}
+                    </p>
+                    <div className="grid gap-3 md:grid-cols-2">
+                      <div className="rounded-xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                        <p className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                          Priority
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          {step.priority}
+                        </p>
+                      </div>
+                      <div className="rounded-xl border border-border bg-card/80 p-3">
+                        <p className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                          Avoid
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          {step.avoid}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ),
+            )}
+          </div>
+        </div>
+      </section>
+
+      <section id="radiants-and-best-team" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <SectionHeader
+            title={modules.illusionConnectReRadiantsAndBestTeam.title}
+            intro={modules.illusionConnectReRadiantsAndBestTeam.intro}
+          />
+
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 scroll-reveal">
+            {modules.illusionConnectReRadiantsAndBestTeam.items.map(
+              (item: any) => (
+                <div
+                  key={item.title}
+                  className="rounded-2xl border border-border bg-card/80 p-5"
+                >
+                  <div className="mb-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.role}
+                  </div>
+                  <h3 className="mb-2 text-lg font-bold">{item.title}</h3>
+                  <p className="mb-4 text-sm text-muted-foreground">
+                    {item.description}
+                  </p>
+                  <div className="rounded-xl border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] p-3">
+                    <p className="mb-1 text-xs font-semibold uppercase tracking-[0.16em] text-[hsl(var(--nav-theme-light))]">
+                      Best Use
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      {item.bestUse}
                     </p>
                   </div>
                 </div>
               ),
             )}
           </div>
-
-          <div className="rounded-2xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.05)] p-5 md:p-6 scroll-reveal">
-            <div className="mb-4 flex items-center gap-2">
-              <BookOpen className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-              <h3 className="text-lg font-bold">
-                {modules.illusionConnectReBeginnerGuide.tipsTitle}
-              </h3>
-            </div>
-            <ul className="space-y-2">
-              {modules.illusionConnectReBeginnerGuide.quickTips.map(
-                (tip: string) => (
-                  <li key={tip} className="flex items-start gap-2">
-                    <Check className="mt-1 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
-                    <span className="text-sm text-muted-foreground">{tip}</span>
-                  </li>
-                ),
-              )}
-            </ul>
-          </div>
         </div>
       </section>
 
-      <section id="teams" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+      <section id="gameplay-and-battle-system" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
-            title={modules.illusionConnectReTeams.title}
-            intro={modules.illusionConnectReTeams.intro}
+            title={modules.illusionConnectReGameplayAndBattleSystem.title}
+            intro={modules.illusionConnectReGameplayAndBattleSystem.intro}
           />
 
-          <div className="mb-6 grid gap-4 md:grid-cols-3 scroll-reveal">
-            {modules.illusionConnectReTeams.cards.map((card: any) => (
-              <div
-                key={card.name}
-                className="rounded-2xl border border-border bg-card/80 p-5"
-              >
-                <div className="mb-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
-                  {card.role}
-                </div>
-                <h3 className="mb-2 text-lg font-bold">{card.name}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {card.description}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="rounded-2xl border border-border bg-white/5 p-5 md:p-6 scroll-reveal">
-            <h3 className="mb-4 text-lg font-bold">
-              {modules.illusionConnectReTeams.lineupTitle}
-            </h3>
-            <div className="grid gap-3 md:grid-cols-2">
-              {modules.illusionConnectReTeams.lineup.map((item: any) => (
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3 scroll-reveal">
+            {modules.illusionConnectReGameplayAndBattleSystem.items.map(
+              (item: any) => (
                 <div
-                  key={item.slot}
-                  className="rounded-xl border border-border bg-card/80 p-4"
+                  key={item.title}
+                  className="rounded-2xl border border-border bg-white/5 p-5 md:p-6"
                 >
-                  <div className="mb-1 flex items-center justify-between gap-2">
-                    <h4 className="font-semibold">{item.slot}</h4>
-                    <span className="text-xs text-[hsl(var(--nav-theme-light))]">
-                      {item.pick}
-                    </span>
+                  <div className="mb-3 flex items-center gap-3">
+                    <Swords className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    <h3 className="text-lg font-bold">{item.title}</h3>
                   </div>
+                  <p className="mb-3 text-sm text-[hsl(var(--nav-theme-light))]">
+                    {item.summary}
+                  </p>
                   <p className="text-sm text-muted-foreground">
-                    {item.reason}
+                    {item.details}
                   </p>
                 </div>
-              ))}
-            </div>
+              ),
+            )}
           </div>
         </div>
       </section>
 
-      <section id="combat-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
+      <section id="launch-rewards-and-events" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <SectionHeader
-            title={modules.illusionConnectReCombatGuide.title}
-            intro={modules.illusionConnectReCombatGuide.intro}
+            title={modules.illusionConnectReLaunchRewardsAndEvents.title}
+            intro={modules.illusionConnectReLaunchRewardsAndEvents.intro}
           />
 
           <div className="grid gap-4 md:grid-cols-2 scroll-reveal">
-            {modules.illusionConnectReCombatGuide.topics.map((topic: any) => (
-              <div
-                key={topic.name}
-                className="rounded-2xl border border-border bg-white/5 p-5 md:p-6"
-              >
-                <div className="mb-3 flex items-center gap-3">
-                  <Swords className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="text-lg font-bold">{topic.name}</h3>
-                </div>
-                <p className="mb-3 text-sm text-muted-foreground">
-                  {topic.description}
-                </p>
-                <ul className="space-y-2">
-                  {topic.points.map((point: string) => (
-                    <li key={point} className="flex gap-2">
-                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
-                      <span className="text-sm text-muted-foreground">
-                        {point}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="events" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
-        <div className="container mx-auto max-w-5xl">
-          <SectionHeader
-            title={modules.illusionConnectReEvents.title}
-            intro={modules.illusionConnectReEvents.intro}
-          />
-
-          <div className="mb-6 grid gap-4 md:grid-cols-2 scroll-reveal">
-            {modules.illusionConnectReEvents.cards.map((card: any) => (
-              <div
-                key={card.name}
-                className="rounded-2xl border border-border bg-card/80 p-5"
-              >
-                <div className="mb-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
-                  {card.label}
-                </div>
-                <h3 className="mb-2 text-lg font-bold">{card.name}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {card.description}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="rounded-2xl border border-border bg-white/5 p-5 md:p-6 scroll-reveal">
-            <h3 className="mb-4 text-lg font-bold">
-              {modules.illusionConnectReEvents.checklistTitle}
-            </h3>
-            <div className="grid gap-3 md:grid-cols-2">
-              {modules.illusionConnectReEvents.checklist.map((item: string) => (
+            {modules.illusionConnectReLaunchRewardsAndEvents.items.map(
+              (item: any) => (
                 <div
-                  key={item}
-                  className="rounded-xl border border-border bg-card/80 p-4"
+                  key={item.title}
+                  className="rounded-2xl border border-border bg-card/80 p-5"
                 >
-                  <div className="flex gap-2">
-                    <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
-                    <p className="text-sm text-muted-foreground">{item}</p>
+                  <div className="mb-3 inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.12)] px-3 py-1 text-xs font-medium text-[hsl(var(--nav-theme-light))]">
+                    {item.type}
+                  </div>
+                  <h3 className="mb-3 text-lg font-bold">{item.title}</h3>
+                  <p className="mb-4 text-sm text-muted-foreground">
+                    {item.requirement}
+                  </p>
+                  <div className="space-y-2">
+                    {item.rewards.map((reward: string) => (
+                      <div
+                        key={reward}
+                        className="flex gap-2 rounded-xl border border-border bg-white/5 p-3"
+                      >
+                        <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                        <p className="text-sm text-muted-foreground">
+                          {reward}
+                        </p>
+                      </div>
+                    ))}
                   </div>
                 </div>
-              ))}
-            </div>
+              ),
+            )}
           </div>
         </div>
       </section>
@@ -954,7 +929,9 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <Link
-                    href={locale === "en" ? "/copyright" : `/${locale}/copyright`}
+                    href={
+                      locale === "en" ? "/copyright" : `/${locale}/copyright`
+                    }
                     className="text-muted-foreground transition hover:text-[hsl(var(--nav-theme-light))]"
                   >
                     {t.footer.copyrightNotice}

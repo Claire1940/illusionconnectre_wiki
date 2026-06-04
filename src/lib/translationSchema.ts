@@ -12,7 +12,7 @@ import { z } from 'zod'
 // ============================================
 
 export const IconCardSchema = z.object({
-  icon: z.string().min(1, 'Icon name is required'),
+  icon: z.string().min(1, 'Icon name is required').optional(),
   title: z.string().min(1, 'Title is required'),
   description: z.string().min(1, 'Description is required')
 })
@@ -147,14 +147,16 @@ export const TranslationsSchema = z.object({
     notFoundDescription: z.string(),
     backToHome: z.string(),
     relatedArticles: z.string(),
-    readMore: z.string()
+    readMore: z.string(),
+    articlesComingSoon: z.string().optional()
   }),
   hero: z.object({
     badge: z.string(),
     title: z.string(),
     description: z.string(),
     getFreeCodesCTA: z.string(),
-    playOnRobloxCTA: z.string(),
+    playOnSteamCTA: z.string().optional(),
+    playOnRobloxCTA: z.string().optional(),
     stats: z.record(z.string(), StatSchema)
   }),
   gameFeature: z.object({
@@ -167,17 +169,30 @@ export const TranslationsSchema = z.object({
     subtitle: z.string(),
     cards: z.array(IconCardSchema).optional()
   }),
-  modules: z.object({
-    demoDownload: DemoDownloadModuleSchema.optional(),
-    beginnerGuide: BeginnerGuideModuleSchema.optional(),
-    coopGuide: CoopGuideModuleSchema.optional(),
-    tasksObjectives: TasksObjectivesModuleSchema.optional(),
-    controlsKeybinds: ControlsKeybindsModuleSchema.optional(),
-    contentSettings: ContentSettingsModuleSchema.optional(),
-    craftingEquipment: CraftingEquipmentModuleSchema.optional(),
-    lootItems: LootItemsModuleSchema.optional()
-  })
-})
+  modules: z.record(
+    z.string(),
+    z.record(z.string(), z.unknown()).or(z.array(z.unknown()))
+  ),
+  faq: z.object({
+    title: z.string(),
+    titleHighlight: z.string(),
+    subtitle: z.string(),
+    questions: z.array(
+      z.object({
+        question: z.string(),
+        answer: z.string()
+      })
+    )
+  }).optional(),
+  cta: z.object({
+    title: z.string(),
+    description: z.string(),
+    joinCommunity: z.string(),
+    joinGame: z.string()
+  }).optional(),
+  footer: z.record(z.string(), z.string()).optional(),
+  pages: z.record(z.string(), z.unknown()).optional()
+}).passthrough()
 
 // ============================================
 // 验证函数
@@ -188,6 +203,18 @@ export const TranslationsSchema = z.object({
  * 在开发环境中会打印详细的错误信息
  */
 export function validateTranslations(data: unknown, locale: string) {
+  if (
+    locale !== 'en' &&
+    typeof data === 'object' &&
+    data !== null &&
+    Object.keys(data as Record<string, unknown>).length === 0
+  ) {
+    return {
+      success: true,
+      data
+    }
+  }
+
   const result = TranslationsSchema.safeParse(data)
 
   if (!result.success) {

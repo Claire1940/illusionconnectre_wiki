@@ -81,16 +81,16 @@
         "description": "First-day priorities, upgrade pacing, and resource tips"
       },
       {
-        "title": "Illusion Connect Re Teams",
-        "description": "Balanced formations, role coverage, and lineup ideas"
+        "title": "Illusion Connect Re Radiants and Best Team",
+        "description": "Radiant roles, starter roster planning, and team structure"
       },
       {
-        "title": "Illusion Connect Re Combat Guide",
-        "description": "Formation control, cost flow, ult timing, and Nightmares"
+        "title": "Illusion Connect Re Gameplay and Battle System",
+        "description": "Real-time combat, 3x3 strategy, cost flow, and ult timing"
       },
       {
-        "title": "Illusion Connect Re Events",
-        "description": "Launch rewards, login bonuses, and milestone campaigns"
+        "title": "Illusion Connect Re Launch Rewards and Events",
+        "description": "Pre-registration rewards, launch milestones, and social events"
       }
     ]
   },
@@ -310,152 +310,211 @@
     },
     "illusionConnectReBeginnerGuide": {
       "title": "Illusion Connect Re Beginner Guide",
-      "intro": "Illusion Connect Re rewards clean first-day planning. Focus on story unlocks, formation basics, and efficient upgrade spending before you spread resources across every Radiant.",
-      "tipsTitle": "Illusion Connect Re Quick Tips",
+      "intro": "Illusion Connect Re is a real-time anime strategy RPG where you lead Radiants against Nightmares. New players should focus on learning formation timing, building a balanced early team, and saving premium currency for meaningful summons and upgrades.",
       "steps": [
         {
-          "title": "Push story until your daily systems unlock",
-          "description": "The first story chapters unlock the menus and reward loops that matter most, so early stamina should go into campaign progress first."
+          "title": "Finish the tutorial first",
+          "description": "Use the tutorial to learn real-time battles, hero deployment, formation shifts, and Ultimate Skill timing before changing your team too much.",
+          "priority": "Unlock core combat systems and understand how Radiants fight Nightmares.",
+          "avoid": "Do not judge a team only by raw power before learning deployment cost and formation timing."
         },
         {
-          "title": "Build one stable frontline core",
-          "description": "Pick your best tank or shield unit early and keep your leader protected while your backline carries do the damage."
+          "title": "Claim launch and pre-registration rewards",
+          "description": "Check launch rewards, pre-registration rewards, event rewards, and official social gift-code events before spending Diamonds.",
+          "priority": "Start with free Summon Tickets, Diamonds, Gold, Crystals, and reward Radiants when available.",
+          "avoid": "Do not spend paid or premium currency before checking all free launch rewards."
         },
         {
-          "title": "Invest in a small main squad",
-          "description": "Upgrade one compact team instead of spreading materials across too many launch pulls. Concentrated upgrades clear content faster."
+          "title": "Build one balanced starter team",
+          "description": "Use a simple team shell: front-line protection, one or two damage dealers, at least one healer or sustain option, and support units that help with timing or control.",
+          "priority": "A stable team clears early stages better than a random group of high-rarity units.",
+          "avoid": "Do not upgrade every new Radiant immediately."
         },
         {
-          "title": "Use bonds and home features for efficient growth",
-          "description": "Bond progression and Dream Home systems add useful account value, so fold them into your daily loop instead of treating them as pure side content."
-        }
-      ],
-      "quickTips": [
-        "Save premium currency for banners that improve your main story lineup rather than every launch banner.",
-        "Upgrade one carry, one sustain unit, and one frontline protector before investing in niche backups.",
-        "Check event missions every day because launch rewards often overlap with the story path you already need to clear.",
-        "If progress stalls, revisit formation order and deployment timing before assuming you need more raw power."
-      ]
-    },
-    "illusionConnectReTeams": {
-      "title": "Illusion Connect Re Teams",
-      "intro": "The best Illusion Connect Re teams at launch are balanced, role-complete lineups that protect the leader, keep costs manageable, and let carries fire ultimates on time.",
-      "lineupTitle": "Illusion Connect Re Balanced Launch Lineup",
-      "cards": [
-        {
-          "name": "Frontline anchor",
-          "role": "Guardian",
-          "description": "Use one sturdy tank or shield specialist to absorb pressure and stop your core damage dealers from getting collapsed early."
+          "title": "Spend Summon Tickets before Diamonds",
+          "description": "Use free Summon Tickets from launch rewards and milestones first, then decide whether a banner is worth Diamonds.",
+          "priority": "Keep Diamonds for banners, stamina, or progression needs that give clear account value.",
+          "avoid": "Do not empty Diamonds on every early pull just because the account is new."
         },
         {
-          "name": "Primary damage pair",
-          "role": "Carry core",
-          "description": "Blend one AoE clearer with one consistent single-target or sustained damage unit so the team handles both waves and elites."
+          "title": "Upgrade your core team first",
+          "description": "Focus upgrade materials on the Radiants you actually use in battle. Prioritize your main damage unit, key front-line unit, and main healer or support.",
+          "priority": "Early materials matter more when concentrated on a small team.",
+          "avoid": "Do not spread Gold, Crystals, and upgrade items across unused characters."
         },
         {
-          "name": "Sustain and utility",
-          "role": "Healer support",
-          "description": "A healer or shield support keeps the squad consistent and makes event stages much safer than replacing the slot with a fourth attacker."
-        }
-      ],
-      "lineup": [
-        {
-          "slot": "Frontline slot",
-          "pick": "Kiraya or another guardian",
-          "reason": "Provides the defensive cushion your backline needs in early boss and elite stages."
-        },
-        {
-          "slot": "AoE slot",
-          "pick": "Yuffie",
-          "reason": "Clears enemy waves quickly and turns story stamina into faster progress."
-        },
-        {
-          "slot": "Sustain slot",
-          "pick": "Anna",
-          "reason": "Stabilizes long fights and keeps launch rosters from collapsing after one bad trade."
-        },
-        {
-          "slot": "Flexible damage slot",
-          "pick": "Miyuki or your best SSR carry",
-          "reason": "Lets you adapt around the pulls you actually have while keeping your main damage pace high."
+          "title": "Use bonds and Dream Base progress",
+          "description": "Spend time with companions, increase bonds, and use Dream Base features because relationships can unlock new abilities as bonds deepen.",
+          "priority": "Out-of-battle growth supports long-term account strength.",
+          "avoid": "Do not treat home and bond systems as only decoration."
         }
       ]
     },
-    "illusionConnectReCombatGuide": {
-      "title": "Illusion Connect Re Combat Guide",
-      "intro": "Illusion Connect Re combat gets smoother once you treat positioning, deployment cost, and ultimate timing as one system instead of isolated buttons.",
-      "topics": [
+    "illusionConnectReRadiantsAndBestTeam": {
+      "title": "Illusion Connect Re Radiants and Best Team",
+      "intro": "Illusion Connect Re includes over 130 illustrated characters with Live2D animation, unique abilities, personalities, and battle roles. Instead of copying only a raw tier list, build around class counters, deployment cost, skill characteristics, and formation needs.",
+      "items": [
         {
-          "name": "Formation control",
-          "description": "The 3x3 field rewards clean lane management and deliberate frontline placement.",
-          "points": [
-            "Protect the leader by placing your sturdiest unit in the lane receiving the heaviest pressure.",
-            "Do not overstack one row unless the enemy pattern leaves the opposite side open.",
-            "Rebuild a broken line quickly so backline Radiants are not forced to tank."
-          ]
+          "title": "Radiants",
+          "role": "Collectible battle partners",
+          "description": "Radiants are the partners who fight Nightmares and protect the real world from threats coming from the Dream World.",
+          "bestUse": "Build a roster with different battle roles so you can adjust formation and timing during real-time combat."
         },
         {
-          "name": "Deployment rhythm",
-          "description": "Winning early fights is often about spending cost at the right moment instead of dumping every unit as soon as it is ready.",
-          "points": [
-            "Hold enough cost to answer enemy threats instead of opening with every damage unit immediately.",
-            "Drop sustain before the team fully collapses so heals and shields have time to matter.",
-            "Use ultimates to swing wave transitions rather than wasting them on nearly defeated targets."
-          ]
+          "title": "Front Line",
+          "role": "Protection and field control",
+          "description": "Your front line should help absorb pressure and create time for damage dealers and support units to act.",
+          "bestUse": "Place durable Radiants where enemy pressure is strongest and adjust formation when the battlefield changes."
         },
         {
-          "name": "Nightmares and stage mechanics",
-          "description": "Special enemies and mechanics punish autopilot play, so adjust your lineup when a stage keeps blocking progress.",
-          "points": [
-            "Swap in more sustain or control if the stage pressure outlasts your burst window.",
-            "Use stronger wave clear when Nightmares spawn supporting mobs around a priority target.",
-            "Treat repeat failures as a team-structure problem first, not just a raw level issue."
-          ]
+          "title": "Damage Dealers",
+          "role": "Main stage-clearing power",
+          "description": "Damage-focused Radiants are the core of early progression because they help clear Nightmares faster.",
+          "bestUse": "Choose one or two main damage units and upgrade them before spreading materials across too many characters."
         },
         {
-          "name": "Manual improvement loop",
-          "description": "A quick review after every failed stage helps you fix the right layer of the team.",
-          "points": [
-            "Check whether the frontline broke too early.",
-            "Check whether your energy and cost pacing delayed a key heal or burst.",
-            "Check whether the carry order matches the enemy wave pattern."
-          ]
+          "title": "Healers and Sustain",
+          "role": "Team survival",
+          "description": "Healers and sustain-focused Radiants help keep your team alive during longer fights and difficult stages.",
+          "bestUse": "Keep at least one healing or sustain option ready when a stage cannot be cleared by burst damage alone."
+        },
+        {
+          "title": "Support and Skill Timing",
+          "role": "Utility, buffs, and battle control",
+          "description": "Support Radiants are useful when their skill timing, class matchups, or deployment cost helps turn a fight.",
+          "bestUse": "Use support units to strengthen your core team instead of adding only more damage."
+        },
+        {
+          "title": "Starter Reward Slots",
+          "role": "Early roster boost",
+          "description": "Launch and pre-registration rewards include useful starter resources such as SSR Partner Fenebeth, SR Partner Beatrice, Summon Tickets, Diamonds, Gold, Crystals, and upgrade items.",
+          "bestUse": "Use reward Radiants and free summon resources to shape your first team before spending heavily."
         }
       ]
     },
-    "illusionConnectReEvents": {
-      "title": "Illusion Connect Re Events",
-      "intro": "Illusion Connect Re launch rewards are split across pre-registration milestones, login tracks, social rewards, and event task ladders, so keeping them separate from redeem codes helps players claim everything faster.",
-      "checklistTitle": "Illusion Connect Re Launch Reward Checklist",
-      "cards": [
+    "illusionConnectReGameplayAndBattleSystem": {
+      "title": "Illusion Connect Re Gameplay and Battle System",
+      "intro": "Illusion Connect Re mixes anime gacha collection, real-time tactical combat, 3x3 grid strategy, formation changes, and Ultimate Skill timing.",
+      "items": [
         {
-          "name": "Pre-registration rewards",
-          "label": "Milestone rewards",
-          "description": "Claim the account-wide launch bonuses tied to the global pre-registration campaign as soon as the mailbox opens."
+          "title": "Real-Time Battles",
+          "summary": "Combat happens in real time, so timing and formation changes matter.",
+          "details": "Players direct heroes, shift formations during battle, and combine Radiant strengths to overcome powerful Nightmares."
         },
         {
-          "name": "Launch login program",
-          "label": "Daily login",
-          "description": "Log in every day during the launch window so you do not miss premium pulls, upgrade items, and free Radiant progression value."
+          "title": "3x3 Grid Strategy",
+          "summary": "The battlefield uses a tactical 3x3 grid system.",
+          "details": "Players deploy their lineup on a changing battlefield while considering class counters, deployment cost, and skill characteristics."
         },
         {
-          "name": "Social gift campaigns",
-          "label": "Community events",
-          "description": "Watch the official Discord and Facebook channels for code drops, event notices, and reward announcements tied to launch activity."
+          "title": "Deployment Cost",
+          "summary": "Every deployment decision has timing value.",
+          "details": "A strong team is not only about rarity. Good deployment cost management helps players place the right Radiant at the right moment."
         },
         {
-          "name": "Story and mission events",
-          "label": "Progress rewards",
-          "description": "Push campaign chapters and event missions together because the first-week reward tracks often overlap with the same gameplay loop."
+          "title": "Ultimate Skills",
+          "summary": "Ultimate Skills can change the result of a fight.",
+          "details": "Players should save high-impact skills for dangerous waves, boss pressure, or moments when a single strike can turn the battle."
+        },
+        {
+          "title": "Nightmares",
+          "summary": "Nightmares are the main enemy threat.",
+          "details": "In the story, Nightmares come from the Dream World and threaten the real world, giving battles their main conflict."
+        },
+        {
+          "title": "Auto Battle and Idle AFK",
+          "summary": "Auto battle and idle AFK elements exist, but strategy remains important.",
+          "details": "The game supports anime RPG gacha collection and auto battle, while the core combat still rewards manual timing, formation control, and team planning."
+        },
+        {
+          "title": "Bonds and Dream Base",
+          "summary": "Progression also happens outside combat.",
+          "details": "Players can spend time with companions, deepen bonds, unlock abilities, and decorate a personal Dream Base with furniture and wallpapers."
         }
-      ],
-      "checklist": [
-        "Claim pre-registration mail before spending your first launch pulls.",
-        "Finish each day’s login bonus during the opening event window.",
-        "Check official social channels for extra code drops and campaign notices.",
-        "Clear the matching event missions while you push the main story route.",
-        "Review limited-time reward tabs before server reset so nothing expires unclaimed.",
-        "Use event rewards to strengthen your main launch squad instead of scattering them across bench units."
+      ]
+    },
+    "illusionConnectReLaunchRewardsAndEvents": {
+      "title": "Illusion Connect Re Launch Rewards and Events",
+      "intro": "Illusion Connect Re launched with pre-registration rewards and milestone rewards tied to player sign-up goals. Official social channels also run comment and group events where players can win gift codes or in-game rewards.",
+      "items": [
+        {
+          "title": "Pre-Registration Pack",
+          "type": "Launch Reward",
+          "requirement": "Complete pre-registration on any platform",
+          "rewards": [
+            "SSR Partner Fenebeth",
+            "Diamonds x2,026",
+            "Summon Ticket x10"
+          ]
+        },
+        {
+          "title": "50,000 Pre-Registration Milestone",
+          "type": "Milestone Reward",
+          "requirement": "Global pre-registration reaches 50,000",
+          "rewards": [
+            "SR Partner Beatrice",
+            "Gold x20,000",
+            "Basic Gift Box x5"
+          ]
+        },
+        {
+          "title": "100,000 Pre-Registration Milestone",
+          "type": "Milestone Reward",
+          "requirement": "Global pre-registration reaches 100,000",
+          "rewards": [
+            "Stellar: Reconnec Avatar Frame",
+            "Cheese Croissant x2",
+            "Crystals x20,000"
+          ]
+        },
+        {
+          "title": "200,000 Pre-Registration Milestone",
+          "type": "Milestone Reward",
+          "requirement": "Global pre-registration reaches 200,000",
+          "rewards": [
+            "Summon Ticket x10",
+            "Lost Mirror x100",
+            "Medium Gift Box x5"
+          ]
+        },
+        {
+          "title": "300,000 Pre-Registration Milestone",
+          "type": "Milestone Reward",
+          "requirement": "Global pre-registration reaches 300,000",
+          "rewards": [
+            "Skin: Phoebe - Bird of Happiness",
+            "Selected Ticket x10",
+            "SR Gear"
+          ]
+        },
+        {
+          "title": "Official Facebook Gift Code Events",
+          "type": "Social Event",
+          "requirement": "Follow the official Facebook page, like event posts, and comment as instructed",
+          "rewards": [
+            "Gift codes",
+            "In-game rewards"
+          ]
+        },
+        {
+          "title": "Official Group Event",
+          "type": "Community Event",
+          "requirement": "Join the official Facebook Group and follow the event instructions",
+          "rewards": [
+            "Gift-code opportunities",
+            "Community event rewards"
+          ]
+        },
+        {
+          "title": "Launch Day Update",
+          "type": "Launch Event",
+          "requirement": "Log in after launch and check official event notices",
+          "rewards": [
+            "Launch-time bonuses",
+            "Login rewards",
+            "Limited event items"
+          ]
+        }
       ]
     }
   },
