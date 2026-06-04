@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "description": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "keywords": "Illusion Connect: Re, codes, tier list, reroll, characters, teams, beginner guide",
+      "ogTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "ogDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "twitterTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "twitterDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Play on Google Play",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Anime Gacha Strategy RPG",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Return to the dream world with real-time tactical battles, over 130 Live2D characters, bond progression, team building, home decoration, codes, reroll tips, and tier list guides.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "50K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "130+",
+        "label": "Characters"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "Jun 4, 2026",
+        "label": "Launch Date"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "5.0 / 194",
+        "label": "Google Play Rating"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Illusion Connect: Re Gameplay",
+    "description": "Watch Illusion Connect: Re gameplay, character showcases, and launch-era combat footage before you jump into rerolls and team building."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to return to the dream world?",
+    "description": "Join the Illusion Connect: Re community for launch updates, codes, reroll help, and team-building discussion.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Google Play"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Your resource hub for Illusion Connect: Re codes, reroll routes, character guides, team builds, and launch updates.",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
+    "twitter": "Facebook Page",
+    "steamCommunity": "Facebook Group",
+    "steamStore": "Google Play",
     "about": "このサイトについて",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Illusion Connect: Re Wiki. Unofficial fan-made website.",
+    "disclaimer": "Unofficial fan-made resource website for Illusion Connect: Re."
   },
   "pages": {
     "guides": {

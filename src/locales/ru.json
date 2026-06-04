@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "description": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "keywords": "Illusion Connect: Re, codes, tier list, reroll, characters, teams, beginner guide",
+      "ogTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "ogDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "twitterTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "twitterDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Главная",
     "more": "Ещё",
-    "playNow": "Играть на Steam",
+    "playNow": "Play on Google Play",
     "switchLanguage": "Сменить язык",
     "switchTheme": "Сменить тему",
     "lightMode": "Светлая тема",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Anime Gacha Strategy RPG",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Return to the dream world with real-time tactical battles, over 130 Live2D characters, bond progression, team building, home decoration, codes, reroll tips, and tier list guides.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "50K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "130+",
+        "label": "Characters"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "Jun 4, 2026",
+        "label": "Launch Date"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "5.0 / 194",
+        "label": "Google Play Rating"
       }
     }
   },
   "gameFeature": {
-    "title": "Геймплей Lucid Blocks",
-    "description": "Исследуйте сюрреалистичные биомы, объединяйте предметы с помощью Apotheosis и выживайте среди странных существ в этой похожей на сон воксельной песочнице на Steam."
+    "title": "Illusion Connect: Re Gameplay",
+    "description": "Watch Illusion Connect: Re gameplay, character showcases, and launch-era combat footage before you jump into rerolls and team building."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to return to the dream world?",
+    "description": "Join the Illusion Connect: Re community for launch updates, codes, reroll help, and team-building discussion.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Google Play"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Your resource hub for Illusion Connect: Re codes, reroll routes, character guides, team builds, and launch updates.",
     "resources": "Ресурсы",
     "community": "Сообщество",
     "legal": "Юридическая информация",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
+    "twitter": "Facebook Page",
+    "steamCommunity": "Facebook Group",
+    "steamStore": "Google Play",
     "about": "О проекте",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
     "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "copyright": "© 2026 Illusion Connect: Re Wiki. Unofficial fan-made website.",
+    "disclaimer": "Unofficial fan-made resource website for Illusion Connect: Re."
   },
   "pages": {
     "guides": {

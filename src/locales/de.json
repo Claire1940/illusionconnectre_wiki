@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "description": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "keywords": "Illusion Connect: Re, codes, tier list, reroll, characters, teams, beginner guide",
+      "ogTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "ogDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, home features, launch news, and beginner help.",
+      "twitterTitle": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+      "twitterDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Play on Google Play",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Anime Gacha Strategy RPG",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Return to the dream world with real-time tactical battles, over 130 Live2D characters, bond progression, team building, home decoration, codes, reroll tips, and tier list guides.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Google Play",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "50K+",
+        "label": "Google Play Downloads"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "130+",
+        "label": "Characters"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "Jun 4, 2026",
+        "label": "Launch Date"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "5.0 / 194",
+        "label": "Google Play Rating"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Illusion Connect: Re Gameplay",
+    "description": "Watch Illusion Connect: Re gameplay, character showcases, and launch-era combat footage before you jump into rerolls and team building."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Ready to return to the dream world?",
+    "description": "Join the Illusion Connect: Re community for launch updates, codes, reroll help, and team-building discussion.",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Google Play"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Illusion Connect: Re Wiki",
+    "description": "Your resource hub for Illusion Connect: Re codes, reroll routes, character guides, team builds, and launch updates.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Facebook Page",
+    "steamCommunity": "Facebook Group",
+    "steamStore": "Google Play",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Illusion Connect: Re Wiki. Unofficial fan-made website.",
+    "disclaimer": "Unofficial fan-made resource website for Illusion Connect: Re."
   },
   "pages": {
     "guides": {

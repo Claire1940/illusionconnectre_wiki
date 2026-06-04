@@ -1,12 +1,17 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "Illusion Connect: Re Wiki - Codes, Tier List & Reroll",
+  "short_name": "ICR Wiki",
+  "description": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, combat guide, Dream Home features, launch news, and beginner help.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#7b3fe4",
   "background_color": "#0a0a0a",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -34,6 +39,15 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/hero.webp",
+      "sizes": "1600x900",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Illusion Connect: Re homepage hero artwork"
     }
   ]
 }
