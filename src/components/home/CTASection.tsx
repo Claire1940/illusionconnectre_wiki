@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Users } from "lucide-react";
+import { ArrowRight, Smartphone, Users } from "lucide-react";
 
 interface CTASectionProps {
   title: string;
@@ -16,6 +16,10 @@ export default function CTASection({
   joinCommunity,
   joinGame,
 }: CTASectionProps) {
+  const discordUrl = "https://discord.gg/hXfJJcKGu2";
+  const playUrl =
+    "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp";
+
   return (
     <section className="px-4 py-14 md:py-20">
       <div className="scroll-reveal container mx-auto max-w-5xl">
@@ -32,7 +36,7 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.gg/hXfJJcKGu2"
+                href={discordUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,12 +45,14 @@ export default function CTASection({
               </a>
             </Button>
             <a
-              href="https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+              href={playUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"
             >
+              <Smartphone className="w-5 h-5" />
               {joinGame}
+              <ArrowRight className="w-5 h-5" />
             </a>
           </div>
         </div>

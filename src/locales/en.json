@@ -37,8 +37,8 @@
     "badge": "Anime Gacha Strategy RPG",
     "title": "Illusion Connect: Re Wiki",
     "description": "Return to the dream world with real-time tactical battles, over 130 Live2D characters, bond progression, team building, home decoration, codes, reroll tips, and tier list guides.",
-    "getFreeCodesCTA": "Get Free Codes",
-    "playOnSteamCTA": "Play on Google Play",
+    "getFreeCodesCTA": "Join Illusion Connect: Re Discord",
+    "playOnSteamCTA": "Play Illusion Connect: Re on Google Play",
     "stats": {
       "stat1": {
         "value": "50K+",
@@ -787,8 +787,8 @@
   "cta": {
     "title": "Ready to return to the dream world?",
     "description": "Join the Illusion Connect: Re community for launch updates, codes, reroll help, and team-building discussion.",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Google Play"
+    "joinCommunity": "Join Illusion Connect: Re Discord",
+    "joinGame": "Play Illusion Connect: Re on Google Play"
   },
   "footer": {
     "title": "Illusion Connect: Re Wiki",
@@ -796,10 +796,10 @@
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Official Discord",
     "twitter": "Facebook Page",
     "steamCommunity": "Facebook Group",
-    "steamStore": "Google Play",
+    "steamStore": "Google Play Download",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",

@@ -218,7 +218,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.illusionconnectre.wiki'
+  const heroImage = `${siteUrl}/images/hero.webp`
+  const contentTypeLabel = contentType.charAt(0).toUpperCase() + contentType.slice(1)
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -243,9 +245,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
       const path = `/${contentType}`
+      const title = `${contentTypeLabel} - Illusion Connect: Re Wiki`
+      const description = `Browse Illusion Connect: Re ${contentType} guides, references, and curated wiki content.`
 
       return {
         title,
@@ -255,6 +257,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           title,
           description,
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: 'Illusion Connect: Re Wiki',
+          images: [heroImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImage],
         },
         robots: {
           index: true,
@@ -270,13 +280,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentTypeLabel} - Illusion Connect: Re Wiki`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse Illusion Connect: Re ${contentType} guides, references, and curated wiki content.`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: `Browse Illusion Connect: Re ${contentType} guides, references, and curated wiki content.`,
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          siteName: 'Illusion Connect: Re Wiki',
+          images: [heroImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse Illusion Connect: Re ${contentType} guides, references, and curated wiki content.`,
+          images: [heroImage],
+        },
         robots: {
           index: true,
           follow: true,
@@ -306,14 +329,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       const fullPath = `/${slug.join('/')}`
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - Illusion Connect: Re Wiki`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
+          title: `${metadata.title} - Illusion Connect: Re Wiki`,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          siteName: 'Illusion Connect: Re Wiki',
+          images: metadata.image ? [metadata.image] : [heroImage],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: `${metadata.title} - Illusion Connect: Re Wiki`,
+          description: metadata.description,
+          images: metadata.image ? [metadata.image] : [heroImage],
         },
         robots: {
           index: true,
@@ -341,14 +371,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           const fullPath = `/${slug.join('/')}`
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - Illusion Connect: Re Wiki`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
+              title: `${metadata.title} - Illusion Connect: Re Wiki`,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              siteName: 'Illusion Connect: Re Wiki',
+              images: metadata.image ? [metadata.image] : [heroImage],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: `${metadata.title} - Illusion Connect: Re Wiki`,
+              description: metadata.description,
+              images: metadata.image ? [metadata.image] : [heroImage],
             },
             robots: {
               index: true,

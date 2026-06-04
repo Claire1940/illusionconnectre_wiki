@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.illusionconnectre.wiki/sitemap.xml

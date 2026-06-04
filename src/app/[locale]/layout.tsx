@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.illusionconnectre.wiki";
+  const heroImage = `${siteUrl}/images/hero.webp`;
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -65,7 +66,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("ogDescription"),
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImage,
           width: 1920,
           height: 1080,
           alt: "Illusion Connect: Re hero artwork",
@@ -76,8 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: t("twitterTitle"),
       description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
-      creator: "@IllusionConnectRe",
+      images: [heroImage],
     },
     icons: {
       icon: [

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { ExternalLink, Play } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -16,22 +16,13 @@ export function VideoFeature({
   posterSrc,
 }: VideoFeatureProps) {
   const [isPlaying, setIsPlaying] = useState(false);
-  const watchUrl = useMemo(
-    () => `https://www.youtube.com/watch?v=${videoId}`,
-    [videoId],
-  );
-
-  const embedUrl = useMemo(
-    () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
-    [videoId],
-  );
+  const watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`;
 
   return (
     <div className="space-y-4">
       <div
-        className="relative w-full overflow-hidden rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-black/30 shadow-2xl"
-        style={{ paddingBottom: "56.25%" }}
+        className="relative aspect-video w-full overflow-hidden rounded-2xl border border-[hsl(var(--nav-theme)/0.25)] bg-black/30 shadow-2xl"
       >
         {isPlaying ? (
           <iframe
@@ -67,7 +58,7 @@ export function VideoFeature({
                     {title}
                   </h3>
                   <p className="mt-2 max-w-2xl text-sm text-white/75 md:text-base">
-                    Watch the launch gameplay preview with Illusion Connect: Re key art.
+                    Watch verified launch gameplay footage and use the direct YouTube link if in-page playback is restricted.
                   </p>
                 </div>
                 <span className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme-light))] text-slate-950 shadow-lg shadow-[hsl(var(--nav-theme-light))/0.35] md:h-20 md:w-20">

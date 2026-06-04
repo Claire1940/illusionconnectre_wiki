@@ -87,6 +87,19 @@ export default function HomePageClient({
   const t = useMessages() as any;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://www.illusionconnectre.wiki";
+  const videoId = "_0GgrGHsHb8";
+  const youtubeWatchUrl = `https://www.youtube.com/watch?v=${videoId}`;
+  const youtubeEmbedUrl = `https://www.youtube.com/embed/${videoId}`;
+  const youtubeThumbnailUrl = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+  const googlePlayUrl =
+    "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp";
+  const appStoreUrl =
+    "https://apps.apple.com/us/app/illusion-connect-re/id6758970424";
+  const discordUrl = "https://discord.gg/hXfJJcKGu2";
+  const facebookPageUrl = "https://www.facebook.com/IllusionConnectRe";
+  const facebookGroupUrl =
+    "https://www.facebook.com/groups/1681862183164309";
+  const redditUrl = "https://www.reddit.com/r/IllusionConnect/";
 
   // Structured data
   const structuredData = {
@@ -134,10 +147,12 @@ export default function HomePageClient({
           caption: "Illusion Connect: Re promotional artwork",
         },
         sameAs: [
-          "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp",
-          "https://apps.apple.com/us/app/illusion-connect-re/id6758970424",
-          "https://discord.gg/hXfJJcKGu2",
-          "https://www.facebook.com/IllusionConnectRe",
+          googlePlayUrl,
+          appStoreUrl,
+          discordUrl,
+          facebookPageUrl,
+          facebookGroupUrl,
+          redditUrl,
         ],
       },
       {
@@ -155,7 +170,7 @@ export default function HomePageClient({
           price: "0",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp",
+          url: googlePlayUrl,
         },
       },
       {
@@ -164,9 +179,9 @@ export default function HomePageClient({
         description:
           "Gameplay showcase video for Illusion Connect: Re featuring launch-era combat and character presentation.",
         uploadDate: "2026-06-04",
-        thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/_0GgrGHsHb8",
-        url: "https://www.youtube.com/watch?v=_0GgrGHsHb8",
+        thumbnailUrl: youtubeThumbnailUrl,
+        embedUrl: youtubeEmbedUrl,
+        url: youtubeWatchUrl,
       },
     ],
   };
@@ -239,17 +254,19 @@ export default function HomePageClient({
 
             {/* CTA Buttons */}
             <div className="mb-10 flex flex-col justify-center gap-3 sm:flex-row md:mb-12 md:gap-4">
-              <button
-                onClick={() => scrollToSection("beginner-guide")}
+              <a
+                href={discordUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)]
                            text-white rounded-lg font-semibold text-base md:text-lg transition-colors"
               >
                 <BookOpen className="w-5 h-5" />
                 {t.hero.getFreeCodesCTA}
-              </button>
+              </a>
               <a
-                href="https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+                href={googlePlayUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -288,9 +305,9 @@ export default function HomePageClient({
         <div className="scroll-reveal container mx-auto max-w-6xl">
           <div className="relative overflow-hidden rounded-2xl">
             <VideoFeature
-              videoId="_0GgrGHsHb8"
+              videoId={videoId}
               title="Illusion Connect: Re Gameplay Showcase"
-              posterSrc="/images/hero.webp"
+              posterSrc={youtubeThumbnailUrl}
             />
           </div>
         </div>
@@ -1342,7 +1359,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.gg/hXfJJcKGu2"
+                    href={discordUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1351,7 +1368,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+                    href={googlePlayUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1417,7 +1434,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.gg/hXfJJcKGu2"
+                    href={discordUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1427,7 +1444,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/IllusionConnectRe"
+                    href={facebookPageUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1437,7 +1454,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/groups/1681862183164309"
+                    href={facebookGroupUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1447,7 +1464,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.sugargame.mjlj.gp"
+                    href={googlePlayUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
