@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Hersey: Best Team Builds & Tactics",
+  description: "Master the meta with our Illusion Connect: Re team building guide. Learn how to optimize your Radiant squads, tactical formations, and combat efficiency for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Team+Building+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re** team building requires a balanced mix of **damage, sustain, and frontline protection**.
+- **Radiants** should be deployed based on **cost management** and specific **class counters** during real-time battles.
+- **Miyuki** remains a cornerstone damage dealer for early and mid-game account progression.
+- **Focus resources** on a core team of five to six units instead of spreading materials too thin.
+- **Dream Base** upgrades provide passive bonuses that significantly boost your team’s combat performance.
+</Callout>
+
+<Section icon={Swords} title="Strategic Team Building Fundamentals">
+
+Building an effective squad in Illusion Connect: Re is about more than just picking high-rarity units. Success relies on balancing your deployment cost, understanding class synergies, and reacting to the flow of real-time battles.
+
+**Video Highlights:**
+- Tactical deployment of Radiants on the 3x3 grid.
+- Managing deployment cost for optimal skill timing.
+- Identifying class counters to dismantle Nightmare formations.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+A well-rounded team should follow the "Core Shell" strategy, ensuring you have enough coverage to handle various encounter types.
+
+| Role | Responsibility | Recommended Priority |
+| :--- | :--- | :--- |
+| **Frontline** | Absorb pressure and shield backline | **High** |
+| **AoE DPS** | Clear enemy waves and fodder | **High** |
+| **Single Target** | Boss damage and elite elimination | **Medium** |
+| **Healer/Sustain** | Maintain team HP over long fights | **High** |
+| **Support/Utility** | Buffs, debuffs, and timing control | **Medium** |
+
+<Callout type="tip" title="Synergy Tip">
+Always pair your primary damage dealer with a unit that can provide a defense-down debuff to maximize burst potential during Ultimate Skill windows.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimizing Your Radiant Squad">
+
+When building your team, prioritize units that fill multiple roles or provide strong passive buffs to the rest of the squad. The following table outlines how to evaluate your current roster for the best performance.
+
+| Rarity | Investment Priority | Efficiency Note |
+| :--- | :--- | :--- |
+| **SSR** | Top priority for core slots | High growth potential, high cost |
+| **SR** | Secondary for situational needs | Cost-effective, easier to awaken |
+| **R** | Niche utility only | Use sparingly for early game filler |
+
+<Steps>
+  <Step num="1" title="Assess Your Core">
+    Identify your strongest SSR Radiant and build your team foundation around their specific role and class.
+  </Step>
+  <Step num="2" title="Balance Deployment Cost">
+    Ensure your total team cost allows for a smooth deployment sequence, avoiding a bottleneck of high-cost units.
+  </Step>
+  <Step num="3" title="Assign Formation Positions">
+    Place your Guardian units in the front-most grid slots to protect your fragile Sorcerers and Healers.
+  </Step>
+  <Step num="4" title="Upgrade Bonds">
+    Increase bond levels through the Dream Base to unlock hidden stat bonuses for your primary team members.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Common Mistake">
+Avoid upgrading every Radiant you pull. Focus your Gold and Crystals exclusively on your primary 5-6 member team to ensure they remain viable for the latest story chapters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Team Compositions for Beginners">
+
+For players looking to clear content efficiently, a standard balanced setup is highly effective. You can customize this based on the specific units you have obtained through your initial summons.
+
+<CardGrid cols={3}>
+  <Card title="The Balanced Core">
+    - **Frontline**: Kiraya
+    - **Damage**: Miyuki & Yuffie
+    - **Sustain**: Anna
+    - **Support**: Flexible slot
+  </Card>
+  <Card title="The Aggro Rush">
+    - **Frontline**: High-HP Guardian
+    - **Damage**: 3x AoE Sorcerers
+    - **Sustain**: 1x Healer
+    - **Goal**: End fights before sustain fails
+  </Card>
+  <Card title="The Survivalist">
+    - **Frontline**: 2x Guardians
+    - **Damage**: 1x Core DPS
+    - **Sustain**: 2x Healers
+    - **Goal**: Outlast boss mechanics
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Insight">
+Using Miyuki as your primary damage core allows you to utilize her energy reduction skill, which is instrumental in delaying enemy Ultimate Skills in both PvE and PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression Checklist">
+
+To ensure your team continues to perform at its peak, follow this routine to maintain your account growth.
+
+<Checklist
+  id="progression-checklist"
+  title="Daily Progression Goals:"
+  items={[
+    "Clear daily bounty missions for upgrade materials",
+    "Collect Dream Base resource income every 8 hours",
+    "Spend Stamina on stage farming for character shards",
+    "Check the shop for discounted upgrade items",
+    "Complete Weekly event challenges"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is it better to have a mono-class team?",
+    answer: "While mono-class teams can offer synergy bonuses, it is generally better to prioritize a balanced role distribution (Tank/DPS/Heal) for general story progression."
+  },
+  {
+    question: "How do I choose between different SSR Radiants?",
+    answer: "Evaluate them based on their AoE potential, healing output, and whether their skill kit complements your current frontline durability."
+  },
+  {
+    question: "Are SR units worth investing in?",
+    answer: "Yes, many SR units provide excellent utility or specific counters that remain useful even into the end-game stages."
+  }
+]} />
+
+</Section>

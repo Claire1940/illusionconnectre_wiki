@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Wiki: Codes, Tier List & Reroll Guide",
+  description: "Master Illusion Connect: Re with our 2026 wiki. Get active codes, top-tier character rankings, reroll strategies, and essential team-building guides.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Wiki",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re** is a tactical anime RPG featuring real-time 3x3 grid battles and over 130 unique Radiants.
+- **Rerolling** is highly recommended at launch to secure S-Tier characters like Yuffie or Anna for smoother progression.
+- **Team building** should prioritize a balance of one AoE damage dealer, a dedicated healer, and a sturdy tank.
+- **Redeem codes** provide essential launch rewards; always claim them early to maximize your starting resources.
+- **Dream Base** features offer significant long-term progression benefits through bonds and decoration bonuses.
+</Callout>
+
+<Section icon={Target} title="Getting Started: Reroll & Launch Rewards">
+
+Starting your journey in the dream world requires a strong foundation. Rerolling allows you to begin with high-impact characters that drastically reduce the difficulty of early story stages.
+
+**Video Highlights:**
+- Optimal reroll route for guest accounts.
+- How to maximize initial summon tickets.
+- Which banners to prioritize for new players.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Official Launch Android iOS RPG" />
+
+<Callout type="tip" title="Reroll Strategy">
+Focus your efforts on securing at least two SSR Radiants from the initial pulls. Aim for a combination of an AoE damage dealer and a reliable healer to ensure your team's survival and efficiency.
+</Callout>
+
+| Step | Action | Priority |
+| :--- | :--- | :--- |
+| 1 | Create Guest Account | Critical |
+| 2 | Complete Tutorial | Essential |
+| 3 | Claim All Mail/Launch Rewards | High |
+| 4 | Spend Tickets on Eternal Summon | High |
+| 5 | Bind Account After Success | Final |
+
+</Section>
+
+<Section icon={Swords} title="Radiant Tier List & Team Composition">
+
+Building a stable team is more important than simply chasing the highest rarity. A balanced team shell ensures you can handle various combat scenarios, from boss fights to wave clearing.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Core">
+    - **Yuffie (Sorcerer)**: Best AoE burst for farming waves.
+    - **Anna (Healer)**: Top-tier sustain and emergency healing.
+  </Card>
+  <Card title="A-Tier Stability">
+    - **Miyuki (Sorcerer)**: Reliable sustained damage and utility.
+    - **Kiraya (Guardian)**: Premier frontline shield and protection.
+  </Card>
+  <Card title="Team Formula">
+    - **1 AoE DPS**: For clearing enemies.
+    - **1 Healer**: For team longevity.
+    - **1 Tank**: For frontline pressure.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Team Building Advice">
+Avoid spreading your resources across too many characters. Focus your upgrade materials on a core team of five to six Radiants to maintain consistent power levels as you progress through the chapters.
+</Callout>
+
+| Role | Responsibility | Recommended Stats |
+| :--- | :--- | :--- |
+| Guardian | Absorb damage / Protect leader | HP / DEF |
+| Sorcerer | AoE damage / Wave clearing | ATK / CRIT |
+| Healer | Sustain / Buffs | HP / Healing Effect |
+| Support | Utility / Control | SPD / Energy Regen |
+
+</Section>
+
+<Section icon={Sparkles} title="Essential Gameplay Mechanics">
+
+Success in Illusion Connect: Re depends on active decision-making during real-time battles. Understanding the 3x3 grid and deployment timing is key to overcoming difficult Nightmares.
+
+<Checklist
+  id="gameplay-essentials"
+  title="Combat Fundamentals:"
+  items={[
+    "Manage deployment costs to maintain field presence.",
+    "Time your Ultimate Skills to interrupt enemy boss attacks.",
+    "Adjust formations based on the enemy's attack pattern.",
+    "Utilize class counters to gain tactical advantages."
+  ]}
+/>
+
+<Callout type="success" title="Progression Tip">
+Don't neglect your Dream Base. Investing in furniture and deepening bonds with your Radiants provides passive stat boosts that can be the difference between victory and defeat in challenging end-game content.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Launch Rewards & Codes">
+
+Stay updated with the latest gift codes to keep your inventory stocked with diamonds, summon tickets, and upgrade materials. These codes are time-sensitive and often released via social media channels.
+
+| Reward Category | Requirement | Typical Contents |
+| :--- | :--- | :--- |
+| Pre-registration | Global milestone | SSR Fenebeth, Diamonds, Tickets |
+| Launch Event | Login bonus | Exclusive Gear, Gold, Crystals |
+| Social Media | Follow/Comment | Limited Gift Codes |
+| Daily Tasks | Game activity | Stamina, Upgrade Materials |
+
+<Callout type="info" title="Note on Codes">
+Always enter codes exactly as they appear in the game’s redemption menu. If a code fails, it may have reached its usage limit or expired.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is rerolling necessary in Illusion Connect: Re?",
+    answer: "While not mandatory, rerolling is highly recommended for free-to-play players to secure strong SSR units like Yuffie or Anna, which significantly speeds up early story progression."
+  },
+  {
+    question: "Which Radiant role is the most important?",
+    answer: "A balanced team is vital, but having a reliable Guardian and a strong Healer is usually the priority for survivability in mid-to-late game stages."
+  },
+  {
+    question: "How do I use redeem codes?",
+    answer: "Launch the game, tap your profile icon in the top-left corner, open Settings, select the Redeem option, and enter your active code to claim rewards."
+  },
+  {
+    question: "Should I pull on the Equipment Banner?",
+    answer: "It is generally advised to skip the Equipment Banner early on. Prioritize spending your diamonds and tickets on character banners to build a diverse roster first."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "일루전 커넥트: Re: 초보자 가이드 및 2026 전략 팁",
+  description: "2026년 초보자 가이드로 일루전 커넥트: Re를 마스터하세요. 리세마라 전략, 티어표 순위, 팀 구성 및 필수 전투 전술을 배워보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "일루전 커넥트: Re 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **일루전 커넥트: Re**는 130종 이상의 독특한 커넥터(Radiant)가 등장하는 실시간 전술 RPG입니다.
+- 초반에는 탱커, 힐러, 광역 딜러로 구성된 **균형 잡힌 팀**을 만드는 데 집중하세요.
+- **게스트 계정**을 활용해 효율적으로 리세마라를 진행하고, 유피(Yuffie)나 안나(Anna)와 같은 최상위 SSR 유닛을 확보하세요.
+- 3x3 그리드 전투 중 **배치 코스트**를 신중하게 관리하여 전투 효율을 극대화하세요.
+- 항상 **활성화된 선물 코드**를 확인하여 출시 기념 무료 보상과 소환권을 챙기세요.
+</Callout>
+
+<Section icon={Target} title="시작하기: 리세마라 및 출시 전략">
+
+꿈의 세계에서 성공하려면 초기 로스터가 매우 중요합니다. 리세마라를 통해 강력한 SSR 커넥터를 확보하면 초반 스토리 스테이지의 난이도를 크게 낮출 수 있습니다.
+
+**영상 하이라이트:**
+- 3x3 전투 그리드 메커니즘 이해하기.
+- 첫 10회 소환을 위한 최적의 경로.
+- 초보자를 위한 고가치 SSR 유닛 식별법.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="일루전 커넥트: Re 출시 게임플레이" />
+
+<Callout type="tip" title="리세마라 우선순위">
+첫 SSR로 **유피**(광역 딜러) 또는 **안나**(힐러)를 뽑는 것을 우선하세요. 이 캐릭터들은 콘텐츠를 빠르게 클리어하는 데 가장 큰 도움을 줍니다.
+</Callout>
+
+| 단계 | 행동 | 목표 |
+| :--- | :--- | :--- |
+| 1 | 게스트로 시작 | 빠른 계정 초기화 활성화 |
+| 2 | 튜토리얼 클리어 | 일반 소환 메뉴 잠금 해제 |
+| 3 | 우편 보상 수령 | 시작 소환권 최대화 |
+| 4 | 픽업 소환 진행 | 특정 S급 커넥터 타겟팅 |
+
+</Section>
+
+<Section icon={Swords} title="커넥터 티어표 및 팀 구성">
+
+팀 구성은 단순히 희귀도가 아니라 역할 간의 시너지가 중요합니다. 안정적인 초보자 팀은 전방 보호, 신뢰할 수 있는 힐링, 일관된 데미지 출력이 필요합니다.
+
+<CardGrid cols={3}>
+  <Card title="전방 (탱커)">
+    - 리더 보호
+    - 피해 흡수
+    - 예시: 키라야
+  </Card>
+  <Card title="데미지 딜러">
+    - 적 웨이브 정리
+    - 보스 체력 폭딜
+    - 예시: 유피, 미유키
+  </Card>
+  <Card title="서포트/힐러">
+    - 팀 유지력 제공
+    - 유틸리티 버프
+    - 예시: 안나
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="팀 구성 실수">
+뽑은 모든 커넥터를 업그레이드하지 마세요. 부족한 골드와 크리스탈을 5~6명의 핵심 팀에 집중하여 진행 효율을 유지하세요.
+</Callout>
+
+| 역할 | 전략 | 우선순위 |
+| :--- | :--- | :--- |
+| 탱커 | 후방 유닛 보호 | 높음 |
+| 딜러 | 스토리용 광역기 집중 | 높음 |
+| 힐러 | 보스전 팀 생존 유지 | 중간 |
+| 서포트 | 팀 배치 타이밍 강화 | 낮음 |
+
+</Section>
+
+<Section icon={Shield} title="전투 메커니즘 및 전술">
+
+**일루전 커넥트: Re**의 실시간 전투 시스템은 능동적인 의사결정을 요구합니다. 단순히 스탯을 지켜보는 것이 아니라 전장을 직접 관리해야 합니다.
+
+<Steps>
+  <Step num="1" title="진형 조정">
+    3x3 그리드 내에서 유닛을 이동시켜 적의 위치에 대응하고 리더를 보호하세요.
+  </Step>
+  <Step num="2" title="배치 코스트 관리">
+    모든 유닛을 한 번에 배치하지 마세요. 적의 공격 패턴에 대응할 적절한 타이밍을 기다리세요.
+  </Step>
+  <Step num="3" title="스킬 타이밍">
+    위험한 적 웨이브나 보스가 취약할 때를 대비해 궁극기를 아껴두세요.
+  </Step>
+</Steps>
+
+<Callout type="success" title="전투 꿀팁">
+**클래스 상성**에 주의를 기울이세요. 적의 약점에 맞는 클래스의 커넥터를 배치하면 훨씬 더 높은 데미지를 줄 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="출시 보상 및 성장">
+
+출시 시 제공되는 모든 자원을 활용하여 성장을 극대화하세요. 개발사인 SUGARGAME NETWORK LIMITED는 신규 플레이어를 돕기 위해 여러 마일스톤을 준비했습니다.
+
+| 보상 카테고리 | 요구사항 | 핵심 아이템 |
+| :--- | :--- | :--- |
+| 사전 예약 | 글로벌 마일스톤 | 페네베스, 2026 다이아몬드 |
+| 로그인 보너스 | 매일 출석 | 소환권, 골드 |
+| 소셜 이벤트 | 페이스북 팔로우 | 선물 코드, 크리스탈 |
+
+<Checklist
+  id="beginner-checklist"
+  title="일일 성장 목표:"
+  items={[
+    "일일 로그인 보상 수령",
+    "메인 스토리 스테이지 별점 클리어",
+    "스태미나를 캐릭터 경험치 재료에 투자",
+    "교환 메뉴에서 새로운 코드 확인"
+  ]}
+/>
+
+<Callout type="info" title="중요 참고사항">
+일반 배너에 다이아몬드를 사용하는 것보다 **소환권**을 항상 우선하세요. 다이아몬드는 한정 기간 "픽업(Selected UP)" 배너를 위해 아껴두어 상위 티어 유닛을 확정적으로 획득하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="자주 묻는 질문 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "일루전 커넥트: Re에서 리세마라를 할 가치가 있나요?",
+    answer: "네, 유피나 안나 같은 강력한 SSR 유닛을 시작부터 확보하면 스토리 진행이 훨씬 원활해지고 장기적으로 자원을 절약할 수 있습니다."
+  },
+  {
+    question: "선물 코드는 어떻게 사용하나요?",
+    answer: "게임을 열고 왼쪽 상단의 프로필 아이콘을 누른 뒤, 설정으로 이동하여 '교환(Redeem)' 옵션을 선택하고 코드를 입력하세요."
+  },
+  {
+    question: "초반에는 장비와 캐릭터 중 무엇에 집중해야 하나요?",
+    answer: "캐릭터(커넥터)에 집중하세요. 스토리와 초기 퀘스트만으로도 충분한 기본 장비를 얻을 수 있으므로, 핵심 팀의 레벨업과 등급 향상에 우선 투자하는 것이 좋습니다."
+  }
+]} />
+
+</Section>

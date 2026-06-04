@@ -1,8 +1,8 @@
-import { getAllContent, CONTENT_TYPES } from '@/lib/content'
-import type { ContentItem, Language } from '@/lib/content'
+import { getAllContent, CONTENT_TYPES } from "@/lib/content";
+import type { ContentItem, Language } from "@/lib/content";
 
 export interface ContentItemWithType extends ContentItem {
-  contentType: string
+  contentType: string;
 }
 
 /**
@@ -13,30 +13,31 @@ export interface ContentItemWithType extends ContentItem {
  */
 export async function getLatestArticles(
   locale: Language,
-  max: number = 30
+  max: number = 30,
 ): Promise<ContentItemWithType[]> {
   // 获取所有内容类型的文章
-  const allArticles: ContentItemWithType[] = []
+  const allArticles: ContentItemWithType[] = [];
 
   for (const contentType of CONTENT_TYPES) {
-    const items = await getAllContent(contentType, locale)
-    allArticles.push(...items.map(item => ({ ...item, contentType })))
+    const items = await getAllContent(contentType, locale);
+    allArticles.push(...items.map((item) => ({ ...item, contentType })));
   }
 
   // 预分配随机 key，确保同时间文章随机排序稳定
-  const articlesWithMeta = allArticles.map(article => ({
+  const articlesWithMeta = allArticles.map((article) => ({
     article,
     updateTime: article.frontmatter.lastModified
       ? new Date(article.frontmatter.lastModified).getTime()
-      : (article.frontmatter.date ? new Date(article.frontmatter.date).getTime() : 0),
-    rand: Math.random()
-  }))
+      : article.frontmatter.date
+        ? new Date(article.frontmatter.date).getTime()
+        : 0,
+  }));
 
-  // 排序：更新时间降序，同时间随机
+  // 排序：更新时间降序，同时间按 slug 稳定排序
   articlesWithMeta.sort((a, b) => {
-    if (a.updateTime !== b.updateTime) return b.updateTime - a.updateTime
-    return a.rand - b.rand
-  })
+    if (a.updateTime !== b.updateTime) return b.updateTime - a.updateTime;
+    return a.article.slug.localeCompare(b.article.slug);
+  });
 
-  return articlesWithMeta.slice(0, max).map(x => x.article)
+  return articlesWithMeta.slice(0, max).map((x) => x.article);
 }

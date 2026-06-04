@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Play Store: Essential Guide & Tips",
+  description: "Master Illusion Connect: Re with our guide on rerolling, team building, and launch rewards. Get the best start in this tactical anime RPG.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Illusion Connect: Re Play Store** version offers a tactical, real-time anime RPG experience.
+- Use **rerolling** to secure high-tier SSR Radiants like Yuffie or Anna for early game dominance.
+- Prioritize building a **balanced team** consisting of a tank, healer, and AoE damage dealer.
+- Claim all **launch rewards** and pre-registration gifts to maximize your initial summon resources.
+- Manage your **deployment cost** carefully to ensure optimal timing during 3x3 grid battles.
+</Callout>
+
+<Section icon={Map} title="Getting Started on Play Store">
+
+Illusion Connect: Re is a dynamic strategy RPG that emphasizes tactical positioning and real-time decision-making. Players step into the role of a leader, collecting over 130 unique Radiants to combat the encroaching Nightmares. Whether you are downloading from the Google Play Store or the Apple App Store, the core gameplay remains a blend of deep team building and intense, grid-based combat.
+
+**Video Highlights:**
+- Overview of the real-time combat system and 3x3 grid mechanics.
+- Introduction to the Radiant collection and team synergy.
+- Tips for navigating the game's home and bond features.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+<Callout type="tip" title="Pro Tip">
+Always check your in-game mailbox immediately after finishing the initial tutorial. Launch rewards often include essential Summon Tickets that are crucial for your first few pulls.
+</Callout>
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| Combat | Real-time 3x3 grid strategy | Critical |
+| Characters | 130+ unique Radiants | High |
+| Progression | Bond and Dream Base systems | Moderate |
+| Availability | Global launch June 4, 2026 | Essential |
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategy for Beginners">
+
+Rerolling is a common practice in Illusion Connect: Re to ensure your account starts with at least one top-tier SSR character. By using a guest account, you can quickly reset your progress if your initial summons do not meet your expectations.
+
+<Steps>
+  <Step num="1" title="Initialize Guest Account">
+    Start the game as a guest to avoid binding your primary email until you are satisfied with your pulls.
+  </Step>
+  <Step num="2" title="Complete Tutorial">
+    Finish the opening story and tutorial chapters to unlock the summon menu.
+  </Step>
+  <Step num="3" title="Claim All Rewards">
+    Collect pre-registration milestones and launch bonuses from your mailbox.
+  </Step>
+  <Step num="4" title="Execute Summons">
+    Use your free tickets on the Eternal Summon banner, then transition to the Selected Rate-Up banner.
+  </Step>
+  <Step num="5" title="Bind Account">
+    Once you secure your desired SSR Radiants, link your account to save your progress permanently.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Reroll Warning">
+Avoid spending your limited premium diamonds on the Equipment Banner during your first day. Focus all resources on summoning powerful Radiants to build your core team.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Building a Balanced Team">
+
+A successful team in Illusion Connect: Re requires more than just high-rarity units. You must balance your deployment cost and role distribution to survive difficult boss stages and story progression.
+
+<CardGrid cols={3}>
+  <Card title="Frontline Defense">
+    - Guardian class
+    - Absorbs enemy pressure
+    - Protects backline units
+  </Card>
+  <Card title="Damage Dealers">
+    - Sorcerer or Attacker
+    - AoE wave clearing
+    - Primary win condition
+  </Card>
+  <Card title="Support & Sustain">
+    - Healer class
+    - Team survival
+    - Buffs and utility
+  </Card>
+</CardGrid>
+
+| Role | Key SSR Target | Primary Benefit |
+| :--- | :--- | :--- |
+| AoE DPS | Yuffie | Fast wave clearing |
+| Healer | Anna | Team-wide sustain |
+| Tank | Kiraya | Shielding & protection |
+| Utility | Miyuki | Sustained damage output |
+
+</Section>
+
+<Section icon={Trophy} title="Launch Rewards and Milestones">
+
+The game launched with several milestones based on global pre-registration figures. Ensuring you collect these is vital for a smooth early-game experience.
+
+<Checklist
+  id="launch-rewards"
+  title="Must-Claim Rewards:"
+  items={[
+    "SSR Partner Fenebeth",
+    "2,026 Diamonds",
+    "10x Summon Tickets",
+    "SR Partner Beatrice",
+    "Limited Avatar Frame"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+Use the reward SSR Radiants like Fenebeth to fill missing roles in your team. They are often capable of carrying early content without needing significant investment.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Illusion Connect: Re available on the Play Store globally?",
+    answer: "Yes, the game launched globally on June 4, 2026, and is available for download on both the Google Play Store and the Apple App Store."
+  },
+  {
+    question: "Which characters are best for a new player?",
+    answer: "Beginners should aim for Yuffie for AoE damage, Anna for healing, and Kiraya for frontline defense to create a stable team foundation."
+  },
+  {
+    question: "Should I save my diamonds for specific banners?",
+    answer: "Yes, it is recommended to save diamonds for rate-up banners that feature characters who complement your current team structure."
+  }
+]} />
+
+</Section>

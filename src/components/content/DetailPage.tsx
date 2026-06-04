@@ -39,12 +39,13 @@ export async function DetailPage({
 
   // 内容类型翻译映射
   const contentTypeLabels: Record<string, string> = {
-    guides: t("nav.guides"),
-    crafting: t("nav.crafting"),
-    items: t("nav.items"),
-    biomes: t("nav.biomes"),
-    building: t("nav.building"),
-    support: t("nav.support"),
+    codes: t("nav.codes"),
+    tier: t("nav.tier"),
+    guide: t("nav.guide"),
+    release: t("nav.release"),
+    download: t("nav.download"),
+    server: t("nav.server"),
+    characters: t("nav.characters"),
   };
 
   // 提取图片元数据
@@ -79,7 +80,10 @@ export async function DetailPage({
                   <p {...props}>{children}</p>
                   {shouldInsertMobileAd && mobileInlineAd && (
                     <div className="not-prose my-6 md:hidden">
-                      <AdBanner type={mobileInlineAd.type} adKey={mobileInlineAd.adKey} />
+                      <AdBanner
+                        type={mobileInlineAd.type}
+                        adKey={mobileInlineAd.adKey}
+                      />
                     </div>
                   )}
                 </>

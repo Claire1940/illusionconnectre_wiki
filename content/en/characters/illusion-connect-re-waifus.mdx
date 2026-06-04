@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect Re Waifus: Top Tier Rankings & Meta Picks",
+  description: "Master your team composition with our 2026 guide to the best waifus in Illusion Connect Re, featuring reroll targets and strategic synergy tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Waifu+Tier+List",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect Re waifus** selection is critical for clearing high-level dream stages efficiently.
+- **Miyuki** remains the premier target for new players due to her powerful rage-reduction utility.
+- **Strategic team building** involves balancing roles like tanks, mages, and DPS to protect your captain.
+- **Rerolling** is an effective way to secure top-tier units early without significant resource investment.
+- **Character progression** through bios and dates offers deeper lore and combat bonuses.
+</Callout>
+
+<Section icon={Target} title="Understanding Waifu Roles and Meta">
+
+In *Illusion Connect Re*, your team is more than just a collection of favorites; it is a tactical squad designed to handle specific dream-based threats. Success depends on understanding how your chosen units interact with the grid-based battlefield.
+
+**Video Highlights:**
+- Efficient reroll methods for global server starts.
+- Managing guest account limitations and server selection.
+- Optimizing early-game pulls for maximum SSR value.
+
+<YouTubeEmbed videoId="OStt05fyx-E" title="Illusion Connect Re Super Fast Re-Roll Guide" />
+
+Each unit belongs to a specific role, which dictates their position and utility. Tanks provide the necessary frontline protection, while mages and DPS units focus on high-priority target elimination.
+
+| Role | Primary Function | Positioning |
+| :--- | :--- | :--- |
+| Tank | Absorb damage, protect captain | Frontline |
+| DPS | High single-target/AOE damage | Mid/Backline |
+| Mage | Debuff enemies, control field | Backline |
+| Healer | Restore HP, provide utility | Backline |
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize your Captain's protection. Even the most powerful waifus cannot save a battle if your Captain falls early, so invest in at least one solid tank unit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Top Tier Waifu Rankings">
+
+Building a meta-defining team requires identifying which characters offer the most value across various game modes, including PVP and late-game campaign chapters.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Miyuki">
+    - **Utility**: Rage reduction
+    - **Best for**: All content
+    - **Status**: Essential pull
+  </Card>
+  <Card title="A-Tier: Maki">
+    - **Utility**: High burst DPS
+    - **Best for**: Boss encounters
+    - **Status**: Strong carry
+  </Card>
+  <Card title="A-Tier: Yuffie">
+    - **Utility**: AOE damage
+    - **Best for**: Clearing mobs
+    - **Status**: Reliable mage
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meta Insight">
+Characters like Saya, who can be upgraded from SR to SSR, are surprisingly powerful due to their accessible shards and relatable backstory. Don't overlook them.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Reroll and Progression Strategy">
+
+If you are looking to start your journey with the best possible roster, following a structured reroll path is key. Since game accounts are tied to servers, manage your resources wisely.
+
+<Steps>
+  <Step num="1" title="Account Setup">
+    Log in as a guest to skip binding requirements during the initial phase.
+  </Step>
+  <Step num="2" title="Tutorial Speedrun">
+    Skip all cutscenes and dialogues to reach the first set of summon rewards within 5 minutes.
+  </Step>
+  <Step num="3" title="Targeted Summons">
+    Use your newbie summons to pull for high-value SSRs like Miyuki or Maki.
+  </Step>
+  <Step num="4" title="Reset if Necessary">
+    If the pulls are unsatisfactory, use the 'Switch Account' feature to clear data and try again on a different server.
+  </Step>
+</Steps>
+
+| Stage | Activity | Key Reward |
+| :--- | :--- | :--- |
+| Early | Newbie Summon | Guaranteed SSR |
+| Mid | Mailbox Claims | Radiant Summon Tickets |
+| Late | Daily Quests | Resource Crystals |
+
+<Callout type="warning" title="Important Notice">
+Account deletion typically takes 30 days. To bypass this, utilize different email addresses or switch across the available game servers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Milestones">
+
+To keep your waifus at peak performance, you must engage with the various progression systems daily. Consistent play is rewarded with currency and development materials.
+
+<Checklist
+  id="daily-progression"
+  title="Daily Routine Goals:"
+  items={[
+    "Complete daily stamina-based missions",
+    "Participate in at least three PVP matches",
+    "Interact with characters via the date system",
+    "Check the guild boss for contribution rewards"
+  ]}
+/>
+
+| Resource Type | Acquisition Method | Usage |
+| :--- | :--- | :--- |
+| Gold | Campaigns/Base | Leveling units |
+| Shards | Farming/Summons | Awakening/Star-up |
+| Tickets | Events/Login | Recruitment |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Who are the best Illusion Connect Re waifus for beginners?",
+    answer: "Miyuki is widely considered the best target due to her rage-reduction capabilities, which trivialize many difficult encounters."
+  },
+  {
+    question: "Is it worth rerolling in 2026?",
+    answer: "Yes, securing a top-tier SSR on your first 10-pull significantly improves your progression speed and resource efficiency."
+  },
+  {
+    question: "How do I upgrade my units effectively?",
+    answer: "Focus on leveling your primary damage dealers and tanks first, and use the date system to unlock additional character bios and passive stat boosts."
+  }
+]} />
+
+</Section>

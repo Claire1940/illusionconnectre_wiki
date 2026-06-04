@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re PC Setup & Beginner Strategy Guide",
+  description: "Master Illusion Connect: Re on PC with our comprehensive setup guide, reroll tips, tier list, and early-game combat strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re PC** play is best optimized via official Android emulators or Google Play Games for Windows.
+- **Reroll effectively** by targeting S-Tier Radiants like Yuffie and Anna during your first multi-summons.
+- **Combat strategy** relies on real-time 3×3 grid positioning and managing your deployment Cost efficiently.
+- **Team building** should prioritize a balanced core of one tank, one healer, and two high-damage dealers.
+- **Daily progression** is accelerated by focusing on Dream Base bonds and completing launch event milestones.
+</Callout>
+
+<Section icon={Map} title="Getting Started on PC">
+
+Playing Illusion Connect: Re on PC offers a superior visual experience, allowing you to appreciate the detailed Live2D character animations on a larger screen. Whether you are using a dedicated Android emulator or the native Google Play Games for Windows integration, the tactical 3×3 grid combat becomes much easier to manage with mouse precision.
+
+**Video Highlights:**
+- Real-time tactical battle mechanics
+- Optimal team deployment strategies
+- Early-game progression for new players
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Gameplay Overview" />
+
+<Callout type="tip" title="Pro Tip">
+Ensure your PC meets the minimum requirements for virtualized hardware acceleration to prevent stuttering during high-intensity combat scenes in the Dream World.
+</Callout>
+
+| Requirement | Specification |
+| :--- | :--- |
+| **OS** | Windows 10/11 64-bit |
+| **Processor** | Intel Core i5 or AMD Ryzen 5 |
+| **Memory** | 8GB RAM minimum |
+| **Storage** | 5GB+ available space |
+
+</Section>
+
+<Section icon={Target} title="Reroll & Starter Strategy">
+
+Rerolling is a vital step for new players to secure a strong foundation. By clearing the tutorial and claiming your pre-registration rewards, you can perform multiple summons early on. 
+
+<Steps>
+  <Step num="1" title="Guest Login">
+    Start your game as a Guest account to ensure you can quickly reset your progress if your initial summons are unsatisfactory.
+  </Step>
+  <Step num="2" title="Claim Rewards">
+    Navigate to your mailbox and collect all launch bonuses, pre-registration gifts, and any active gift codes.
+  </Step>
+  <Step num="3" title="Targeted Summons">
+    Spend your tickets on the Eternal Summon or active Rate-Up banners. Prioritize pulling for SSR units that provide AoE damage or team sustain.
+  </Step>
+  <Step num="4" title="Account Binding">
+    Only link your permanent social or email account once you have secured a team featuring at least two top-tier SSR Radiants.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Resource Management">
+Avoid spending your hard-earned Diamonds on equipment banners during the first week. Focus your premium currency exclusively on character summons to expand your roster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List & Team Building">
+
+Building a cohesive team is more important than simply stacking high-rarity units. A stable starter team should handle both wave-clearing and boss encounters.
+
+| Role | Responsibility | Priority |
+| :--- | :--- | :--- |
+| **Guardian** | Absorbs damage and protects leader | **High** |
+| **Sorcerer** | Provides heavy AoE damage | **High** |
+| **Healer** | Maintains team health during long fights | **Essential** |
+| **Attacker** | Single-target burst for bosses | Medium |
+
+<CardGrid cols={3}>
+  <Card title="Yuffie (SSR)">
+    - **Role**: Sorcerer
+    - Best for: Wave clearing
+    - Key trait: Massive AoE burst
+  </Card>
+  <Card title="Anna (SSR)">
+    - **Role**: Healer
+    - Best for: Team sustain
+    - Key trait: Wide-range recovery
+  </Card>
+  <Card title="Miyuki (SSR)">
+    - **Role**: Sorcerer
+    - Best for: Sustained damage
+    - Key trait: Reliable core DPS
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Combat & Progression">
+
+The combat system in Illusion Connect: Re revolves around your ability to manage deployment Cost and formation timing. Mastering the 3×3 grid allows you to counter Nightmare threats effectively.
+
+| Mechanic | Strategy |
+| :--- | :--- |
+| **Deployment Cost** | Always monitor your energy bar before placing a Radiant. |
+| **Formation Shift** | Move your frontline units to intercept incoming Nightmare attacks. |
+| **Ultimate Skills** | Save high-impact Ultimates for boss waves or critical health thresholds. |
+| **Class Counter** | Match your Radiant classes against enemy types to gain damage bonuses. |
+
+<Callout type="success" title="Success Factor">
+Deepening bonds in the Dream Base is not just for decoration. High bond levels unlock stat boosts and special abilities that are crucial for late-game content.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Essential Progression Checklist">
+
+Follow this checklist to ensure you are maximizing your daily efficiency and not missing out on key resources provided by the game's launch events.
+
+<Checklist
+  id="daily-checklist"
+  title="Daily Progression Goals:"
+  items={[
+    "Complete all daily missions for stamina and gold",
+    "Clear the daily resource farming stages",
+    "Check the Dream Base for bond interactions",
+    "Participate in active server events",
+    "Check official social media for new gift codes"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Settings} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is it worth playing Illusion Connect: Re on PC?",
+    answer: "Yes, PC play provides better performance and allows for easier control over tactical grid placements and skill timing compared to mobile devices."
+  },
+  {
+    question: "How do I redeem gift codes in-game?",
+    answer: "Tap your profile icon in the top-left corner, open Settings, and select the Redeem option. Enter your active code exactly as shown."
+  },
+  {
+    question: "Which characters should I prioritize for my first team?",
+    answer: "Prioritize a balanced setup including a Guardian for protection, a Healer for survivability, and AoE Sorcerers like Yuffie for clearing stages quickly."
+  }
+]} />
+
+</Section>

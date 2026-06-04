@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Gift } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Beginner Guide: 2026 Starter Tactics",
+  description: "Master Illusion Connect: Re with our expert beginner guide covering reroll tips, team building, combat mechanics, and essential launch rewards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Beginner+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re beginner guide** provides essential strategies for mastering real-time tactical combat and resource management.
+- Prioritize building a **balanced starter team** featuring one tank, one healer, and high-impact damage dealers.
+- Use **guest accounts** for efficient rerolling to secure top-tier SSR Radiants before binding your profile.
+- Focus on **daily progression** through the main story to unlock key features and Dream Base upgrades.
+</Callout>
+
+<Section icon={Target} title="Getting Started: Combat & Progression">
+
+To succeed in the dream world, you must understand the core battle system. Combat is a real-time 3x3 grid strategy game where formation and deployment timing dictate victory against Nightmares.
+
+**Video Highlights:**
+- Understanding the real-time battle flow
+- Effective Radiant deployment and cost management
+- Mastering Ultimate Skill timing for boss encounters
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+New players often struggle with resource allocation. Instead of upgrading every unit you summon, focus your Gold and crystals on a core squad of five.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **3x3 Grid** | Tactical placement is key to survival | High |
+| **Deployment Cost** | Manage energy to avoid being overwhelmed | High |
+| **Ultimate Skills** | Save for critical waves or boss pressure | Critical |
+| **Class Counters** | Use type advantages to boost damage | Medium |
+
+<Callout type="tip" title="Pro Tip">
+Always check your Radiant's deployment cost before the match. A team with too many high-cost units will struggle to respond to fast-paced enemy waves.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Reroll Strategy for Beginners">
+
+Rerolling allows you to start the game with a powerful foundation. By using a guest account, you can quickly reset your progress if your initial summons do not include key SSR characters.
+
+<Steps>
+  <Step num="1" title="Create Guest Account">
+    Launch the game and select the guest login option to avoid linking your main email immediately.
+  </Step>
+  <Step num="2" title="Clear Tutorial">
+    Complete the opening chapters to unlock the summon menu and receive your first batch of free tickets.
+  </Step>
+  <Step num="3" title="Claim All Rewards">
+    Navigate to the mailbox and event tabs to collect pre-registration bonuses and launch rewards.
+  </Step>
+  <Step num="4" title="Execute Summons">
+    Spend your free tickets on the Eternal Summon banner to secure your first SSR Radiants.
+  </Step>
+  <Step num="5" title="Evaluate & Reset">
+    If you did not pull at least two S-Tier or A-Tier units, log out, clear game data, and repeat the process.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Stop Condition">
+Do not spend hours rerolling for a "perfect" account. Aim for a solid start with a damage dealer like Yuffie or a healer like Anna, then begin your story progress.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Building Your Best Team">
+
+Your team structure is more important than individual rarity. A balanced setup ensures you can handle various enemy types and sustain through long boss fights.
+
+<CardGrid cols={3}>
+  <Card title="Frontline Tank">
+    - **Purpose**: Absorb damage
+    - **Recommended**: Kiraya
+    - **Key Stat**: HP & Defense
+  </Card>
+  <Card title="AoE Damage">
+    - **Purpose**: Clear waves
+    - **Recommended**: Yuffie
+    - **Key Stat**: Attack
+  </Card>
+  <Card title="Team Sustain">
+    - **Purpose**: Healing
+    - **Recommended**: Anna
+    - **Key Stat**: Healing Power
+  </Card>
+</CardGrid>
+
+| Role | Responsibility | Strategy |
+| :--- | :--- | :--- |
+| **Tank** | Protect the backline | Deploy first to stabilize the grid |
+| **DPS** | Eliminate threats | Deploy once tank is established |
+| **Healer** | Maintain team HP | Time skills with enemy burst windows |
+| **Support** | Buffs or Debuffs | Use to counter specific boss mechanics |
+
+</Section>
+
+<Section icon={Gift} title="Launch Rewards & Resource Management">
+
+Maximizing your early-game resources is vital. The game provides several milestones that offer significant boosts to your account power.
+
+<Checklist
+  id="beginner-milestones"
+  title="Early Progression Checklist:"
+  items={[
+    "Complete the 300,000 pre-registration milestone rewards",
+    "Claim the free SSR Partner Fenebeth",
+    "Focus upgrade materials on your core team only",
+    "Spend Diamonds primarily on Limited Banners",
+    "Decorate your Dream Base for passive bonuses"
+  ]}
+/>
+
+<Callout type="success" title="Resource Management">
+Avoid spending Diamonds on equipment banners early on. Use story rewards for gear and save your premium currency for character banners to expand your tactical options.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is it worth rerolling in Illusion Connect: Re?",
+    answer: "Yes, rerolling helps you obtain key SSR Radiants like Yuffie or Anna early, which makes clearing story content significantly smoother."
+  },
+  {
+    question: "Which characters should I prioritize upgrading?",
+    answer: "Prioritize your primary AoE damage dealer, your main tank, and your dedicated healer. Do not spread your upgrade materials across too many characters."
+  },
+  {
+    question: "How do I use gift codes?",
+    answer: "Go to your Profile in the top-left corner, open Settings, select the Redeem option, and enter your active codes exactly as shown."
+  },
+  {
+    question: "What is the Dream Base?",
+    answer: "The Dream Base is a home decoration feature that provides passive benefits and deepens bonds with your Radiants, unlocking new combat abilities."
+  }
+]} />
+
+</Section>

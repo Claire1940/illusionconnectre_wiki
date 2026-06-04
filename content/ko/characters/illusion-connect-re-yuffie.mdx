@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "일루전 커넥트: Re 유피(Yuffie): 최적의 빌드 및 티어 리스트 가이드",
+  description: "일루전 커넥트: Re의 유피를 마스터하세요. 최적의 빌드, 팀 시너지, 초반 티어 리스트 등 전문가 가이드를 확인해 보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/6d28d9/fff?text=Yuffie+Strategy+Guide",
+  date: "2026-06-04",
+  author: "일루전 커넥트: Re 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **유피**는 엄청난 광역(AoE) 폭발 피해로 잘 알려진 최상위권 **SSR 마법사**입니다.
+- 스토리 진행과 파밍 속도를 높이기 위해 리세마라 시 **유피**를 최우선으로 확보하세요.
+- **안나**의 지속 회복과 **키라야**의 전열 방어를 활용해 유피 중심의 팀을 구성하세요.
+- 실시간 전투에서 웨이브를 빠르게 정리하기 위해 유피의 필살기(Ultimate Skill) 레벨업에 집중하세요.
+- 너무 많은 캐릭터에게 자원을 분산하지 말고, 핵심 팀 멤버 위주로 육성하세요.
+</Callout>
+
+<Section icon={Swords} title="유피가 메타를 지배하는 이유">
+
+유피는 일루전 커넥트: Re의 초반 플레이어들에게 가장 영향력 있는 커넥터 중 하나입니다. 전장의 모든 적에게 일관된 폭발 피해를 입히는 그녀의 능력은 스토리 스테이지와 일일 파밍 임무를 효율적으로 완료하는 데 필수적입니다.
+
+| 기능 | 성능 |
+| :--- | :--- |
+| **역할** | 마법사 |
+| **주요 강점** | 광역 폭발 피해 |
+| **등급** | SSR |
+| **초반 우선순위** | 높음 |
+| **시너지** | 지속 회복 서포터와 탁월함 |
+
+<Callout type="tip" title="전략적 배치">
+한꺼번에 몰려오는 나이트메어 웨이브를 정리해야 할 때 항상 유피를 배치하세요. 그녀의 스킬 타이밍을 적절히 활용하면 잡몹을 즉시 제거하여 어려운 보스전의 흐름을 바꿀 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="리세마라 및 초반 전략">
+
+초반에 유피를 확보하면 계정의 장기적인 효율성이 크게 향상됩니다. 런칭 기간 동안 그녀를 획득할 확률을 극대화하려면 다음 단계를 따르세요.
+
+<Steps>
+  <Step num="1" title="게스트 계정으로 시작">
+    메인 프로필을 즉시 연동하지 않고 빠르게 리셋할 수 있도록 게스트 계정으로 시작하세요.
+  </Step>
+  <Step num="2" title="튜토리얼 완료">
+    약 10~15분 정도 소요되는 튜토리얼을 진행하여 소환 메뉴를 잠금 해제하세요.
+  </Step>
+  <Step num="3" title="런칭 보상 수령">
+    우편함에서 사전 예약 보상과 선물 코드를 모두 수령하여 추가 소환권을 확보하세요.
+  </Step>
+  <Step num="4" title="타겟 소환">
+    무료 소환권을 사용하여 '영원한 소환' 배너를 뽑으세요. 유피를 얻지 못했다면 과정을 반복하세요.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="자원 관리">
+초반부터 어렵게 모은 다이아를 장비 배너에 사용하지 마세요. 유피와 다른 핵심 SSR 유닛을 먼저 확보하는 데 자원을 집중하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="최고의 팀 구성">
+
+유피를 중심으로 팀을 구성하려면 보호와 유틸리티의 균형이 필요합니다. 그녀는 후열 딜러이기 때문에 긴 전투에서 살아남으려면 안정적인 전열이 필수적입니다.
+
+<CardGrid cols={3}>
+  <Card title="지속 유지 조합">
+    - **전열:** 키라야
+    - **서포트:** 안나
+    - **핵심:** 유피
+    - *보스 생존력에 최적화.*
+  </Card>
+  <Card title="폭발 딜 조합">
+    - **전열:** 판
+    - **서포트:** 미유키
+    - **핵심:** 유피
+    - *빠른 스토리 클리어에 최적화.*
+  </Card>
+  <Card title="제어 중심 조합">
+    - **전열:** 키라야
+    - **서포트:** 페네베스
+    - **핵심:** 유피
+    - *까다로운 스테이지 공략에 최적화.*
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="시너지 보너스">
+에너지 회복이나 스킬 쿨타임 감소 효과를 제공하는 유닛과 함께 유피를 사용하면 필살기를 더 자주 사용할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="전투 메커니즘 및 업그레이드">
+
+유피의 스탯을 최적화하는 방법을 이해하는 것은 후반부 성장에 매우 중요합니다. 라인업의 핵심 멤버로 유지하기 위해 다음 성장 요소에 집중하세요.
+
+| 업그레이드 경로 | 혜택 |
+| :--- | :--- |
+| **레벨 제한** | 기본 공격력 및 체력 스탯 증가 |
+| **스킬 레벨** | 필살기 피해 계수 증폭 |
+| **인연 진행도** | 패시브 스탯 보너스 잠금 해제 |
+| **장비** | 공격력% 및 치명타 세트 집중 |
+
+<Checklist
+  id="yuffie-checklist"
+  title="유피 육성 체크리스트:"
+  items={[
+    "현재 챕터의 최대 레벨 도달",
+    "필살기 스킬 최소 3레벨 이상 달성",
+    "사용 가능한 모든 인연 스토리 해금",
+    "고등급 마법사 전용 장비 착용"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="자주 묻는 질문(FAQ)">
+
+<FAQ items={[
+  {
+    question: "초보자에게 유피가 미유키보다 더 좋은가요?",
+    answer: "유피는 광역 폭발 피해에 뛰어나고, 미유키는 지속 피해와 유틸리티에 강점이 있습니다. 둘 다 최상위권이지만, 웨이브 정리 속도는 유피가 일반적으로 더 빠릅니다."
+  },
+  {
+    question: "유피를 PVP 모드에서 사용할 수 있나요?",
+    answer: "네, 강력한 폭발 피해를 통해 실시간 PVP 전투에서 적 커넥터를 빠르게 제거하는 데 효과적입니다."
+  },
+  {
+    question: "유피의 스킬을 빠르게 업그레이드하는 방법은 무엇인가요?",
+    answer: "일일 자원 던전에서 스킬 북을 파밍하는 데 집중하고, 일반 공격보다 필살기 스킬을 우선적으로 강화하세요."
+  }
+]} />
+
+</Section>

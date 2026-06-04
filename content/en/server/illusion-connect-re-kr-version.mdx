@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re KR Version: Beginner Guide & Tips",
+  description: "Master Illusion Connect: Re with our expert guide covering reroll strategies, team building, and launch rewards for the best start.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/6d28d9/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re** offers a tactical 3x3 grid combat system featuring over 130 unique Radiants.
+- **Rerolling** is highly recommended to secure top-tier units like Yuffie or Anna early on.
+- Focus on building a **balanced team** consisting of a tank, healer, and AoE damage dealer.
+- Maximize your resources by claiming all **pre-registration and launch rewards** immediately.
+- Use **gift codes** to gain extra summon tickets and diamonds for your first banner pulls.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Illusion Connect: Re">
+
+Embarking on your journey in the dream world requires a solid foundation. Whether you are searching for the KR version or global launch details, the core progression remains consistent. The game combines strategic real-time battles with deep character bonding, requiring players to think critically about deployment costs and formation timing.
+
+**Video Highlights:**
+- Understanding the 3x3 grid battle mechanics.
+- Efficiently managing Radiant deployment energy.
+- How to utilize Ultimate Skills to turn the tide of battle.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize upgrading your main damage dealer and healer before spreading resources across your entire roster. This ensures you can clear story stages faster.
+</Callout>
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| **Real-Time Battle** | Dynamic 3x3 grid combat | High |
+| **Radiant Bonds** | Unlocks new character abilities | Medium |
+| **Dream Base** | Home decoration and resource gain | Medium |
+| **Deployment Cost** | Managing energy for unit placement | High |
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategy and Best Starters">
+
+Rerolling allows you to start the game with powerful SSR Radiants, significantly reducing the difficulty of early story chapters. Follow this route to optimize your initial summons.
+
+<Steps>
+  <Step num="1" title="Guest Login">
+    Start the game using a guest account to allow for quick resets if the initial pulls are unsatisfactory.
+  </Step>
+  <Step num="2" title="Tutorial Completion">
+    Complete the initial tutorial to unlock the summoning menu and gain access to your first set of resources.
+  </Step>
+  <Step num="3" title="Resource Collection">
+    Claim all pre-registration rewards, launch bonuses, and active gift codes from your mailbox.
+  </Step>
+  <Step num="4" title="Targeted Summons">
+    Spend your tickets on the Eternal or Selected UP banners to aim for S-tier characters.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Reroll Caution">
+Do not bind your account to a permanent platform until you are satisfied with your initial SSR pulls.
+</Callout>
+
+| Unit Name | Role | Tier | Best For |
+| :--- | :--- | :--- | :--- |
+| **Yuffie** | Sorcerer | S | AoE Burst / Farming |
+| **Anna** | Healer | S | Team Sustain / Bosses |
+| **Miyuki** | Sorcerer | A | Sustained DPS / Utility |
+| **Kiraya** | Guardian | A | Frontline Tank / Shielding |
+
+</Section>
+
+<Section icon={Shield} title="Building Your First Team">
+
+A stable team is more effective than a random group of high-rarity units. Use the following structure to ensure your formation can handle diverse Nightmare threats.
+
+<CardGrid cols={3}>
+  <Card title="Frontline">
+    - **Guardian class**
+    - High HP and Defense
+    - Protects the team
+  </Card>
+  <Card title="Damage Core">
+    - **Sorcerer or Attacker**
+    - AoE or Single-target burst
+    - Clears enemy waves
+  </Card>
+  <Card title="Support/Heal">
+    - **Healer or Support**
+    - Sustains team health
+    - Buffs or utility
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Team Building Goal">
+Aim for a balanced team shell: 1 Tank, 1 Healer, and 2 Damage Dealers. This setup provides the best survivability-to-damage ratio for early game progression.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Launch Rewards and Events">
+
+The launch period is the most generous time to play. Ensure you track the milestones provided by the developers to maximize your free currency.
+
+| Milestone | Requirement | Reward |
+| :--- | :--- | :--- |
+| **Pre-Reg** | Global Sign-up | SSR Fenebeth, 2026 Diamonds |
+| **50k Milestone** | Community Goal | SR Beatrice, 20k Gold |
+| **100k Milestone** | Community Goal | Avatar Frame, 20k Crystals |
+| **300k Milestone** | Community Goal | Phoebe Skin, Selected Tickets |
+
+<Checklist
+  id="launch-tasks"
+  title="Daily Launch Checklist:"
+  items={[
+    "Check the mailbox for gift codes",
+    "Complete daily login missions",
+    "Progress through the main story",
+    "Engage with the Dream Base features"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is rerolling necessary in Illusion Connect: Re?",
+    answer: "While not strictly required, rerolling for at least one top-tier SSR like Yuffie or Anna makes early story progression significantly smoother."
+  },
+  {
+    question: "How do I redeem codes in the game?",
+    answer: "Tap your Profile in the top-left corner, go to Game Settings, select the Redeem option, and enter your code exactly as shown."
+  },
+  {
+    question: "What should I spend my Diamonds on first?",
+    answer: "Focus your Diamonds on the Selected UP banners to chase specific high-tier Radiants rather than spending them on generic equipment."
+  }
+]} />
+
+</Section>

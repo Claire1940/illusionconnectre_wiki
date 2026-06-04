@@ -1,0 +1,131 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect Re Official Launch: Essential Tips & Troubleshooting",
+  description: "Navigate the Illusion Connect Re official launch with our guide covering banner bugs, reroll strategies, and essential gameplay tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **illusion connect re official launch** introduces new mechanics that require careful resource management.
+- Players should be aware of **potential banner bugs** affecting SSR guarantee rates on early multis.
+- **Strategic rerolling** is hindered by current pool limitations; prioritize stamina efficiency instead.
+- The **limited summon system** features higher costs and capped ticket purchases, requiring disciplined spending.
+</Callout>
+
+<Section icon={Map} title="Navigating the Launch Experience">
+
+The official relaunch of the game has brought both excitement and technical hurdles. Understanding the current state of the game is vital for any player looking to optimize their early-game progression.
+
+**Video Highlights:**
+- Analysis of summoning banner bugs and rate expectations.
+- Critical feedback on reroll processes and character availability.
+- Advice on resource allocation for limited-time banners.
+
+<YouTubeEmbed videoId="N3I3Y3IgFZE" title="Disaster Launch? Illusion Connect Relaunch Has CRAZY Banner Bugs?!" />
+
+<Callout type="warning" title="Launch Stability Alert">
+Early reports indicate inconsistencies with banner pity systems. Always check the in-game details screen for the most current information before committing your diamonds to a specific banner.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Summoning Mechanics and Rates">
+
+The summoning system in this version differs from the original. Costs have been adjusted, and there are specific caps on how many tickets can be purchased.
+
+| Feature | Details |
+| :--- | :--- |
+| Normal Summon Cost | **200 Diamonds** |
+| Limited Banner Cost | **400 Diamonds** |
+| Normal Banner Rate | **1.25%** |
+| Limited Banner Rate | **3.0%** |
+
+<Callout type="tip" title="Efficiency Tip">
+Since limited banners are capped at 20 tickets for non-paying players, focus your resources on banners that provide the most value for your specific team composition rather than chasing every new arrival.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimized Reroll Strategy">
+
+Rerolling can be time-consuming, and current reports suggest that certain characters may not be available in the initial pool. Follow these steps to maximize your time.
+
+<Steps>
+  <Step num="1" title="Account Initialization">
+    Create your account and complete the mandatory tutorial phases to unlock the summon menu.
+  </Step>
+  <Step num="2" title="Resource Collection">
+    Claim all available mail rewards and check-in event bonuses to gather maximum starting currency.
+  </Step>
+  <Step num="3" title="Targeted Pulls">
+    Focus your summons on banners with confirmed drop rates, avoiding those currently flagged for potential bugs.
+  </Step>
+  <Step num="4" title="Stamina Priority">
+    If you are not satisfied with your pulls, consider using your diamonds for stamina rather than further summons to accelerate account leveling.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Resource Comparison: Diamonds vs Tickets">
+
+Managing your currency is the key to long-term success. The following table highlights the trade-offs between various spending strategies.
+
+| Resource | Best Usage | Efficiency Level |
+| :--- | :--- | :--- |
+| Diamonds | Stamina Refills | **High** |
+| Normal Tickets | Standard Pool | **Medium** |
+| Limited Tickets | Rate-Up Banners | **Context Dependent** |
+
+<Callout type="success" title="Progression Insight">
+Investing diamonds into stamina during the launch window allows you to unlock higher-level content faster, which often yields more rewards than a single lucky pull.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Daily Checklist for Success">
+
+Consistency is the hallmark of a strong player. Use this checklist to ensure you are not missing out on vital progression materials.
+
+<Checklist
+  id="daily-tasks"
+  title="Daily Routine:"
+  items={[
+    "Complete all daily login rewards",
+    "Clear main story stages for progression",
+    "Utilize stamina refills for material farming",
+    "Check the partner database for upcoming character rotations"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the illusion connect re official launch stable?",
+    answer: "While the launch has experienced some technical issues and banner bugs, the developers are monitoring the situation. It is advised to keep an eye on official announcements."
+  },
+  {
+    question: "Why are some characters missing from the summon pool?",
+    answer: "Some characters may be gated behind specific summon counts or event timelines. Always verify the 'Partners Preview' to see current availability."
+  },
+  {
+    question: "Should I spend diamonds on the limited banner?",
+    answer: "Only if you have enough to reach the pity threshold. Given the 2-day duration and ticket caps, it is a high-risk investment for free-to-play users."
+  }
+]} />
+
+</Section>

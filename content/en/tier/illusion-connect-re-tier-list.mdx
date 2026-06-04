@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Tier List: Best Radiants & Starter Rankings",
+  description: "Master the meta with our Illusion Connect: Re tier list. Discover the top Radiants for early-game progression, reroll targets, and balanced team building.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/6d28d9/fff?text=Tier+List+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Illusion Connect: Re tier list** prioritizes units that offer strong AoE damage, reliable healing, and frontline durability.
+- Focus your early resources on **S-Tier Radiants** to ensure smooth progression through story stages and boss encounters.
+- A **balanced team** requires at least one healer, one tank, and two high-impact damage dealers for optimal performance.
+- Use your **reroll opportunities** to secure core units like Yuffie or Anna before binding your account.
+- Always check **deployment costs** to maintain a smooth rotation of skills during real-time tactical battles.
+</Callout>
+
+<Section icon={Trophy} title="Radiant Tier Rankings">
+
+Choosing the right characters is vital for your success in the Dream World. This ranking focuses on early-game efficiency, utility, and how well these units fit into a beginner-friendly team.
+
+**Video Highlights:**
+- Understanding the 3x3 grid battlefield mechanics.
+- Optimal Radiant positioning for maximum ability impact.
+- How to manage deployment costs effectively during combat.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+| Tier | Role | Primary Focus | Best Examples |
+| :--- | :--- | :--- | :--- |
+| **S** | DPS/Sustain | High AoE impact, essential healing | **Yuffie**, **Anna** |
+| **A** | Core DPS/Tank | Reliable damage, frontline defense | **Miyuki**, **Kiraya** |
+| **B** | Support/Utility | Buffs, debuffs, specific counters | SR units, specialized roles |
+
+<Callout type="tip">
+Don't be discouraged if you don't have all S-Tier units immediately. Many SR characters provide excellent utility and can be upgraded to fill gaps until you pull more SSR Radiants.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Starter Team Composition">
+
+Building a team is more than just stacking the highest-rated units. You need a mix of roles to handle different Nightmare encounters. Use the following table to structure your initial squad.
+
+| Slot | Role | Responsibility | Recommended Strategy |
+| :--- | :--- | :--- | :--- |
+| 1 | **AoE DPS** | Clear waves | Prioritize **Yuffie** for burst clearing |
+| 2 | **Guardian** | Frontline protection | Use **Kiraya** or high-HP tanks |
+| 3 | **Healer** | Team sustain | **Anna** is your best long-term choice |
+| 4 | **Core DPS** | Boss damage | **Miyuki** provides consistent debuffs |
+| 5 | **Flex** | Utility/Control | Adapt based on stage requirements |
+
+<CardGrid cols={3}>
+  <Card title="Frontline Logic">
+    - Keep your Guardian ahead
+    - Protect squishy Sorcerers
+    - Rotate tanks when HP is low
+  </Card>
+  <Card title="Damage Strategy">
+    - Time ultimates for waves
+    - Focus fire on key targets
+    - Manage deployment energy
+  </Card>
+  <Card title="Sustain Focus">
+    - Don't wait for total wipe
+    - Time heals for boss phases
+    - Maintain team buffs
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Resource Management">
+Avoid spreading your upgrade materials across too many characters. Focus on your core five-unit team first to ensure you can clear mid-game content without hitting a difficulty wall.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategy">
+
+Rerolling is a strategic advantage for new accounts. Follow these steps to maximize your chances of starting with a top-tier Radiant.
+
+<Steps>
+  <Step num="1" title="Account Creation">
+    Start with a guest account to avoid binding your primary email until you are satisfied with your initial pulls.
+  </Step>
+  <Step num="2" title="Tutorial Completion">
+    Speed through the opening chapters and tutorial battles to unlock the summon menu.
+  </Step>
+  <Step num="3" title="Resource Collection">
+    Claim all pre-registration rewards, launch gifts, and available codes from the mailbox.
+  </Step>
+  <Step num="4" title="Targeted Pulls">
+    Spend your free tickets on the Eternal Summon and focus your diamonds on the high-value Selected Rate-Up banners.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Progression Checklist">
+
+Use this checklist to keep your account growth on track during the first week of play.
+
+<Checklist
+  id="progression-goals"
+  title="Weekly Progression Milestones:"
+  items={[
+    "Clear Chapter 3 of the main story",
+    "Level up your main team to level 20",
+    "Unlock and decorate the Dream Base",
+    "Complete all daily beginner missions",
+    "Secure at least two SSR Radiants"
+  ]}
+/>
+
+<Callout type="success" title="Progression Tip">
+Always visit your Dream Base daily. The bond progression and idle resources collected here provide a passive boost that is essential for long-term power scaling.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is the Illusion Connect: Re tier list permanent?",
+    answer: "No. The meta shifts as new Radiants are released and balance updates occur. Use our tier list as a baseline for early-game success."
+  },
+  {
+    question: "Should I pull for equipment banners?",
+    answer: "Generally, no. Early premium currency is better spent on pulling Radiants to build a diverse roster of characters."
+  },
+  {
+    question: "How do I know if a team is balanced?",
+    answer: "A balanced team includes a dedicated healer, a tank, and at least two damage dealers with different skill types to handle varied enemy compositions."
+  }
+]} />
+
+</Section>

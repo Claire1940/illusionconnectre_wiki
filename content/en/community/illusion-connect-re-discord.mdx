@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect Re Discord: Community Hub & Reroll Strategies",
+  description: "Join the official Illusion Connect Re Discord community for the latest updates, reroll strategies, and expert gameplay tips for the 2026 relaunch.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Community+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Use the **illusion connect re discord** to stay updated on current server status and active gift codes.
+- Efficient **rerolling** requires managing guest accounts across multiple servers to avoid the 30-day deletion penalty.
+- Focus your initial resources on the **newbie summon banner** to secure a guaranteed SSR unit.
+- Always check community channels for **real-time bug reports** regarding limited-time banners.
+- Progression is key; prioritize story completion to unlock more rewards and summoning tickets.
+</Callout>
+
+<Section icon={Map} title="Joining the Community">
+
+The **illusion connect re discord** serves as the primary hub for players to discuss the latest relaunch mechanics. As the game returns to the scene, community-driven data is essential for navigating the updated banner systems and summoning rates.
+
+**Video Highlights:**
+- Master the fast-reroll process for new accounts.
+- Identify the best SSR targets for your initial pulls.
+- Understand how to bypass the 30-day account deletion restriction.
+
+<YouTubeEmbed videoId="OStt05fyx-E" title="Illusion Connect Re Super Fast Re-Roll Guide" />
+
+Connecting with other players allows you to verify if certain characters are currently available in the pool. Many veterans share their findings on pull rates, which currently sit at approximately 1.25% for standard banners.
+
+<Callout type="tip">
+Always verify the latest patch notes in the Discord announcement channel before committing your diamonds to a new banner.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategies">
+
+Rerolling in the current version of the game requires patience and a systematic approach. Since account deletion takes 30 days, using alternative servers or salted email methods is the standard practice for optimizing your starting lineup.
+
+| Method | Efficiency | Risk Level |
+| :--- | :--- | :--- |
+| Guest Account (New Server) | High | Low |
+| Salted Email | Medium | Low |
+| Multiple Email Accounts | Medium | Moderate |
+
+<Steps>
+  <Step num="1" title="Initial Login">
+    Log in as a guest to skip unnecessary account binding during your first few minutes.
+  </Step>
+  <Step num="2" title="Tutorial Speed-run">
+    Skip all cutscenes to minimize the time spent on the mandatory Nina tutorial sequence.
+  </Step>
+  <Step num="3" title="Newbie Summon">
+    Utilize the newbie banner, which guarantees an SSR unit to kickstart your progression.
+  </Step>
+  <Step num="4" title="Claim Rewards">
+    Navigate to the mailbox to claim your free Fennebeth and additional summoning tickets.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+The game does not currently offer an instant account deletion feature. Ensure you manage your guest accounts carefully across different servers to avoid locking yourself out of potential rerolls.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Summoning and Banners">
+
+Understanding the current banner mechanics is vital. Players have noted discrepancies in guaranteed SSR rates, particularly on limited-time banners. The following table highlights the differences between standard and limited banners.
+
+| Banner Type | Cost | Pity System | Status |
+| :--- | :--- | :--- | :--- |
+| Radiant Summon | 200 Diamonds | Unknown | Stable |
+| Limited Banner | 400 Diamonds | Hard Pity | Buggy |
+
+<CardGrid cols={3}>
+  <Card title="Standard Banners">
+    Focus on building your core team with stable, long-term units.
+  </Card>
+  <Card title="Limited Banners">
+    High-risk, high-reward; watch for community feedback before spending.
+  </Card>
+  <Card title="Resource Management">
+    Save your diamonds for banners where you have enough tickets for a guarantee.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy">
+Prioritize spending your diamonds on stamina refills in the early game to progress faster through the story, which grants more long-term rewards than risky early-game pulls.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gameplay Milestones">
+
+To maximize your efficiency in *Illusion Connect: Re*, focus on these essential tasks. Tracking your progress helps you stay ahead of the curve and ensures you do not miss limited-time events.
+
+<Checklist
+  id="progression-checklist"
+  title="Daily and Weekly Goals:"
+  items={[
+    "Complete all daily stamina quests",
+    "Clear main story chapters for summon tickets",
+    "Participate in the current login event",
+    "Check the Discord for active gift code drops"
+  ]}
+/>
+
+| Milestone | Reward Type | Importance |
+| :--- | :--- | :--- |
+| Day 1 Login | Summon Tickets | High |
+| Day 8 Login | Miyuki (SSR) | Essential |
+| Story Chapter 5 | Resource Access | High |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find the latest gift codes for illusion connect re?",
+    answer: "The best place to find active codes is the pinned messages in the official illusion connect re discord server."
+  },
+  {
+    question: "Is it worth rerolling for Miyuki?",
+    answer: "Yes, Miyuki remains one of the most powerful and versatile units in the game, making her a top priority for rerolls."
+  },
+  {
+    question: "Why can't I see specific characters in the banner pool?",
+    answer: "Some characters may be gated behind a certain number of total summons or specific game progress, which is currently a point of discussion in the community."
+  },
+  {
+    question: "Does pity carry over between banners?",
+    answer: "There is currently no official confirmation regarding pity carry-over, so it is recommended to save enough resources to hit hard pity on a single banner."
+  }
+]} />
+
+</Section>

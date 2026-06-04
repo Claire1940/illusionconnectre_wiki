@@ -1,45 +1,19 @@
-import { Link } from '@/i18n/navigation'
-import Image from 'next/image'
-import { ContentItem, Language } from '@/lib/content'
-import { Calendar, User, Sparkles, MapPin, Star, BookOpen } from 'lucide-react'
-import { getTranslations } from 'next-intl/server'
-import { extractPrimaryKeyword } from '@/lib/utils'
-import { NativeBannerAd, AdBanner } from '@/components/ads'
-import { getPreferredMobileBannerSelection } from '@/components/ads/mobileAdConfigs'
-import { Fragment } from 'react'
+import { Link } from "@/i18n/navigation";
+import Image from "next/image";
+import { ContentItem, Language } from "@/lib/content";
+import { Calendar, User, Sparkles, MapPin, Star, BookOpen } from "lucide-react";
+import { getTranslations } from "next-intl/server";
+import { extractPrimaryKeyword } from "@/lib/utils";
+import { NativeBannerAd, AdBanner } from "@/components/ads";
+import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConfigs";
+import { Fragment } from "react";
 
 interface NavigationPageProps {
-  title: string
-  description: string
-  items: ContentItem[]
-  contentType: string
-  language: Language
-}
-
-// 辅助函数：基于种子的确定性随机选择
-// 使用简单的哈希函数生成伪随机数，确保服务器端和客户端结果一致
-function seededRandom(seed: string): number {
-  let hash = 0
-  for (let i = 0; i < seed.length; i++) {
-    const char = seed.charCodeAt(i)
-    hash = ((hash << 5) - hash) + char
-    hash = hash & hash // Convert to 32bit integer
-  }
-  return Math.abs(hash) / 2147483647
-}
-
-// 辅助函数：使用确定性算法选择 n 个元素
-function getRandomItems<T>(array: T[], count: number, seed: string): T[] {
-  const indices = array.map((_, i) => i)
-
-  // 使用种子生成确定性的排序
-  indices.sort((a, b) => {
-    const hashA = seededRandom(`${seed}-${a}`)
-    const hashB = seededRandom(`${seed}-${b}`)
-    return hashA - hashB
-  })
-
-  return indices.slice(0, count).map(i => array[i])
+  title: string;
+  description: string;
+  items: ContentItem[];
+  contentType: string;
+  language: Language;
 }
 
 export async function NavigationPage({
@@ -50,14 +24,11 @@ export async function NavigationPage({
   language,
 }: NavigationPageProps) {
   // 获取翻译
-  const t = await getTranslations(`pages.${contentType}`)
-  const mobileBannerAd = getPreferredMobileBannerSelection()
+  const t = await getTranslations(`pages.${contentType}`);
+  const mobileBannerAd = getPreferredMobileBannerSelection();
 
-  // 随机选择 2 个作为 Featured & Essential
-  // 使用 contentType 作为种子，确保服务器端和客户端结果一致
-  const featuredItems = getRandomItems(items, 2, contentType)
-  // 剩余的文章
-  const allItems = items.filter(item => !featuredItems.includes(item))
+  const featuredItems = items.slice(0, 2);
+  const allItems = items.slice(2);
 
   return (
     <div className="bg-background min-h-screen">
@@ -67,7 +38,7 @@ export async function NavigationPage({
         <div className="container mx-auto max-w-6xl relative z-10 text-center">
           {/* 类别标签 */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.2)] text-[hsl(var(--nav-theme-light))] text-sm font-medium mb-3 uppercase tracking-wider">
-            {t('categoryLabel')}
+            {t("categoryLabel")}
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
@@ -102,10 +73,12 @@ export async function NavigationPage({
               <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center">
                 <Sparkles className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
               </div>
-              <h2 className="text-xl font-bold text-foreground">{t('whatIs')}</h2>
+              <h2 className="text-xl font-bold text-foreground">
+                {t("whatIs")}
+              </h2>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm">
-              {t('whatIsDescription')}
+              {t("whatIsDescription")}
             </p>
           </div>
 
@@ -115,28 +88,46 @@ export async function NavigationPage({
               <div className="w-10 h-10 rounded-lg bg-green-500/10 flex items-center justify-center">
                 <MapPin className="w-5 h-5 text-green-400" />
               </div>
-              <h2 className="text-xl font-bold text-foreground">{t('why')}</h2>
+              <h2 className="text-xl font-bold text-foreground">{t("why")}</h2>
             </div>
             <div className="space-y-4">
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">1</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">
+                  1
+                </div>
                 <div>
-                  <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step1Title')}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step1Description')}</p>
+                  <h3 className="text-foreground font-semibold mb-1 text-base">
+                    {t("whySteps.step1Title")}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {t("whySteps.step1Description")}
+                  </p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">2</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">
+                  2
+                </div>
                 <div>
-                  <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step2Title')}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step2Description')}</p>
+                  <h3 className="text-foreground font-semibold mb-1 text-base">
+                    {t("whySteps.step2Title")}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {t("whySteps.step2Description")}
+                  </p>
                 </div>
               </div>
               <div className="flex gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">3</div>
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 font-bold text-sm">
+                  3
+                </div>
                 <div>
-                  <h3 className="text-foreground font-semibold mb-1 text-base">{t('whySteps.step3Title')}</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{t('whySteps.step3Description')}</p>
+                  <h3 className="text-foreground font-semibold mb-1 text-base">
+                    {t("whySteps.step3Title")}
+                  </h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {t("whySteps.step3Description")}
+                  </p>
                 </div>
               </div>
             </div>
@@ -144,15 +135,15 @@ export async function NavigationPage({
         </div>
       </section>
 
-      {/* Featured & Essential - 随机 2 个 */}
+      {/* Featured & Essential */}
       {featuredItems.length > 0 && (
         <section className="container mx-auto max-w-6xl px-4 py-12">
           <h2 className="text-3xl font-bold text-foreground mb-8 flex items-center gap-3">
             <Star className="w-8 h-8 text-yellow-400 fill-yellow-400" />
-            {t('featured')}
+            {t("featured")}
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {featuredItems.map(item => (
+            {featuredItems.map((item) => (
               <Link
                 key={item.slug}
                 href={`/${contentType}/${item.slug}`}
@@ -204,17 +195,20 @@ export async function NavigationPage({
       )}
 
       {/* 广告位：Featured Section 下方 - 原生横幅 */}
-      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
+      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
 
       {/* 广告位 2: Featured Section 下方 - 300×250 方形 */}
-      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+      />
 
       {/* All Items - 一行 3 个 */}
       {allItems.length > 0 && (
         <section className="container mx-auto max-w-6xl px-4 py-12">
           <h2 className="text-3xl font-bold text-foreground mb-8 flex items-center gap-3">
             <BookOpen className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-            {t('all')}
+            {t("all")}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {allItems.map((item, index) => (
@@ -252,7 +246,9 @@ export async function NavigationPage({
                 {/* 广告位 3: All Items 中间 - 原生横幅（在第 6 个卡片之后） */}
                 {index === 5 && (
                   <div className="col-span-1 sm:col-span-2 lg:col-span-3">
-                    <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
+                    <NativeBannerAd
+                      adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""}
+                    />
                   </div>
                 )}
               </Fragment>
@@ -275,5 +271,5 @@ export async function NavigationPage({
         className="hidden md:flex"
       />
     </div>
-  )
+  );
 }

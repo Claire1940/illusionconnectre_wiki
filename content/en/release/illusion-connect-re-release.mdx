@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Star } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re Release: Launch Guide & Starter Tips",
+  description: "Get started with the Illusion Connect: Re release. Our guide covers launch rewards, reroll strategies, and the best team-building foundations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Illusion+Connect+Re+Launch",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re release** is now live globally as of June 4, 2026, on Android and iOS.
+- **Rerolling** effectively allows you to secure top-tier SSR Radiants like Yuffie or Anna early.
+- **Team building** should prioritize a balanced mix of damage, healing, and frontline protection.
+- **Launch rewards** include generous pre-registration bonuses, summon tickets, and premium currency.
+- **Real-time strategy** on a 3x3 grid is the core of the combat experience.
+</Callout>
+
+<Section icon={Trophy} title="Illusion Connect: Re Release Overview">
+
+The official **Illusion Connect: Re release** marks the return of this tactical anime RPG, featuring over 130 unique Radiants, real-time grid-based combat, and immersive home customization. Players entering the game today can capitalize on a wealth of launch-day bonuses designed to accelerate early progression.
+
+| Feature | Details |
+| :--- | :--- |
+| **Release Date** | June 4, 2026, 11:00 UTC+8 |
+| **Platforms** | Android, iOS |
+| **Genre** | Anime Strategy RPG |
+| **Publisher** | SUGARGAME NETWORK LIMITED |
+| **Core Gameplay** | 3x3 Grid Real-Time Tactics |
+
+<Callout type="tip">
+Focus on the main story chapters during the first 24 hours to unlock essential game systems like the Dream Home and advanced summon banners.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategy for Beginners">
+
+Rerolling is a common practice in **Illusion Connect: Re** to ensure your account starts with high-impact SSR Radiants. Since the game offers various launch rewards, you can maximize your initial pull potential.
+
+**Video Highlights:**
+- Optimal reroll routes for efficiency
+- Top SSR characters to prioritize
+- When to stop and keep your account
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Launch Gameplay" />
+
+<Steps>
+  <Step num="1" title="Create Guest Account">
+    Always start as a guest to avoid binding an account you might want to discard.
+  </Step>
+  <Step num="2" title="Clear Tutorial">
+    Complete the introductory battles to unlock the summon menu.
+  </Step>
+  <Step num="3" title="Collect Mailbox Rewards">
+    Claim all pre-registration and launch gifts, including summon tickets and diamonds.
+  </Step>
+  <Step num="4" title="Execute Summons">
+    Use your resources on the Selected Rate-Up banner to target high-tier units.
+  </Step>
+  <Step num="5" title="Evaluate and Bind">
+    If satisfied with your pulls, bind your account to a permanent email or social login.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Reroll Caution">
+Do not spend your early Diamonds on equipment banners. Save them for rate-up character banners to build your core team faster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Radiants and Team Building">
+
+Building a stable team is more important than chasing every new banner. A balanced team should handle various combat scenarios by mixing roles effectively.
+
+<CardGrid cols={3}>
+  <Card title="Damage Dealers">
+    - **Primary role**: Clear waves
+    - **Top pick**: Yuffie (AoE Burst)
+    - **Secondary**: Miyuki (Sustained)
+  </Card>
+  <Card title="Frontline Tanks">
+    - **Primary role**: Absorb damage
+    - **Top pick**: Kiraya (Shields)
+    - **Secondary**: Sturdy Guardians
+  </Card>
+  <Card title="Support & Healers">
+    - **Primary role**: Team sustain
+    - **Top pick**: Anna (Healing)
+    - **Secondary**: Utility buffers
+  </Card>
+</CardGrid>
+
+| Radiant Role | Strategic Value | Priority |
+| :--- | :--- | :--- |
+| **Sorcerer** | High AoE damage for clearing mobs | **High** |
+| **Guardian** | Essential for protecting your Leader | **High** |
+| **Healer** | Required for long boss encounters | **Medium** |
+| **Support** | Buffs and formation control | **Low** |
+
+</Section>
+
+<Section icon={Shield} title="Launch Rewards and Milestones">
+
+The **Illusion Connect: Re release** comes with significant milestones achieved during the pre-registration phase. Be sure to check your in-game mailbox to receive these items.
+
+<Checklist
+  id="launch-rewards"
+  title="Must-Claim Launch Rewards:"
+  items={[
+    "SSR Partner Fenebeth",
+    "2,026 Diamonds for summons",
+    "10x Standard Summon Tickets",
+    "SR Partner Beatrice",
+    "Exclusive Avatar Frame: Stellar Reconnec"
+  ]}
+/>
+
+<Callout type="success" title="Resource Management">
+Always prioritize upgrading your main team's level and skills before investing in secondary units. Crystals and Gold are scarce in the early game.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is the Illusion Connect: Re release available globally?",
+    answer: "Yes, the game is available globally on both Google Play and the App Store as of June 4, 2026."
+  },
+  {
+    question: "Which characters are best to aim for during rerolls?",
+    answer: "Focus on Yuffie for AoE damage and Anna for team sustain, as they provide the most value for early story progression."
+  },
+  {
+    question: "How does the real-time battle system work?",
+    answer: "The game uses a 3x3 grid where you deploy Radiants based on their cost, class counters, and timing of their Ultimate Skills."
+  }
+]} />
+
+</Section>

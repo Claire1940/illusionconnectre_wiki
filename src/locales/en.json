@@ -10,7 +10,15 @@
       "twitterDescription": "Illusion Connect: Re wiki with codes, tier list, reroll tips, characters, team builds, and beginner help."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "tier": "Tier",
+    "guide": "Guide",
+    "release": "Release",
+    "download": "Download",
+    "server": "Server",
+    "characters": "Characters"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -573,125 +581,145 @@
     "disclaimer": "Unofficial fan-made resource website for Illusion Connect: Re."
   },
   "pages": {
-    "guides": {
-      "title": "Illusion Connect Re Guides",
-      "description": "Core launch guides for codes, reroll routes, beginner progression, and combat planning.",
-      "metaTitle": "Illusion Connect Re Guides - Launch Progression and Strategy",
-      "metaDescription": "Browse Illusion Connect Re guides covering launch progression, reroll strategy, team planning, and combat fundamentals.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Guides group together early progression, launch planning, and system explanations so new Illusion Connect Re players can build a stronger account faster.",
-      "why": "Why read guides?",
+    "codes": {
+      "title": "Illusion Connect Re Codes",
+      "description": "Track active Illusion Connect Re codes, redeem steps, expired rewards, and quick claim notes for launch-period freebies.",
+      "metaTitle": "Illusion Connect Re Codes - Active Redeem Codes and Rewards",
+      "metaDescription": "Find active Illusion Connect Re codes, reward details, expired code history, and the fastest way to redeem launch freebies.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Illusion Connect Re codes?",
+      "whatIsDescription": "This category collects redeem codes, gift-code walkthroughs, and reward claim instructions so you can grab launch currency, summon items, and event bonuses before they expire.",
+      "why": "Why follow Illusion Connect Re codes?",
       "whySteps": {
-        "step1Title": "Learn the launch loop",
-        "step1Description": "Understand how story progress, rerolls, and event rewards fit together",
-        "step2Title": "Avoid wasted upgrades",
-        "step2Description": "Focus materials on a compact launch roster that can actually clear content",
-        "step3Title": "Build smarter teams",
-        "step3Description": "Use role coverage and formation logic instead of chasing random upgrades"
+        "step1Title": "Claim free launch resources",
+        "step1Description": "Use the latest code drops to collect gems, summon tickets, and other early progression rewards.",
+        "step2Title": "Redeem without mistakes",
+        "step2Description": "Follow the exact in-game path and input format so you do not waste time on avoidable redemption errors.",
+        "step3Title": "Track expired and replacement codes",
+        "step3Description": "See which codes have rotated out and which newer reward campaigns replaced them."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "tier": {
+      "title": "Illusion Connect Re Tier List",
+      "description": "Browse Illusion Connect Re tier list coverage for rerolls, launch roster strength, best characters, and team-value comparisons.",
+      "metaTitle": "Illusion Connect Re Tier List - Best Characters and Team Rankings",
+      "metaDescription": "Review the Illusion Connect Re tier list for rerolls, best characters, SSR priorities, and launch team rankings.",
+      "categoryLabel": "TIER",
+      "whatIs": "What is the Illusion Connect Re tier category?",
+      "whatIsDescription": "This section groups together character rankings, reroll value lists, and launch-week power comparisons so you can judge which Radiants and team cores deliver the most progress.",
+      "why": "Why read the Illusion Connect Re tier list?",
+      "whySteps": {
+        "step1Title": "Prioritize stronger pulls",
+        "step1Description": "Compare launch Radiants by damage, sustain, and role impact before investing rare materials.",
+        "step2Title": "Improve reroll decisions",
+        "step2Description": "Use launch rankings to decide when to keep an account and when a reroll is still worth the time.",
+        "step3Title": "Build around actual role value",
+        "step3Description": "See which characters stay relevant because they solve frontline, support, or wave-clear problems."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tier Articles"
+    },
+    "guide": {
+      "title": "Illusion Connect Re Guide",
+      "description": "Read Illusion Connect Re guides for rerolls, beginner progress, banner planning, team setup, and first-day account management.",
+      "metaTitle": "Illusion Connect Re Guide - Reroll, Beginner, and Team Help",
+      "metaDescription": "Use the Illusion Connect Re guide hub for reroll routes, beginner progression, banner choices, and early team planning.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Illusion Connect Re guide category?",
+      "whatIsDescription": "Guide articles explain the first hours of progression, reroll pacing, banner decisions, and roster development so new accounts can move through launch content efficiently.",
+      "why": "Why use Illusion Connect Re guides?",
+      "whySteps": {
+        "step1Title": "Start with a cleaner account plan",
+        "step1Description": "Learn which early tasks matter most so stamina, pulls, and upgrade items are spent in the right order.",
+        "step2Title": "Shorten the reroll loop",
+        "step2Description": "Use route-specific walkthroughs that show when to stop rerolling and what counts as a strong opening pull.",
+        "step3Title": "Avoid early progression traps",
+        "step3Description": "Follow tested beginner steps for banners, upgrades, and team-building instead of scattering resources."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Illusion Connect Re Codes",
-      "description": "Track redeem codes, social reward drops, and launch gift bundles in one place.",
-      "metaTitle": "Illusion Connect Re Codes - Redeem Rewards and Gift Bundles",
-      "metaDescription": "Track Illusion Connect Re redeem codes, launch reward bundles, social gift drops, and redemption steps.",
-      "categoryLabel": "REDEEM CODES",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Codes pages collect active gift strings, expired rewards, and exact redeem steps so players can claim launch items without missing time-sensitive bonuses.",
-      "why": "Why track codes?",
+    "release": {
+      "title": "Illusion Connect Re Release",
+      "description": "Follow Illusion Connect Re release-date coverage, launch timing, relaunch context, early access notes, and start-window planning.",
+      "metaTitle": "Illusion Connect Re Release - Launch Date, Relaunch, and Timing",
+      "metaDescription": "Track the Illusion Connect Re release timeline, launch date, relaunch details, and start-window planning for global players.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Illusion Connect Re release category?",
+      "whatIsDescription": "Release articles focus on launch timing, region rollout details, relaunch questions, and the practical information players need before the servers open.",
+      "why": "Why check Illusion Connect Re release details?",
       "whySteps": {
-        "step1Title": "Claim launch rewards",
-        "step1Description": "Redeem every available code before the opening events rotate",
-        "step2Title": "Follow social drops",
-        "step2Description": "Keep up with Discord and Facebook reward announcements",
-        "step3Title": "Avoid input mistakes",
-        "step3Description": "Use the correct redeem path and exact code formatting"
+        "step1Title": "Know when to start",
+        "step1Description": "Keep launch timing, server opening windows, and early-access differences in one place.",
+        "step2Title": "Prepare for rerolls and events",
+        "step2Description": "Plan your first login around launch rewards, pre-registration items, and banner availability.",
+        "step3Title": "Understand relaunch context",
+        "step3Description": "Separate current Illusion Connect Re rollout details from older Illusion Connect history and legacy references."
       },
       "featured": "Featured & Essential",
-      "all": "All Code Guides"
+      "all": "All Release Articles"
     },
-    "items": {
+    "download": {
+      "title": "Illusion Connect Re Download",
+      "description": "Find Illusion Connect Re download help for Android, iOS, Google Play, APK questions, PC options, and store-specific setup.",
+      "metaTitle": "Illusion Connect Re Download - Android, iOS, APK, and PC Options",
+      "metaDescription": "Use the Illusion Connect Re download hub for Android, iOS, Google Play, APK, Play Store, and PC installation guidance.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "What is the Illusion Connect Re download category?",
+      "whatIsDescription": "Download articles answer where to install Illusion Connect Re, which store page to use, and how platform-specific options differ across Android, iOS, and PC-related setups.",
+      "why": "Why use Illusion Connect Re download guides?",
+      "whySteps": {
+        "step1Title": "Reach the correct store page",
+        "step1Description": "Use direct platform guidance for Google Play, App Store, APK-related questions, and region-specific installation paths.",
+        "step2Title": "Match your device setup",
+        "step2Description": "Check which platform notes matter for mobile devices, emulators, or PC-adjacent play options.",
+        "step3Title": "Reduce install friction",
+        "step3Description": "Keep download, update, and launch troubleshooting together instead of hunting across multiple sources."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Download Articles"
+    },
+    "server": {
+      "title": "Illusion Connect Re Server",
+      "description": "Review Illusion Connect Re server coverage for global access, regional versions, store differences, and where each player base connects.",
+      "metaTitle": "Illusion Connect Re Server - Global, US, JP, KR, and Regional Versions",
+      "metaDescription": "Compare Illusion Connect Re server options, regional versions, store access, and global availability across major markets.",
+      "categoryLabel": "SERVER",
+      "whatIs": "What is the Illusion Connect Re server category?",
+      "whatIsDescription": "Server articles explain the regional versions of Illusion Connect Re, including global, US, JP, KR, Thai, and other market-specific store or access differences.",
+      "why": "Why track Illusion Connect Re servers?",
+      "whySteps": {
+        "step1Title": "Choose the right region",
+        "step1Description": "See how global and market-specific versions differ before you commit time or spending to an account.",
+        "step2Title": "Understand store availability",
+        "step2Description": "Check whether a version is tied to a particular store listing, language package, or region-specific rollout.",
+        "step3Title": "Plan around community location",
+        "step3Description": "Know where friends, guild candidates, and regional event schedules are most likely to align with your playtime."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Server Articles"
+    },
+    "characters": {
       "title": "Illusion Connect Re Characters",
-      "description": "Character-focused coverage for launch Radiants, role fit, and roster planning.",
-      "metaTitle": "Illusion Connect Re Characters - Radiants, Roles, and Team Fit",
-      "metaDescription": "Review Illusion Connect Re Radiants, role coverage, launch value, and how each character fits common team plans.",
+      "description": "Browse Illusion Connect Re character coverage for Radiants, role summaries, standout units, and launch roster planning.",
+      "metaTitle": "Illusion Connect Re Characters - Radiants, Roles, and Launch Roster Help",
+      "metaDescription": "Explore Illusion Connect Re characters, role summaries, key Radiants, and launch roster planning for rerolls and team builds.",
       "categoryLabel": "CHARACTERS",
-      "whatIs": "What are Character Guides?",
-      "whatIsDescription": "Character guides explain Radiant roles, where they fit in launch teams, and why certain units matter more for rerolls or progression.",
-      "why": "Why check character guides?",
+      "whatIs": "What is the Illusion Connect Re characters category?",
+      "whatIsDescription": "Character articles focus on individual Radiants, their battlefield roles, and how specific units like Yuffie, Kasumi, Hersey, or broader waifu coverage fit launch rosters.",
+      "why": "Why read Illusion Connect Re character guides?",
       "whySteps": {
-        "step1Title": "Pick better reroll targets",
-        "step1Description": "Know which Radiants improve story progress the fastest",
-        "step2Title": "Balance your roster",
-        "step2Description": "Avoid overstacking damage units without frontline or sustain support",
-        "step3Title": "Plan upgrades",
-        "step3Description": "Spend launch materials on characters that solve real team gaps"
+        "step1Title": "Understand each Radiant role",
+        "step1Description": "Check whether a character solves wave clear, sustain, tanking, or utility needs before committing resources.",
+        "step2Title": "Compare launch roster options",
+        "step2Description": "Use character-specific breakdowns to decide which units deserve priority in rerolls and early upgrades.",
+        "step3Title": "Build stronger team cores",
+        "step3Description": "Connect individual Radiant strengths to the team structures they enable in story and event content."
       },
       "featured": "Featured & Essential",
-      "all": "All Character Guides"
-    },
-    "biomes": {
-      "title": "Illusion Connect Re Combat",
-      "description": "Formation logic, deployment cost pacing, ult timing, and difficult-stage solutions.",
-      "metaTitle": "Illusion Connect Re Combat - Formation and Battle Guide",
-      "metaDescription": "Learn Illusion Connect Re combat basics including formation control, deployment rhythm, Nightmares, and stage-specific adjustments.",
-      "categoryLabel": "COMBAT",
-      "whatIs": "What are Combat Guides?",
-      "whatIsDescription": "Combat guides break down the tactical layer of Illusion Connect Re so players can improve by changing formation order, cost flow, and skill timing.",
-      "why": "Why study combat?",
-      "whySteps": {
-        "step1Title": "Fix stalled progress",
-        "step1Description": "Adjust lane coverage and timing before brute-forcing with more upgrades",
-        "step2Title": "Use cost better",
-        "step2Description": "Deploy sustain and burst units when they actually swing the fight",
-        "step3Title": "Read stage mechanics",
-        "step3Description": "React properly to Nightmare pressure and wave-based encounters"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Guides"
-    },
-    "building": {
-      "title": "Illusion Connect Re Teams",
-      "description": "Lineup ideas for launch rosters, beginner formations, and role-complete squads.",
-      "metaTitle": "Illusion Connect Re Teams - Launch Lineups and Best Formations",
-      "metaDescription": "Build stronger Illusion Connect Re teams with balanced launch lineups, role coverage, and formation planning.",
-      "categoryLabel": "TEAMS",
-      "whatIs": "What are Team Guides?",
-      "whatIsDescription": "Team guides show how to combine tanks, carries, and sustain units into launch-ready lineups that can handle story and event content.",
-      "why": "Why build teams carefully?",
-      "whySteps": {
-        "step1Title": "Protect the leader",
-        "step1Description": "A clean frontline setup keeps the whole team functioning longer",
-        "step2Title": "Cover core roles",
-        "step2Description": "Use damage, sustain, and protection together instead of stacking one role only",
-        "step3Title": "Adapt to your pulls",
-        "step3Description": "Translate whatever launch SSRs you get into a stable formation"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Team Guides"
-    },
-    "support": {
-      "title": "Illusion Connect Re Support",
-      "description": "Download help, event reminders, and platform-facing setup information for launch players.",
-      "metaTitle": "Illusion Connect Re Support - Download, Events, and Setup Help",
-      "metaDescription": "Get Illusion Connect Re setup help for downloads, launch reward tracking, and platform-specific onboarding information.",
-      "categoryLabel": "SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Support pages collect practical onboarding information such as where to download the game, what launch rewards to claim, and how to follow official channels.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Find official downloads",
-        "step1Description": "Use the correct Android and iOS store pages without confusion",
-        "step2Title": "Track launch events",
-        "step2Description": "Keep pre-registration bonuses, login rewards, and social campaigns organized",
-        "step3Title": "Stay current",
-        "step3Description": "Follow the official channels that matter for codes and event notices"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Character Articles"
     }
   }
 }

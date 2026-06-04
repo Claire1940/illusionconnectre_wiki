@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect Re: Reroll Guide & Best Starter Picks 2026",
+  description: "Master your start in Illusion Connect Re with our 2026 reroll guide. Learn which units to target for a powerful account and follow our step-by-step strategy.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Reroll+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect Re** rerolling is the most efficient way to secure top-tier units early.
+- **Guest accounts** allow for rapid resets by clearing data in the settings menu.
+- Prioritize **Miyuki and Yuffie** as your primary targets for long-term account value.
+- Skip the guaranteed SSR banner to focus resources on **top-tier limited banners**.
+- Effective rerolling takes approximately **5 to 15 minutes** per cycle.
+</Callout>
+
+<Section icon={Map} title="Efficient Reroll Strategy">
+
+Optimizing your early game experience in Illusion Connect Re starts with a clean slate. By utilizing the guest account feature, you can bypass lengthy registration processes and focus on pulling high-impact characters that will carry you through the mid-game.
+
+**Video Highlights:**
+- Master the guest account deletion process in under 2 minutes.
+- Understand the optimal timing for your first 10x summon.
+- Identify the best SSR and SR units to prioritize during your initial rolls.
+
+<YouTubeEmbed videoId="p3D8wbN3e9c" title="Illusion Connect Reroll Guide In 2 Minutes Or Less" />
+
+Once you have completed the tutorial, avoid the trap of spending resources on the guaranteed SSR banner. Instead, direct your summons toward banners featuring top-tier units. Strategy and unit synergy are more important than brute force in the early stages of the game.
+
+<Callout type="tip" title="Pro Tip">
+Always link your account to an email address only after you have successfully secured your desired units to ensure your progress is permanently saved.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priority Unit Rankings">
+
+Building a balanced team is essential for clearing story chapters and daily challenges. Focus your summoning efforts on units that provide crowd control and area-of-effect damage.
+
+| Unit Name | Role | Priority | Key Strength |
+| :--- | :--- | :--- | :--- |
+| Miyuki | Debuffer | High | Rage reduction |
+| Yuffie | AOE Damage | High | Massive screen clear |
+| Anna | Healer | Medium | Sustain and buff |
+| Phoebe | Support | Medium | Survivability |
+| Rikia | Debuffer | Medium | Dispel and control |
+| Pan | Single Target | Low | High boss damage |
+
+<CardGrid cols={3}>
+  <Card title="Top Tier Picks">
+    - **Miyuki**: Essential for rage control.
+    - **Yuffie**: Powerhouse for clearing waves.
+    - **Anna**: Best-in-class sustain.
+  </Card>
+  <Card title="Support Essentials">
+    - **Phoebe**: Adds defensive utility.
+    - **Rikia**: Great for removing enemy buffs.
+    - **Pan**: Reliable single-target damage.
+  </Card>
+  <Card title="Strategic Advice">
+    - Focus on synergy over pure rarity.
+    - Maximize SR units if you lack SSRs.
+    - Keep your team level consistent.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Success Strategy">
+Investing in SR units like Rikia and Pan is a smart move if your SSR luck is average, as they remain relevant and easy to upgrade during the early game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Execution">
+
+Follow this systematic approach to ensure your reroll process is as fast and productive as possible. Consistency is key to achieving the desired roster.
+
+<Steps>
+  <Step num="1" title="Account Initialization">
+    Launch the game and select the Guest account option. Do not bind your social media or email yet.
+  </Step>
+  <Step num="2" title="Tutorial Completion">
+    Speed through the tutorial missions. This typically takes 5-7 minutes once you are familiar with the flow.
+  </Step>
+  <Step num="3" title="Summoning Phase">
+    Perform your first 10x summon. Ignore the guaranteed SSR banner and head straight to active event banners.
+  </Step>
+  <Step num="4" title="Evaluation and Reset">
+    If the results are unsatisfactory, go to the account settings in the top-left corner to delete the current guest data and repeat.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+While rerolling is effective, do not burn yourself out. Aim for at least one top-tier unit to start, as trying for a perfect roster can lead to diminishing returns.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression Checklist">
+
+Use this checklist to track your progress after you have secured your initial team. These milestones will help you maintain momentum in Illusion Connect Re.
+
+<Checklist
+  id="progression-tracker"
+  title="Early Game Milestones:"
+  items={[
+    "Clear Chapter 3 to unlock core daily features",
+    "Upgrade your primary damage dealer to max level",
+    "Join an active guild for passive bonuses",
+    "Complete daily missions for consistent resource income",
+    "Focus on evolving your top-tier SSR units"
+  ]}
+/>
+
+<Callout type="info" title="Resource Management">
+Always hoard your summoning tickets for rate-up banners featuring units you specifically need, rather than spending them as soon as you get them.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is rerolling necessary for Illusion Connect Re?",
+    answer: "While not strictly required, rerolling significantly improves your early game progression by providing powerful units like Miyuki or Yuffie."
+  },
+  {
+    question: "How long does one reroll cycle take?",
+    answer: "A standard reroll cycle takes about 5 to 15 minutes, depending on how quickly you complete the initial tutorial."
+  },
+  {
+    question: "Should I spend diamonds on the standard banner?",
+    answer: "No, it is generally better to save your diamonds for limited-time banners that feature high-tier characters."
+  },
+  {
+    question: "What if I get a bad pull?",
+    answer: "Simply navigate to the account settings menu, delete your guest data, and restart the process until you are satisfied with your initial units."
+  }
+]} />
+
+</Section>

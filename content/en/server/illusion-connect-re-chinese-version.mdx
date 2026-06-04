@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re: Beginner Guide & 2026 Strategy Tips",
+  description: "Master Illusion Connect: Re with our 2026 beginner guide. Learn reroll strategies, tier list rankings, team building, and essential combat tactics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re** is a real-time tactical RPG featuring over 130 unique Radiants.
+- Focus on building a **balanced team** consisting of a tank, healer, and AoE damage dealer early on.
+- Utilize **guest accounts** to perform efficient rerolls until you secure top-tier SSR units like Yuffie or Anna.
+- Manage your **deployment cost** carefully during 3x3 grid battles to maximize combat efficiency.
+- Always check for **active gift codes** to claim free launch rewards and summon tickets.
+</Callout>
+
+<Section icon={Target} title="Getting Started: Reroll and Launch Strategy">
+
+To succeed in the dream world, your initial roster is crucial. Rerolling allows you to secure powerful SSR Radiants that significantly reduce the difficulty of early story stages.
+
+**Video Highlights:**
+- Understanding the 3x3 combat grid mechanics.
+- Optimal pathing for the first 10-pull summon.
+- Identifying high-value SSR units for beginners.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Launch Gameplay" />
+
+<Callout type="tip" title="Reroll Priority">
+Prioritize pulling for **Yuffie** (AoE damage) or **Anna** (healing) as your first SSR. These characters provide the most value for clearing content quickly.
+</Callout>
+
+| Step | Action | Goal |
+| :--- | :--- | :--- |
+| 1 | Start as Guest | Enable fast account resets |
+| 2 | Clear Tutorial | Unlock the standard summon menu |
+| 3 | Claim Mail Rewards | Maximize your starting summon tickets |
+| 4 | Pull on Rate-Up | Target specific S-Tier Radiants |
+
+</Section>
+
+<Section icon={Swords} title="Radiant Tier List & Team Building">
+
+Building a team is not just about rarity; it is about role synergy. A stable beginner team requires frontline protection, reliable healing, and consistent damage output.
+
+<CardGrid cols={3}>
+  <Card title="Frontline">
+    - Keep your Leader safe
+    - Absorb incoming damage
+    - Examples: Kiraya
+  </Card>
+  <Card title="Damage Dealers">
+    - Clear enemy waves
+    - Burst boss health
+    - Examples: Yuffie, Miyuki
+  </Card>
+  <Card title="Support/Healers">
+    - Provide team sustain
+    - Utility buffs
+    - Examples: Anna
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Team Building Mistake">
+Avoid upgrading every Radiant you pull. Focus your limited gold and crystals on a core team of five to six units to maintain progress efficiency.
+</Callout>
+
+| Role | Strategy | Priority |
+| :--- | :--- | :--- |
+| Tank | Protect backline units | High |
+| DPS | Focus on AoE for story | High |
+| Healer | Keep team alive in boss fights | Medium |
+| Support | Enhance team formation timing | Low |
+
+</Section>
+
+<Section icon={Shield} title="Combat Mechanics and Tactics">
+
+The real-time battle system in **Illusion Connect: Re** requires active decision-making. You are not just watching stats; you are managing the battlefield.
+
+<Steps>
+  <Step num="1" title="Formation Adjustment">
+    Shift your units within the 3x3 grid to counter enemy positions and protect your Leader.
+  </Step>
+  <Step num="2" title="Deployment Cost Management">
+    Do not deploy all units at once. Wait for the right moment to counter the enemy's attack patterns.
+  </Step>
+  <Step num="3" title="Skill Timing">
+    Save your Ultimate Skills for dangerous enemy waves or when a boss is vulnerable to burst damage.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Pro Combat Tip">
+Pay close attention to **Class Counters**. Matching your Radiant's class against the enemy's weakness will result in significantly higher damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Launch Rewards and Progression">
+
+Maximize your growth by utilizing every available resource provided at launch. The developer, SUGARGAME NETWORK LIMITED, has included several milestones to help new players.
+
+| Reward Category | Requirement | Key Items |
+| :--- | :--- | :--- |
+| Pre-registration | Global milestone | Fenebeth, 2026 Diamonds |
+| Login Bonus | Daily check-in | Summon Tickets, Gold |
+| Social Events | Follow Facebook | Gift Codes, Crystals |
+
+<Checklist
+  id="beginner-checklist"
+  title="Daily Progression Goals:"
+  items={[
+    "Complete daily login rewards",
+    "Clear main story stages for stars",
+    "Spend stamina on character EXP materials",
+    "Check the Redeem menu for new codes"
+  ]}
+/>
+
+<Callout type="info" title="Important Note">
+Always prioritize **Summon Tickets** over spending Diamonds on general banners. Save Diamonds for limited-time "Selected UP" banners to guarantee high-tier units.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is rerolling worth the time in Illusion Connect: Re?",
+    answer: "Yes, securing a strong SSR unit like Yuffie or Anna at the start of your journey makes story progression much smoother and saves resources in the long run."
+  },
+  {
+    question: "How do I use gift codes?",
+    answer: "Open the game, tap your Profile icon in the top-left corner, navigate to Settings, and select the Redeem option to enter your active codes."
+  },
+  {
+    question: "Should I focus on equipment or characters early on?",
+    answer: "Focus on your characters (Radiants). The story and early quests provide enough starter gear; your primary investment should be in leveling and upgrading your core team's rarity."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,131 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "일루전 커넥트: Re 정식 출시: 필수 팁 및 문제 해결",
+  description: "일루전 커넥트: Re 정식 출시 가이드를 통해 배너 버그, 리세마라 전략, 2026년 필수 게임 플레이 팁을 확인하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "일루전 커넥트: Re 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **일루전 커넥트: Re 정식 출시**는 신중한 자원 관리가 필요한 새로운 메커니즘을 도입했습니다.
+- 플레이어는 초기 다중 소환 시 SSR 확정 확률에 영향을 줄 수 있는 **잠재적인 배너 버그**를 인지해야 합니다.
+- **전략적 리세마라**는 현재 풀 제한으로 인해 효율이 낮으므로, 대신 스테미나 효율을 우선시하십시오.
+- **한정 소환 시스템**은 더 높은 비용과 티켓 구매 제한이 있으므로 계획적인 소비가 필요합니다.
+</Callout>
+
+<Section icon={Map} title="출시 경험 살펴보기">
+
+게임의 정식 재출시는 기대와 동시에 기술적인 난관을 가져왔습니다. 게임의 현재 상태를 이해하는 것은 초반 진행을 최적화하려는 모든 플레이어에게 필수적입니다.
+
+**영상 하이라이트:**
+- 소환 배너 버그 및 확률 기대치 분석.
+- 리세마라 과정 및 캐릭터 가용성에 대한 비판적 피드백.
+- 한정 배너 자원 배분에 대한 조언.
+
+<YouTubeEmbed videoId="N3I3Y3IgFZE" title="재앙적인 출시? 일루전 커넥트 재출시에 미친 배너 버그가?!" />
+
+<Callout type="warning" title="출시 안정성 알림">
+초기 보고에 따르면 배너 천장 시스템에 일관성 없는 문제가 발생하고 있습니다. 특정 배너에 다이아를 사용하기 전에 항상 게임 내 상세 정보 화면을 확인하십시오.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="소환 메커니즘 및 확률">
+
+이번 버전의 소환 시스템은 원작과 다릅니다. 비용이 조정되었으며, 구매할 수 있는 티켓 수에 특정 제한이 있습니다.
+
+| 특징 | 상세 내용 |
+| :--- | :--- |
+| 일반 소환 비용 | **200 다이아** |
+| 한정 배너 비용 | **400 다이아** |
+| 일반 배너 확률 | **1.25%** |
+| 한정 배너 확률 | **3.0%** |
+
+<Callout type="tip" title="효율 팁">
+무과금 플레이어의 경우 한정 배너 티켓 구매가 20장으로 제한되므로, 모든 신규 캐릭터를 쫓기보다는 특정 팀 구성에 가장 큰 가치를 제공하는 배너에 자원을 집중하십시오.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="최적화된 리세마라 전략">
+
+리세마라는 시간이 많이 소요될 수 있으며, 현재 보고에 따르면 일부 캐릭터는 초기 풀에서 이용할 수 없을 수 있습니다. 시간을 최대화하려면 다음 단계를 따르십시오.
+
+<Steps>
+  <Step num="1" title="계정 초기화">
+    계정을 생성하고 필수 튜토리얼 단계를 완료하여 소환 메뉴를 잠금 해제하십시오.
+  </Step>
+  <Step num="2" title="자원 수집">
+    모든 우편 보상과 출석 이벤트 보너스를 수령하여 시작 재화를 최대한 확보하십시오.
+  </Step>
+  <Step num="3" title="타겟 소환">
+    확정된 드랍 확률을 가진 배너에 소환을 집중하고, 현재 버그 가능성이 제기된 배너는 피하십시오.
+  </Step>
+  <Step num="4" title="스테미나 우선">
+    뽑기 결과가 만족스럽지 않다면, 추가 소환보다는 다이아를 사용하여 스테미나를 충전해 계정 레벨업을 가속화하는 것을 고려하십시오.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="자원 비교: 다이아 vs 티켓">
+
+재화를 관리하는 것은 장기적인 성공의 열쇠입니다. 다음 표는 다양한 소비 전략 간의 장단점을 보여줍니다.
+
+| 자원 | 최적의 용도 | 효율 수준 |
+| :--- | :--- | :--- |
+| 다이아 | 스테미나 충전 | **높음** |
+| 일반 티켓 | 표준 풀 | **보통** |
+| 한정 티켓 | 확률 업 배너 | **상황에 따라 다름** |
+
+<Callout type="success" title="진행 팁">
+출시 기간 동안 다이아를 스테미나에 투자하면 더 높은 레벨의 콘텐츠를 빠르게 잠금 해제할 수 있으며, 이는 종종 단일 뽑기보다 더 많은 보상을 제공합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="성공을 위한 일일 체크리스트">
+
+꾸준함은 강한 플레이어의 상징입니다. 이 체크리스트를 사용하여 필수 진행 재료를 놓치지 않도록 하십시오.
+
+<Checklist
+  id="daily-tasks"
+  title="일일 루틴:"
+  items={[
+    "모든 일일 출석 보상 완료",
+    "진행을 위한 메인 스토리 스테이지 클리어",
+    "재료 파밍을 위한 스테미나 충전 활용",
+    "다가오는 캐릭터 로테이션을 위해 파트너 데이터베이스 확인"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "일루전 커넥트: Re 정식 출시가 안정적인가요?",
+    answer: "출시 초기 일부 기술적인 문제와 배너 버그가 발생했지만, 개발진이 상황을 모니터링하고 있습니다. 공식 공지사항을 계속 확인하는 것이 좋습니다."
+  },
+  {
+    question: "왜 일부 캐릭터가 소환 풀에서 누락되었나요?",
+    answer: "일부 캐릭터는 특정 소환 횟수나 이벤트 기간에 따라 잠겨 있을 수 있습니다. 항상 '파트너 미리보기'를 확인하여 현재 가용성을 확인하십시오."
+  },
+  {
+    question: "한정 배너에 다이아를 써야 할까요?",
+    answer: "천장까지 도달할 충분한 재화가 있는 경우에만 권장합니다. 2일이라는 짧은 기간과 티켓 구매 제한을 고려할 때, 무과금 유저에게는 위험 부담이 큽니다."
+  }
+]} />
+
+</Section>

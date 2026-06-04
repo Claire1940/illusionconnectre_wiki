@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re iOS版：初心者ガイド＆序盤攻略のヒント",
+  description: "2026年版『Illusion Connect: Re』iOS版攻略ガイド。リセマラ戦略、ティアリスト、序盤の効率的なチーム編成のコツを徹底解説。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "Illusion Connect: Re Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Illusion Connect: Re iOS版**のプレイヤーは、リセマラで高ティアのSSRコネクターを確保することを最優先しましょう。
+- **チーム編成**は、ダメージ、回復、前衛の防御のバランスが、高難易度ステージ攻略の鍵となります。
+- **リソース管理**が重要です。序盤の装備ガチャにダイヤモンドを使わず、強力なキャラクターピックアップのために温存しましょう。
+- **リアルタイム戦闘**では、3x3のグリッド配置と必殺技（アルティメットスキル）の発動タイミングが勝利を左右します。
+</Callout>
+
+<Section icon={Map} title="iOS版の始め方">
+
+夢の世界への旅を始めるのはとても簡単です。2026年6月4日現在、本作は幅広いAppleデバイスに最適化されており、iOS 15.0以降が必要です。
+
+**動画ハイライト:**
+- リアルタイム戦闘の基本メカニズムの理解
+- ゲームインターフェースの効率的な操作
+- 初心者向けの初期ヒーロー配置戦略
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re 公式ローンチゲームプレイ" />
+
+ゲームを始める前に、システム要件と基本情報を確認し、スムーズなプレイ環境を整えましょう。
+
+| 項目 | 要件 / 詳細 |
+| :--- | :--- |
+| **iOSバージョン** | **iOS 15.0** 以降 |
+| **必要ストレージ** | 約 **3.3 GB** |
+| **対応デバイス** | iPhone, iPad, Mac (M1チップ以降) |
+| **対象年齢** | **16+** |
+
+<Callout type="tip" title="プロのアドバイス">
+リセマラが成功したら、必ずSNSアカウントやメールアドレスと連携し、進行状況を安全に保存できるようにしてください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="初心者向けリセマラ戦略">
+
+リセマラを行うことで、強力なスタートダッシュを切ることができます。ゲストアカウントを使用すれば、最初の召喚で目当てのSSRコネクターが出なかった場合に素早くやり直すことが可能です。
+
+<Steps>
+  <Step num="1" title="ゲストアカウントで開始">
+    ゲームを起動し、ゲストログインを選択してリセット可能な状態にします。
+  </Step>
+  <Step num="2" title="チュートリアルを完了">
+    序章を進めて召喚機能を解放します。
+  </Step>
+  <Step num="3" title="報酬をすべて受け取る">
+    メールボックスから事前登録特典やローンチ記念ボーナスをすべて受け取ります。
+  </Step>
+  <Step num="4" title="召喚を実行">
+    無料チケットを「永遠の召喚」バナーに使用し、ダイヤモンドを「ピックアップ召喚」に使用します。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="リセマラの注意点">
+初日にダイヤモンドを装備ガチャに使うのは控えましょう。最高ティアのキャラクターを獲得することに全力を注いでください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="コネクターティアリスト＆チーム編成">
+
+メインストーリーを効率よく進める秘訣は、バランスの取れたチームを作ることです。敵のタイプやボスのギミックに対応できるよう、役割を分散させましょう。
+
+<CardGrid cols={3}>
+  <Card title="ゆふ (SSR)">
+    - **役割:** ソーサラー
+    - 広範囲のバーストダメージに最適。
+    - ウェーブ処理に不可欠。
+  </Card>
+  <Card title="アンナ (SSR)">
+    - **役割:** ヒーラー
+    - チームの持続力向上に最適。
+    - 前衛の生存率を高める。
+  </Card>
+  <Card title="村咲 (SSR)">
+    - **役割:** ソーサラー
+    - 安定した持続ダメージ。
+    - ログイン報酬で入手可能。
+  </Card>
+</CardGrid>
+
+| 役割 | 責務 | 推奨戦略 |
+| :--- | :--- | :--- |
+| **前衛** | ダメージ吸収 | **キラヤ**を配置してシールドを付与 |
+| **攻撃** | ウェーブ処理 | **ゆふ**でバーストダメージを与える |
+| **支援** | チーム維持 | **アンナ**で緊急回復を維持 |
+| **補助** | 行動妨害 | 低コストユニットでスキルを回転させる |
+
+</Section>
+
+<Section icon={Trophy} title="進行チェックリスト">
+
+序盤の効率を最大化するために、日次および週次のマイルストーンを管理しましょう。最初の1週間は、単なるパワーよりも継続的なプレイが重要です。
+
+<Checklist
+  id="beginner-milestones"
+  title="日次目標:"
+  items={[
+    "デイリースタミナステージのクリア",
+    "初心者ログインミッションの全達成",
+    "メインチームのレベルアップ",
+    "現在のローンチイベントへの参加",
+    "新しいアクティブなギフトコードの確認"
+  ]}
+/>
+
+<Callout type="success" title="成功の秘訣">
+「ドリームハウス」システムでコネクターたちとの絆を深めると、パッシブステータスが上昇し、エンドコンテンツで大きな差が生まれます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="よくある質問 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "『Illusion Connect: Re』iOS版は無料で遊べますか？",
+    answer: "はい、基本プレイは無料です。進行を早めたり、特定のコネクターを獲得したりするための任意のゲーム内課金要素があります。"
+  },
+  {
+    question: "報酬を効率よく手に入れる方法は？",
+    answer: "ローンチイベントへの参加、事前登録ボーナスの受け取り、そして公式SNSで公開されるギフトコードをチェックするのが一番です。"
+  },
+  {
+    question: "村咲はすべてのチーム編成で使えますか？",
+    answer: "村咲は汎用性の高いSSRキャラクターであり、その高い持続ダメージと補助能力から、多くの初心者チームにとって欠かせない存在です。"
+  }
+]} />
+
+</Section>

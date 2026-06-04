@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Illusion Connect: Re iOS: Beginner Guide & Best Starter Tips",
+  description: "Master Illusion Connect: Re on iOS with our guide covering reroll strategies, tier lists, and essential team-building tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Illusion+Connect+Re+Guide",
+  date: "2026-06-04",
+  author: "illusion connect re Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Illusion Connect: Re iOS** players should prioritize securing high-tier SSR Radiants during the initial reroll phase.
+- **Team building** requires a balanced mix of damage, healing, and frontline protection to clear difficult stages.
+- **Resource management** is critical; save your diamonds for high-value banners rather than spending on early equipment.
+- **Real-time combat** relies on your 3x3 grid positioning and optimal timing of Ultimate Skills.
+</Callout>
+
+<Section icon={Map} title="Getting Started on iOS">
+
+Downloading and launching your journey into the dream world is straightforward. As of June 4, 2026, the game is optimized for a wide range of Apple devices, requiring iOS 15.0 or later.
+
+**Video Highlights:**
+- Understanding the core real-time battle mechanics.
+- Efficient navigation of the game's interface.
+- Initial hero deployment strategies for beginners.
+
+<YouTubeEmbed videoId="_0GgrGHsHb8" title="Illusion Connect: Re Official Launch Gameplay" />
+
+Before diving in, review the system requirements and basic platform details to ensure a smooth experience.
+
+| Feature | Requirement / Detail |
+| :--- | :--- |
+| **iOS Version** | **iOS 15.0** or later |
+| **Storage Size** | Approximately **3.3 GB** |
+| **Device Support** | iPhone, iPad, Mac (M1+ chip) |
+| **Age Rating** | **16+** |
+
+<Callout type="tip" title="Pro Tip">
+Always bind your account to a social platform or email after a successful reroll to ensure your progress is saved securely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reroll Strategy for Beginners">
+
+Rerolling allows you to start the game with a powerful foundation. By using a guest account, you can quickly reset if your initial summons do not yield the desired SSR Radiants.
+
+<Steps>
+  <Step num="1" title="Initialize Guest Account">
+    Launch the game and select the guest login option to maintain a clean slate.
+  </Step>
+  <Step num="2" title="Complete Tutorial">
+    Progress through the opening chapter to unlock the summon feature.
+  </Step>
+  <Step num="3" title="Claim All Rewards">
+    Navigate to your mailbox to collect pre-registration gifts and launch bonuses.
+  </Step>
+  <Step num="4" title="Execute Summons">
+    Use your free tickets on the Eternal Summon banner and diamonds on the Selected UP banner.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Reroll Warning">
+Do not spend your precious diamonds on the Equipment Banner during your first day. Focus exclusively on acquiring top-tier characters.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Radiant Tier List & Team Composition">
+
+Building a balanced team is the secret to clearing the main story efficiently. You need a mix of roles to handle various enemy types and boss mechanics.
+
+<CardGrid cols={3}>
+  <Card title="Yuffie (SSR)">
+    - **Role:** Sorcerer
+    - Best for AoE burst damage.
+    - Essential for clearing waves.
+  </Card>
+  <Card title="Anna (SSR)">
+    - **Role:** Healer
+    - Best for team sustain.
+    - Keeps your frontline alive.
+  </Card>
+  <Card title="Miyuki (SSR)">
+    - **Role:** Sorcerer
+    - Reliable sustained DPS.
+    - Provided via login rewards.
+  </Card>
+</CardGrid>
+
+| Role | Responsibility | Recommended Strategy |
+| :--- | :--- | :--- |
+| **Frontline** | Absorb pressure | Deploy **Kiraya** to provide shields |
+| **Damage** | Clear enemy waves | Use **Yuffie** for burst damage |
+| **Support** | Team sustain | Keep **Anna** for emergency healing |
+| **Utility** | Crowd control | Use low-cost units to cycle skills |
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist">
+
+To maximize your efficiency in the early game, keep track of your daily and weekly milestones. Consistency is more important than raw power in the first week.
+
+<Checklist
+  id="beginner-milestones"
+  title="Daily Progression Goals:"
+  items={[
+    "Clear daily stamina stages",
+    "Complete all beginner login missions",
+    "Upgrade your core team levels",
+    "Participate in current launch events",
+    "Check for new active gift codes"
+  ]}
+/>
+
+<Callout type="success" title="Success Factor">
+Deepening bonds with your Radiants in the Dream Home system provides passive stat boosts that make a significant difference in end-game content.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is Illusion Connect: Re on iOS free to play?",
+    answer: "Yes, the game is free-to-play, though it offers optional in-game purchases to speed up progression or acquire specific Radiants."
+  },
+  {
+    question: "What is the best way to get free rewards?",
+    answer: "Participate in launch events, claim pre-registration bonuses, and keep an eye on official social media for active gift codes."
+  },
+  {
+    question: "Can I use Miyuki in all team builds?",
+    answer: "Miyuki is a highly versatile SSR character and is considered a staple for most beginner teams due to her sustained damage and utility."
+  }
+]} />
+
+</Section>
