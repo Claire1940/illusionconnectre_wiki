@@ -5,6 +5,7 @@ import {
   Gift,
   Globe,
   CalendarClock,
+  MessageCircle,
   Shield,
   Users,
 } from "lucide-react";
@@ -57,6 +58,12 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
     key: "characters",
     path: "/characters",
     icon: Users,
+    isContentType: true,
+  },
+  {
+    key: "community",
+    path: "/community",
+    icon: MessageCircle,
     isContentType: true,
   },
 ];
