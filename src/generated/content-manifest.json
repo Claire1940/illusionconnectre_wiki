@@ -1,0 +1,726 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "illusion-connect-re-hersey",
+        "file": "illusion-connect-re-hersey"
+      },
+      {
+        "slug": "illusion-connect-re-kasumi",
+        "file": "illusion-connect-re-kasumi"
+      },
+      {
+        "slug": "illusion-connect-re-waifus",
+        "file": "illusion-connect-re-waifus"
+      },
+      {
+        "slug": "illusion-connect-re-yuffie",
+        "file": "illusion-connect-re-yuffie"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "illusion-connect-re-codes",
+        "file": "illusion-connect-re-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "Illusion-connect-re-youtube",
+        "file": "Illusion-connect-re-youtube"
+      },
+      {
+        "slug": "illusion-connect-re-discord",
+        "file": "illusion-connect-re-discord"
+      },
+      {
+        "slug": "illusion-connect-re-facebook",
+        "file": "illusion-connect-re-facebook"
+      },
+      {
+        "slug": "illusion-connect-re-reddit",
+        "file": "illusion-connect-re-reddit"
+      }
+    ],
+    "download": [
+      {
+        "slug": "illusion-connect-re-android",
+        "file": "illusion-connect-re-android"
+      },
+      {
+        "slug": "illusion-connect-re-download-apk",
+        "file": "illusion-connect-re-download-apk"
+      },
+      {
+        "slug": "illusion-connect-re-google-play",
+        "file": "illusion-connect-re-google-play"
+      },
+      {
+        "slug": "illusion-connect-re-ios",
+        "file": "illusion-connect-re-ios"
+      },
+      {
+        "slug": "illusion-connect-re-pc",
+        "file": "illusion-connect-re-pc"
+      },
+      {
+        "slug": "illusion-connect-re-play-store",
+        "file": "illusion-connect-re-play-store"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Illusion-connect-re-review",
+        "file": "Illusion-connect-re-review"
+      },
+      {
+        "slug": "illusion-connect-re-banner-guide",
+        "file": "illusion-connect-re-banner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-beginner-guide",
+        "file": "illusion-connect-re-beginner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-first-hour-guide",
+        "file": "illusion-connect-re-first-hour-guide"
+      },
+      {
+        "slug": "illusion-connect-re-gift-code-guide",
+        "file": "illusion-connect-re-gift-code-guide"
+      },
+      {
+        "slug": "illusion-connect-re-launch-guide",
+        "file": "illusion-connect-re-launch-guide"
+      },
+      {
+        "slug": "illusion-connect-re-redemption-guide",
+        "file": "illusion-connect-re-redemption-guide"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-guide",
+        "file": "illusion-connect-re-reroll-guide"
+      },
+      {
+        "slug": "illusion-connect-re-team-guide",
+        "file": "illusion-connect-re-team-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "illusion-connect-re-early-access",
+        "file": "illusion-connect-re-early-access"
+      },
+      {
+        "slug": "illusion-connect-re-official-launch",
+        "file": "illusion-connect-re-official-launch"
+      },
+      {
+        "slug": "illusion-connect-re-relaunch",
+        "file": "illusion-connect-re-relaunch"
+      },
+      {
+        "slug": "illusion-connect-re-release-date",
+        "file": "illusion-connect-re-release-date"
+      },
+      {
+        "slug": "illusion-connect-re-release",
+        "file": "illusion-connect-re-release"
+      },
+      {
+        "slug": "illusion-connect-re-stop-when",
+        "file": "illusion-connect-re-stop-when"
+      }
+    ],
+    "server": [
+      {
+        "slug": "Illusion-connect-re-best-server",
+        "file": "Illusion-connect-re-best-server"
+      },
+      {
+        "slug": "illusion-connect-re-chinese-version",
+        "file": "illusion-connect-re-chinese-version"
+      },
+      {
+        "slug": "illusion-connect-re-global-server",
+        "file": "illusion-connect-re-global-server"
+      },
+      {
+        "slug": "illusion-connect-re-indonesia",
+        "file": "illusion-connect-re-indonesia"
+      },
+      {
+        "slug": "illusion-connect-re-jp-version",
+        "file": "illusion-connect-re-jp-version"
+      },
+      {
+        "slug": "illusion-connect-re-kr-version",
+        "file": "illusion-connect-re-kr-version"
+      },
+      {
+        "slug": "illusion-connect-re-thai-store",
+        "file": "illusion-connect-re-thai-store"
+      },
+      {
+        "slug": "illusion-connect-re-us-server",
+        "file": "illusion-connect-re-us-server"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "illusion-connect-re-best-characters",
+        "file": "illusion-connect-re-best-characters"
+      },
+      {
+        "slug": "illusion-connect-re-best-team",
+        "file": "illusion-connect-re-best-team"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-tier-list",
+        "file": "illusion-connect-re-reroll-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-ssr-tier-list",
+        "file": "illusion-connect-re-ssr-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-tier-list",
+        "file": "illusion-connect-re-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "illusion-connect-re-hersey",
+        "file": "illusion-connect-re-hersey"
+      },
+      {
+        "slug": "illusion-connect-re-kasumi",
+        "file": "illusion-connect-re-kasumi"
+      },
+      {
+        "slug": "illusion-connect-re-waifus",
+        "file": "illusion-connect-re-waifus"
+      },
+      {
+        "slug": "illusion-connect-re-yuffie",
+        "file": "illusion-connect-re-yuffie"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "illusion-connect-re-codes",
+        "file": "illusion-connect-re-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "illusion-connect-re-discord",
+        "file": "illusion-connect-re-discord"
+      },
+      {
+        "slug": "illusion-connect-re-facebook",
+        "file": "illusion-connect-re-facebook"
+      },
+      {
+        "slug": "illusion-connect-re-reddit",
+        "file": "illusion-connect-re-reddit"
+      }
+    ],
+    "download": [
+      {
+        "slug": "illusion-connect-re-android",
+        "file": "illusion-connect-re-android"
+      },
+      {
+        "slug": "illusion-connect-re-download-apk",
+        "file": "illusion-connect-re-download-apk"
+      },
+      {
+        "slug": "illusion-connect-re-google-play",
+        "file": "illusion-connect-re-google-play"
+      },
+      {
+        "slug": "illusion-connect-re-ios",
+        "file": "illusion-connect-re-ios"
+      },
+      {
+        "slug": "illusion-connect-re-pc",
+        "file": "illusion-connect-re-pc"
+      },
+      {
+        "slug": "illusion-connect-re-play-store",
+        "file": "illusion-connect-re-play-store"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "illusion-connect-re-banner-guide",
+        "file": "illusion-connect-re-banner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-beginner-guide",
+        "file": "illusion-connect-re-beginner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-first-hour-guide",
+        "file": "illusion-connect-re-first-hour-guide"
+      },
+      {
+        "slug": "illusion-connect-re-gift-code-guide",
+        "file": "illusion-connect-re-gift-code-guide"
+      },
+      {
+        "slug": "illusion-connect-re-launch-guide",
+        "file": "illusion-connect-re-launch-guide"
+      },
+      {
+        "slug": "illusion-connect-re-redemption-guide",
+        "file": "illusion-connect-re-redemption-guide"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-guide",
+        "file": "illusion-connect-re-reroll-guide"
+      },
+      {
+        "slug": "illusion-connect-re-team-guide",
+        "file": "illusion-connect-re-team-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "illusion-connect-re-early-access",
+        "file": "illusion-connect-re-early-access"
+      },
+      {
+        "slug": "illusion-connect-re-official-launch",
+        "file": "illusion-connect-re-official-launch"
+      },
+      {
+        "slug": "illusion-connect-re-relaunch",
+        "file": "illusion-connect-re-relaunch"
+      },
+      {
+        "slug": "illusion-connect-re-release-date",
+        "file": "illusion-connect-re-release-date"
+      },
+      {
+        "slug": "illusion-connect-re-release",
+        "file": "illusion-connect-re-release"
+      },
+      {
+        "slug": "illusion-connect-re-stop-when",
+        "file": "illusion-connect-re-stop-when"
+      }
+    ],
+    "server": [
+      {
+        "slug": "illusion-connect-re-chinese-version",
+        "file": "illusion-connect-re-chinese-version"
+      },
+      {
+        "slug": "illusion-connect-re-global-server",
+        "file": "illusion-connect-re-global-server"
+      },
+      {
+        "slug": "illusion-connect-re-indonesia",
+        "file": "illusion-connect-re-indonesia"
+      },
+      {
+        "slug": "illusion-connect-re-jp-version",
+        "file": "illusion-connect-re-jp-version"
+      },
+      {
+        "slug": "illusion-connect-re-kr-version",
+        "file": "illusion-connect-re-kr-version"
+      },
+      {
+        "slug": "illusion-connect-re-thai-store",
+        "file": "illusion-connect-re-thai-store"
+      },
+      {
+        "slug": "illusion-connect-re-us-server",
+        "file": "illusion-connect-re-us-server"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "illusion-connect-re-best-characters",
+        "file": "illusion-connect-re-best-characters"
+      },
+      {
+        "slug": "illusion-connect-re-best-team",
+        "file": "illusion-connect-re-best-team"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-tier-list",
+        "file": "illusion-connect-re-reroll-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-ssr-tier-list",
+        "file": "illusion-connect-re-ssr-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-tier-list",
+        "file": "illusion-connect-re-tier-list"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "illusion-connect-re-hersey",
+        "file": "illusion-connect-re-hersey"
+      },
+      {
+        "slug": "illusion-connect-re-kasumi",
+        "file": "illusion-connect-re-kasumi"
+      },
+      {
+        "slug": "illusion-connect-re-waifus",
+        "file": "illusion-connect-re-waifus"
+      },
+      {
+        "slug": "illusion-connect-re-yuffie",
+        "file": "illusion-connect-re-yuffie"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "illusion-connect-re-codes",
+        "file": "illusion-connect-re-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "illusion-connect-re-discord",
+        "file": "illusion-connect-re-discord"
+      },
+      {
+        "slug": "illusion-connect-re-facebook",
+        "file": "illusion-connect-re-facebook"
+      },
+      {
+        "slug": "illusion-connect-re-reddit",
+        "file": "illusion-connect-re-reddit"
+      }
+    ],
+    "download": [
+      {
+        "slug": "illusion-connect-re-android",
+        "file": "illusion-connect-re-android"
+      },
+      {
+        "slug": "illusion-connect-re-download-apk",
+        "file": "illusion-connect-re-download-apk"
+      },
+      {
+        "slug": "illusion-connect-re-google-play",
+        "file": "illusion-connect-re-google-play"
+      },
+      {
+        "slug": "illusion-connect-re-ios",
+        "file": "illusion-connect-re-ios"
+      },
+      {
+        "slug": "illusion-connect-re-pc",
+        "file": "illusion-connect-re-pc"
+      },
+      {
+        "slug": "illusion-connect-re-play-store",
+        "file": "illusion-connect-re-play-store"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "illusion-connect-re-banner-guide",
+        "file": "illusion-connect-re-banner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-beginner-guide",
+        "file": "illusion-connect-re-beginner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-first-hour-guide",
+        "file": "illusion-connect-re-first-hour-guide"
+      },
+      {
+        "slug": "illusion-connect-re-gift-code-guide",
+        "file": "illusion-connect-re-gift-code-guide"
+      },
+      {
+        "slug": "illusion-connect-re-launch-guide",
+        "file": "illusion-connect-re-launch-guide"
+      },
+      {
+        "slug": "illusion-connect-re-redemption-guide",
+        "file": "illusion-connect-re-redemption-guide"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-guide",
+        "file": "illusion-connect-re-reroll-guide"
+      },
+      {
+        "slug": "illusion-connect-re-team-guide",
+        "file": "illusion-connect-re-team-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "illusion-connect-re-early-access",
+        "file": "illusion-connect-re-early-access"
+      },
+      {
+        "slug": "illusion-connect-re-official-launch",
+        "file": "illusion-connect-re-official-launch"
+      },
+      {
+        "slug": "illusion-connect-re-relaunch",
+        "file": "illusion-connect-re-relaunch"
+      },
+      {
+        "slug": "illusion-connect-re-release-date",
+        "file": "illusion-connect-re-release-date"
+      },
+      {
+        "slug": "illusion-connect-re-release",
+        "file": "illusion-connect-re-release"
+      },
+      {
+        "slug": "illusion-connect-re-stop-when",
+        "file": "illusion-connect-re-stop-when"
+      }
+    ],
+    "server": [
+      {
+        "slug": "illusion-connect-re-chinese-version",
+        "file": "illusion-connect-re-chinese-version"
+      },
+      {
+        "slug": "illusion-connect-re-global-server",
+        "file": "illusion-connect-re-global-server"
+      },
+      {
+        "slug": "illusion-connect-re-indonesia",
+        "file": "illusion-connect-re-indonesia"
+      },
+      {
+        "slug": "illusion-connect-re-jp-version",
+        "file": "illusion-connect-re-jp-version"
+      },
+      {
+        "slug": "illusion-connect-re-kr-version",
+        "file": "illusion-connect-re-kr-version"
+      },
+      {
+        "slug": "illusion-connect-re-thai-store",
+        "file": "illusion-connect-re-thai-store"
+      },
+      {
+        "slug": "illusion-connect-re-us-server",
+        "file": "illusion-connect-re-us-server"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "illusion-connect-re-best-characters",
+        "file": "illusion-connect-re-best-characters"
+      },
+      {
+        "slug": "illusion-connect-re-best-team",
+        "file": "illusion-connect-re-best-team"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-tier-list",
+        "file": "illusion-connect-re-reroll-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-ssr-tier-list",
+        "file": "illusion-connect-re-ssr-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-tier-list",
+        "file": "illusion-connect-re-tier-list"
+      }
+    ]
+  },
+  "th": {
+    "characters": [
+      {
+        "slug": "illusion-connect-re-hersey",
+        "file": "illusion-connect-re-hersey"
+      },
+      {
+        "slug": "illusion-connect-re-kasumi",
+        "file": "illusion-connect-re-kasumi"
+      },
+      {
+        "slug": "illusion-connect-re-waifus",
+        "file": "illusion-connect-re-waifus"
+      },
+      {
+        "slug": "illusion-connect-re-yuffie",
+        "file": "illusion-connect-re-yuffie"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "illusion-connect-re-codes",
+        "file": "illusion-connect-re-codes"
+      }
+    ],
+    "community": [
+      {
+        "slug": "illusion-connect-re-discord",
+        "file": "illusion-connect-re-discord"
+      },
+      {
+        "slug": "illusion-connect-re-facebook",
+        "file": "illusion-connect-re-facebook"
+      },
+      {
+        "slug": "illusion-connect-re-reddit",
+        "file": "illusion-connect-re-reddit"
+      }
+    ],
+    "download": [
+      {
+        "slug": "illusion-connect-re-android",
+        "file": "illusion-connect-re-android"
+      },
+      {
+        "slug": "illusion-connect-re-download-apk",
+        "file": "illusion-connect-re-download-apk"
+      },
+      {
+        "slug": "illusion-connect-re-google-play",
+        "file": "illusion-connect-re-google-play"
+      },
+      {
+        "slug": "illusion-connect-re-ios",
+        "file": "illusion-connect-re-ios"
+      },
+      {
+        "slug": "illusion-connect-re-pc",
+        "file": "illusion-connect-re-pc"
+      },
+      {
+        "slug": "illusion-connect-re-play-store",
+        "file": "illusion-connect-re-play-store"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "illusion-connect-re-banner-guide",
+        "file": "illusion-connect-re-banner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-beginner-guide",
+        "file": "illusion-connect-re-beginner-guide"
+      },
+      {
+        "slug": "illusion-connect-re-first-hour-guide",
+        "file": "illusion-connect-re-first-hour-guide"
+      },
+      {
+        "slug": "illusion-connect-re-gift-code-guide",
+        "file": "illusion-connect-re-gift-code-guide"
+      },
+      {
+        "slug": "illusion-connect-re-launch-guide",
+        "file": "illusion-connect-re-launch-guide"
+      },
+      {
+        "slug": "illusion-connect-re-redemption-guide",
+        "file": "illusion-connect-re-redemption-guide"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-guide",
+        "file": "illusion-connect-re-reroll-guide"
+      },
+      {
+        "slug": "illusion-connect-re-team-guide",
+        "file": "illusion-connect-re-team-guide"
+      }
+    ],
+    "release": [
+      {
+        "slug": "illusion-connect-re-early-access",
+        "file": "illusion-connect-re-early-access"
+      },
+      {
+        "slug": "illusion-connect-re-official-launch",
+        "file": "illusion-connect-re-official-launch"
+      },
+      {
+        "slug": "illusion-connect-re-relaunch",
+        "file": "illusion-connect-re-relaunch"
+      },
+      {
+        "slug": "illusion-connect-re-release-date",
+        "file": "illusion-connect-re-release-date"
+      },
+      {
+        "slug": "illusion-connect-re-release",
+        "file": "illusion-connect-re-release"
+      },
+      {
+        "slug": "illusion-connect-re-stop-when",
+        "file": "illusion-connect-re-stop-when"
+      }
+    ],
+    "server": [
+      {
+        "slug": "illusion-connect-re-chinese-version",
+        "file": "illusion-connect-re-chinese-version"
+      },
+      {
+        "slug": "illusion-connect-re-global-server",
+        "file": "illusion-connect-re-global-server"
+      },
+      {
+        "slug": "illusion-connect-re-indonesia",
+        "file": "illusion-connect-re-indonesia"
+      },
+      {
+        "slug": "illusion-connect-re-jp-version",
+        "file": "illusion-connect-re-jp-version"
+      },
+      {
+        "slug": "illusion-connect-re-kr-version",
+        "file": "illusion-connect-re-kr-version"
+      },
+      {
+        "slug": "illusion-connect-re-thai-store",
+        "file": "illusion-connect-re-thai-store"
+      },
+      {
+        "slug": "illusion-connect-re-us-server",
+        "file": "illusion-connect-re-us-server"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "illusion-connect-re-best-characters",
+        "file": "illusion-connect-re-best-characters"
+      },
+      {
+        "slug": "illusion-connect-re-best-team",
+        "file": "illusion-connect-re-best-team"
+      },
+      {
+        "slug": "illusion-connect-re-reroll-tier-list",
+        "file": "illusion-connect-re-reroll-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-ssr-tier-list",
+        "file": "illusion-connect-re-ssr-tier-list"
+      },
+      {
+        "slug": "illusion-connect-re-tier-list",
+        "file": "illusion-connect-re-tier-list"
+      }
+    ]
+  }
+}
