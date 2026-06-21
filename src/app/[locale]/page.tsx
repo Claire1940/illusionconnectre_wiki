@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
 import HomePageClient from './HomePageClient'
@@ -12,6 +12,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'seo.home' })
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || 'https://www.illusionconnectre.wiki'
@@ -48,6 +49,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
 
   const latestArticles = await getLatestArticles(locale as Language, 30)
 
